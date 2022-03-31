@@ -5,3 +5,4 @@
 
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="{{ asset('assets/css/templatemo-style.css') }}">
+     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@2.8.2/dist/alpine.min.js"></script>

@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('home', function () {
     return view('index');
 });
+
+Route::post('contact-us', 'ContactController@saveContact');

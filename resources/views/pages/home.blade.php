@@ -135,7 +135,7 @@
                         {{-- <h2>Start your journey to a better life....</h2> --}} <br>
                         <iframe width="500" height="350" src="{{ asset('assets/images/videos/dgvideowsound.mp4') }}"
                             frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
 
                         <div style="display:inline-block; vertical-align: middle;">
@@ -192,7 +192,7 @@
 
                                     <div class="courses-detail">
                                         <h3><a href="#">Basic Financial Literacy</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adip... <a href="#">Read More <i class="fa fa-arrow-right" aria-hidden="true" style="color: #29ca8e"></i></a></p>
                                     </div>
 
                                     <div class="courses-info">
@@ -201,7 +201,7 @@
                                                 class="img-responsive" alt="">
                                             <span>General</span>
                                         </div>
-                                        <div class="courses-price">
+                                        <div class="courses-price free">
                                             <a href="#"><span>Register</span></a>
                                         </div>
                                     </div>
@@ -348,7 +348,7 @@
 
                                     <div class="courses-detail">
                                         <h3><a href="#">SANEF</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adip... <a href="#">Read More <i class="fa fa-arrow-right" aria-hidden="true" style="color: #29ca8e"></i></a></p>
                                     </div>
 
                                     <div class="courses-info">
@@ -380,7 +380,7 @@
 
                                     <div class="courses-detail">
                                         <h3><a href="#">CFLT</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adip... <a href="#">Read More <i class="fa fa-arrow-right" aria-hidden="true" style="color: #29ca8e"></i></a></p>
                                     </div>
 
                                     <div class="courses-info">
@@ -627,30 +627,68 @@
                         <a href="https://play.google.com/store/apps/details?id=com.sabimoni.ng" target="_blank"
                             rel="noopener noreferrer">
                             <img src="{{ asset('assets/images/sabiMONI_Phone.jpg') }}" class="img-responsive"
-                            alt="Sabi MONI Mobile Application">
+                                alt="Sabi MONI Mobile Application">
                         </a>
-                        
+
                     </div>
                 </div>
 
                 <div class="col-md-6 col-sm-12">
-                    <form id="contact-form" role="form" action="" method="post">
+                    <form id="contact-form" role="form" action="/contact-us" method="post">
+                        {{ csrf_field() }}
                         <div class="section-title text-center">
                             <h2>Contact Us <small>we love conversations. let us talk!</small></h2>
                         </div>
 
+                        {{-- @if (Session::has('success'))
+                            <div class="alert alert-success">
+                                {{ Session::get('success') }}
+                            </div>
+                        @endif --}}
+
+                        @if (session()->has('success'))
+                            <div x-data="{ show: true }" x-init="setTimeout(() => show = false, 5000)" x-show="show">
+                                <div class="alert alert-success" role="alert">
+                                    <strong>Success</strong> {{ session()->get('success') }}
+                                </div>
+                            </div>
+                        @endif
+
                         <div class="col-md-12 col-sm-12">
-                            <input type="text" class="form-control" placeholder="Enter full name" name="name"
-                                required="">
+                            <input type="text" class="form-control textarea @error('name') is-invalid @enderror"
+                                placeholder="Enter full name" name="name" required>
+                            @error('name')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
 
-                            <input type="email" class="form-control" placeholder="Enter email address" name="email"
-                                required="">
+                            <input type="email" class="form-control textarea @error('email') is-invalid @enderror"
+                                placeholder="Enter email address" name="email" required>
+                            @error('name')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
 
-                            <textarea class="form-control" rows="6" placeholder="Tell us about your message" name="message"
-                                required=""></textarea>
+                            <input type="text" class="form-control textarea @error('subject') is-invalid @enderror"
+                                placeholder="Enter subject...." name="subject" required>
+                            @error('name')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+
+                            <textarea class="form-control textarea @error('message') is-invalid @enderror" rows="6"
+                                placeholder="Tell us about your message" name="message" required></textarea>
+                            @error('message')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
                         </div>
 
-                        <div class="col-md-4 col-sm-12 ">
+                        <div class="col-md-4 col-sm-12">
                             <input type="submit" class="form-control" name="send message" value="Send Message">
                         </div>
 
