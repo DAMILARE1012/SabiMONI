@@ -58,9 +58,8 @@
                     <div class="feature-thumb">
                         <span>01</span>
                         <h3>Financial literacy</h3>
-                        <p>This e-learning platform offers financial literacy knowledge tailored towards those interested in
-                            becoming Certified Financial Literacy Trainer (CFLT) as well as consumers who want to improve
-                            their financial wellbeing.</p>
+                        <p>We offer financial literacy knowledge tailored towards those interested in
+                            becoming Certified Financial Literacy Trainer (CFLT)</p>
                     </div>
                 </div>
 

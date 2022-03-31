@@ -14,6 +14,7 @@ body {
     padding-top: 70px;
 }
 
+
 /*---------------------------------------
      TYPOGRAPHY              
   -----------------------------------------*/
@@ -57,6 +58,7 @@ p {
     font-weight: normal;
     line-height: 24px;
 }
+
 
 /*---------------------------------------
      GENERAL               
@@ -182,6 +184,7 @@ section {
     height: 390px;
 }
 
+
 /*---------------------------------------
      BUTTONS               
   -----------------------------------------*/
@@ -201,6 +204,7 @@ section {
     background: #ffffff;
     border-color: transparent;
 }
+
 
 /*---------------------------------------
        PRE LOADER              
@@ -254,6 +258,7 @@ section {
     }
 }
 
+
 /*---------------------------------------
       MENU              
   -----------------------------------------*/
@@ -305,8 +310,8 @@ section {
     padding-left: 22px;
 }
 
-.custom-navbar .navbar-nav > li > a:hover,
-.custom-navbar .navbar-nav > li > a:focus {
+.custom-navbar .navbar-nav>li>a:hover,
+.custom-navbar .navbar-nav>li>a:focus {
     background-color: transparent;
 }
 
@@ -315,7 +320,7 @@ section {
     color: #ffffff;
 }
 
-.custom-navbar .nav li.active > a {
+.custom-navbar .nav li.active>a {
     background-color: #29ca8e;
     color: #ffffff;
 }
@@ -333,6 +338,7 @@ section {
     background: #252525;
     border-color: transparent;
 }
+
 
 /*---------------------------------------
       HOME  & SLIDER            
@@ -399,6 +405,7 @@ section {
     background-image: url("/assets/images/slider-image3.jpg");
 }
 
+
 /*---------------------------------------
       FEATURE              
   -----------------------------------------*/
@@ -426,6 +433,7 @@ section {
     margin: 10px 0;
 }
 
+
 /*---------------------------------------
       ABOUT              
   -----------------------------------------*/
@@ -433,7 +441,8 @@ section {
 .button-edit {
     position: relative;
 }
-.button-edit > .button-edit-1 {
+
+.button-edit>.button-edit-1 {
     position: absolute;
     width: 20px;
     height: 20px;
@@ -467,6 +476,7 @@ section {
     text-align: center;
 }
 
+
 /*---------------------------------------
       TEAM              
   -----------------------------------------*/
@@ -499,6 +509,7 @@ section {
 .team-info h3 {
     margin: 0;
 }
+
 
 /*---------------------------------------
       COURSES             
@@ -601,6 +612,7 @@ section {
     background: #033b4d;
 }
 
+
 /*---------------------------------------
      NEWS              
   -----------------------------------------*/
@@ -628,6 +640,7 @@ section {
     font-weight: bold;
 }
 
+
 /*---------------------------------------
       TESTIMONIAL             
   -----------------------------------------*/
@@ -645,7 +658,7 @@ section {
     width: 100%;
 }
 
-#testimonial .item > p {
+#testimonial .item>p {
     font-size: 16px;
     line-height: 26px;
 }
@@ -682,6 +695,7 @@ section {
     font-size: 14px;
 }
 
+
 /*---------------------------------------
       CONTACT             
   -----------------------------------------*/
@@ -698,7 +712,7 @@ section {
     padding-bottom: 20px;
 }
 
-#contact h2 > small,
+#contact h2>small,
 #contact p,
 #contact a {
     color: #f9f9f9;
@@ -735,6 +749,7 @@ section {
     color: #ffffff;
 }
 
+
 /*---------------------------------------
      FOOTER              
   -----------------------------------------*/
@@ -745,7 +760,7 @@ section {
 
 footer {
     background: #252020;
-    padding: 80px 0 20px 0 ;
+    padding: 80px 0 20px 0;
 }
 
 footer .section-title {
@@ -777,12 +792,10 @@ footer .social-icon {
     margin-right: 2em;
 }
 
-.footer-logo-wrapper{
+.footer-logo-wrapper {
     display: flex;
     flex-direction: column;
- 
 }
-
 
 .footer-info h2 {
     color: #ffffff;
@@ -837,6 +850,7 @@ footer .social-icon {
     margin-top: 20px;
 }
 
+
 /*---------------------------------------
      SOCIAL ICON              
   -----------------------------------------*/
@@ -872,6 +886,7 @@ footer .social-icon {
     color: #ffffff;
 }
 
+
 /*---------------------------------------
      RESPONSIVE STYLES              
   -----------------------------------------*/
@@ -905,15 +920,6 @@ footer .social-icon {
     .custom-navbar .nav li a {
         padding-right: 10px;
         padding-left: 10px;
-    }
-    .container{
-        margin: 0 0 0 10px;
-        padding: 0;
-        justify-content: space-around;
-        
-    }
-    .nav .navbar-nav .navbar-right{
-        margin: 0;
     }
 }
 

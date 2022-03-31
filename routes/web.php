@@ -11,12 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('pages.home');
-});
+// Route::get('/', function () {
+//     return view('pages.home');
+// });
 
-Route::get('home', function () {
-    return view('index');
-});
+// Route::get('home', function () {
+//     return view('index');
+// });
 
-Route::post('contact-us', 'ContactController@saveContact');
+Route::post('contact-us', 'ContactController@saveContact')->name('contact-us');
+Route::get('/', 'PagesController@home')->name('home');
+Route::get('/faqs', 'PagesController@faqs')->name('faqs');
