@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-4 col-sm-6">
+                {{-- <div class="col-md-4 col-sm-6">
                     <div class="footer-info">
                         <div class="section-title">
                             <h2>Contact Address</h2>
@@ -21,7 +21,21 @@
 
 
                     </div>
+                </div> --}}
+
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="footer-logo-wrapper">
+                        <img class="footer-logo" src="{{ url('/assets/images/footerLogo.png') }}" alt="">
+
+                        <ul class="social-icon">
+                            <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                            <li><a href="#" class="fa fa-twitter"></a></li>
+                            <li><a href="#" class="fa fa-instagram"></a></li>
+                        </ul>
+                    </div>
                 </div>
+
 
                 <div class="col-md-4 col-sm-6">
                     <div class="footer-info">
@@ -49,7 +63,30 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-12">
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="footer-info">
+                        <div class="section-title">
+                            <h2>Get in Touch</h2>
+                        </div>
+                        <address>
+                            <p>
+                                Central Bank of Nigeria,<br>
+                                Plot 33, Abubakar Tafawa Balewa Way <br>
+                                Central Business District, <br>
+                                Cadastral Zone, <br>
+                                Abuja, Federal Capital Territory, <br>
+                                Nigeria <br>
+
+                            </p>
+
+                            {{-- <p>Central Bank of Nigeria,<br>P.M.B. 0187,<br>Garki Abuja.
+                                Nigeria</p> --}}
+                        </address>
+                    </div>
+                </div>
+
+                {{-- <div class="col-md-4 col-sm-12">
                     <div class="footer-info newsletter-form">
                         <div class="section-title">
                             <h2>Newsletter Signup</h2>
@@ -66,7 +103,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
             </div>
         </div>
