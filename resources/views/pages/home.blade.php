@@ -13,8 +13,7 @@
                         <div class="container">
                             <div class="col-md-6 col-sm-12">
                                 <h1>SabiMONI: Your Path to Financial Literacy</h1>
-                                <h3>Our online courses are designed to fit in your industry supporting all-round with latest
-                                    technologies.</h3>
+                                <h3>The key to improving your financial stability depends on your financial literacy.</h3>
                                 <a href="#feature" class="section-btn btn btn-default smoothScroll">Discover more</a>
                             </div>
                         </div>
@@ -26,8 +25,7 @@
                         <div class="container">
                             <div class="col-md-6 col-sm-12">
                                 <h1>SabiMONI: The Financial Literacy e-Learning Platform</h1>
-                                <h3>Our online courses are built in partnership with technology leaders and are designed to
-                                    meet industry demands.</h3>
+                                <h3>Our e-learning platform offers financial literacy knowledge that provide learners with thorough understanding of the principle of finance.</h3>
                                 <a href="#courses" class="section-btn btn btn-default smoothScroll">Take a course</a>
                             </div>
                         </div>
@@ -40,8 +38,7 @@
                         <div class="container">
                             <div class="col-md-6 col-sm-12">
                                 <h1>SabiMONI: Free for All</h1>
-                                <h3>Nam eget sapien vel nibh euismod vulputate in vel nibh. Quisque eu ex eu urna venenatis
-                                    sollicitudin ut at libero. Visit <a rel="nofollow" href="#">templatemo</a>Read More</h3>
+                                <h3>A platform where you get unrestricted access to courses that will provide you with knowledge on how to manage your finances effectively. </h3>
                                 <a href="#contact" class="section-btn btn btn-default smoothScroll">Let's chat</a>
                             </div>
                         </div>
@@ -79,7 +76,7 @@
                     <div class="feature-thumb">
                         <span>03</span>
                         <h3>Certified Teachers</h3>
-                        <p>Please spread a word about us. Template redistribution is NOT allowed on any download website.
+                        <p>Take a bold step and become a Certified Financial Literacy Trainer (CFLT). Your journey starts now! 
                         </p>
                     </div>
                 </div>
