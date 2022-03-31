@@ -33,6 +33,7 @@
                         </div>
                     </div>
                 </div>
+               
 
                 <div class="item item-third">
                     <div class="caption">
@@ -100,15 +101,15 @@
                             discuss our family budget, manage our business or prepare for retirement, our understanding of
                             how money works has a strong effect on our quality of life.</p>
 
-                        <p>This e-learning platform offers financial literacy knowledge tailored towards those interested in
+                        <p > This e-learning platform offers financial literacy knowledge tailored towards those interested in
                             becoming Certified Financial Literacy Trainer (CFLT) as well as consumers who want to improve
-                            their financial wellbeing.</p>
+                            <span >their financial wellbeing</span>.</p>
 
                         <figure>
                             <span><i class="fa fa-users"></i></span>
                             <figcaption>
                                 <h3>Professional Trainers</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ipsa voluptatibus.</p>
+                                <p >We have highly skilled professional trainers whose aim is to improve the financial well-being of learners through financial literacy knowledge.</p>
                             </figcaption>
                         </figure>
 
@@ -124,7 +125,7 @@
                             <span><i class="fa fa-bar-chart-o"></i></span>
                             <figcaption>
                                 <h3>Free for Everyone</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ipsa voluptatibus.</p>
+                                <p>Build a bridge to  better financial Literacy with free courses on our learning platform</p>
                             </figcaption>
                         </figure>
                     </div>
@@ -449,6 +450,8 @@
                         </ul>
                     </div>
                 </div>
+                 <!-- back to top button -->
+                 <button id="backToTOP"><a href="#"><i class="fa fa-angle-double-up"></i></a></button>
 
                 <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
