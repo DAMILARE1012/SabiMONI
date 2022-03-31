@@ -132,11 +132,16 @@
 
                 <div class="col-md-6 col-sm-12">
                     <div class="about-info">
-                        {{-- <h2>Start your journey to a better life....</h2> --}} <br>
-                        <iframe width="500" height="350" src="{{ asset('assets/images/videos/dgvideowsound.mp4') }}"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                        <div class="button-edit">
+                            {{-- <h2>Start your journey to a better life....</h2> --}} <br>
+                            <iframe width="500" height="350" src="{{ asset('assets/images/videos/dgvideowsound.mp4') }}"
+                                frameborder="0"
+                                id="video"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <div class="button-edit-1" ><img id="play" src="{{ url('/assets/images/videos/playbutton.png') }}" alt=""></div>
+                        </div>
+
 
                         <div style="display:inline-block; vertical-align: middle;">
                             <div style="font-weight:bold;">Mrs Aisha Ahmad </div>
@@ -453,7 +458,8 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                         <div class="team-image">
-                            <img src="{{ asset('assets/images/news/time-is-money.png') }}" class="img-responsive" alt="">
+                            <img src="{{ asset('assets/images/news/time-is-money.png') }}" class="img-responsive"
+                                alt="">
                         </div>
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Achieve Financial Literacy on your Own</h5>
@@ -627,9 +633,9 @@
                         <a href="https://play.google.com/store/apps/details?id=com.sabimoni.ng" target="_blank"
                             rel="noopener noreferrer">
                             <img src="{{ asset('assets/images/sabiMONI_Phone.jpg') }}" class="img-responsive"
-                            alt="Sabi MONI Mobile Application">
+                                alt="Sabi MONI Mobile Application">
                         </a>
-                        
+
                     </div>
                 </div>
 
