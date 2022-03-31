@@ -177,7 +177,7 @@
 
                 <div class="col-md-12 col-sm-12">
                     <div class="section-title">
-                        <h2>Core Courses <small>The following courses are available on SabiMONI</small></h2>
+                        <h2>Featured Core Courses <small>The following courses are available on SabiMONI</small></h2>
                     </div>
 
                     <div class="owl-carousel owl-theme owl-courses">
