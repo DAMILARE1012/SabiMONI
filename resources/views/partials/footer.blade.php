@@ -19,11 +19,7 @@
                                  <li><a href="#" class="fa fa-instagram"></a></li>
                             </ul>
 
-                            <div class="copyright-text"> 
-                                 <p>Copyright &copy; 2019 SabiMONI Learning Portal</p>
-                                 
-                                 <p>Terms of Use/Privacy</p>
-                            </div>
+                            
                        </div>
                   </div>
 
@@ -72,4 +68,10 @@
                   
              </div>
         </div>
+        <hr>
+        <div class="copyright-text text-center"> 
+          <p>Copyright &copy; 2019 SabiMONI Learning Portal</p>
+          
+          <p>Terms of Use/Privacy</p>
+     </div>
    </footer>
