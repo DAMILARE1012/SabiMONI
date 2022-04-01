@@ -134,7 +134,7 @@
                     <div class="about-info">
                         <div class="button-edit">
                             {{-- <h2>Start your journey to a better life....</h2> --}} <br>
-                            <iframe width="500" height="350" src="{{ asset('assets/images/videos/dgvideowsound.mp4') }}"
+                            <iframe width="500" height="350" src="{{ asset('assets/images/videos/dgvideowsound.mp4?autoplay=0') }}"
                                 frameborder="0" id="video"
                                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
