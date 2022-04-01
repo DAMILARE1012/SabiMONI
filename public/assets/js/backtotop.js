@@ -7,3 +7,6 @@ window.addEventListener("scroll", () => {
         backToTop.style.display = 'none'
     };
   });
+  document.getElementById('backToTOP').addEventListener('click', ()=>{
+      window.scrollTo(0,0)
+  })

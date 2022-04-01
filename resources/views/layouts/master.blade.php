@@ -28,9 +28,6 @@
                transition: .5 ease-in;
                display: none;
           }
-          #backToTOP a{
-               color: white;
-          }
           #backToTOP:hover{
                background-color: green;
           }

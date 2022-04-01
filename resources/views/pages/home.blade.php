@@ -462,8 +462,8 @@
                         </ul>
                     </div>
                 </div>
-                <!-- back to top button -->
-                <button id="backToTOP"><a href="#"><i class="fa fa-angle-double-up"></i></a></button>
+                 <!-- back to top button -->
+                 <button id="backToTOP"><i class="fa fa-angle-double-up"></i></button>
 
                 <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
