@@ -5,3 +5,4 @@
 <script src="{{ asset('assets/js/smoothscroll.js') }}"></script>
 <script src="{{ asset('assets/js/custom.js') }}"></script>
 <script src="{{ asset('assets/js/videoPlay.js') }}"></script>
+<script src="{{ asset('assets/js/carousel.js') }}"></script>

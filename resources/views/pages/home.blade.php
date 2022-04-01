@@ -124,7 +124,8 @@
                             <span><i class="fa fa-bar-chart-o"></i></span>
                             <figcaption>
                                 <h3>Professional Courses</h3>
-                                <p>We have about 14 core modules targeted at impacting participants' financial literacy knowledge and wellbeing</p>
+                                <p>We have about 14 core modules targeted at impacting participants' financial literacy
+                                    knowledge and wellbeing</p>
                             </figcaption>
                         </figure>
                     </div>
@@ -135,11 +136,11 @@
                         <div class="button-edit">
                             {{-- <h2>Start your journey to a better life....</h2> --}} <br>
                             <iframe width="500" height="350" src="{{ asset('assets/images/videos/dgvideowsound.mp4') }}"
-                                frameborder="0"
-                                id="video"
+                                frameborder="0" id="video"
                                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
-                            <div class="button-edit-1" ><img id="play" src="{{ url('/assets/images/videos/playbutton.png') }}" alt=""></div>
+                            <div class="button-edit-1"><img id="play"
+                                    src="{{ url('/assets/images/videos/playbutton.png') }}" alt=""></div>
                         </div>
 
 
@@ -197,7 +198,9 @@
 
                                     <div class="courses-detail">
                                         <h3><a href="#">Basic Financial Literacy</a></h3>
-                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adip... <a href="#">Read More <i class="fa fa-arrow-right" aria-hidden="true" style="color: #29ca8e"></i></a></p>
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                            consectetur adip... <a href="#">Read More <i class="fa fa-arrow-right"
+                                                    aria-hidden="true" style="color: #29ca8e"></i></a></p>
                                     </div>
 
                                     <div class="courses-info">
@@ -353,7 +356,9 @@
 
                                     <div class="courses-detail">
                                         <h3><a href="#">SANEF</a></h3>
-                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adip... <a href="#">Read More <i class="fa fa-arrow-right" aria-hidden="true" style="color: #29ca8e"></i></a></p>
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                            consectetur adip... <a href="#">Read More <i class="fa fa-arrow-right"
+                                                    aria-hidden="true" style="color: #29ca8e"></i></a></p>
                                     </div>
 
                                     <div class="courses-info">
@@ -385,7 +390,9 @@
 
                                     <div class="courses-detail">
                                         <h3><a href="#">CFLT</a></h3>
-                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adip... <a href="#">Read More <i class="fa fa-arrow-right" aria-hidden="true" style="color: #29ca8e"></i></a></p>
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                            consectetur adip... <a href="#">Read More <i class="fa fa-arrow-right"
+                                                    aria-hidden="true" style="color: #29ca8e"></i></a></p>
                                     </div>
 
                                     <div class="courses-info">
@@ -440,7 +447,8 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                         <div class="team-image">
-                            <img src="{{ asset('assets/images/news/finance-books-.png') }}" class="img-responsive" alt="">
+                            <img src="{{ asset('assets/images/news/finance-books-.png') }}" class="img-responsive"
+                                alt="">
                         </div>
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Financial Literacy: Meanings and Descriptions</h5>
@@ -724,7 +732,7 @@
                     {{-- <h3 class="no-margin bottom-margin-md-10 text-color2 mainFont">Our Partners</h3> --}}
                     <br>
                 </div>
-                <div class="col-md-12 text-center">
+                {{-- <div class="col-md-12 text-center">
                     <img src="{{ asset('assets/images/clients/cbn.png') }}" width="120" height="90" alt="">
                     <img src="{{ asset('assets/images/clients/giz.png') }}" width="120" height="90" alt="">
                     <img src="{{ asset('assets/images/clients/ndic.png') }}" width="120" height="90" alt="">
@@ -742,6 +750,53 @@
                     <img src="{{ asset('assets/images/clients/bankers.png') }}" width="120" height="90" alt="">
                     <img src="{{ asset('assets/images/clients/fmof.png') }}" width="120" height="90" alt="">
                     <img src="{{ asset('assets/images/clients/stock.png') }}" width="120" height="90" alt="">
+                </div> --}}
+                <div class="col-md-12 text-center">
+                    <div class="carousel">
+                        <div class="image-container" id="imgs">
+                            <img src="{{ asset('assets/images/clients/cbn.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/giz.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/ndic.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/pencom.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/securities.png') }}" width="120" height="90"
+                                alt="">
+                            <img src="{{ asset('assets/images/clients/naicom.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/fmys.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/ncc.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/smedan.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/education.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/nsitf.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/nia.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/fmic2.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/mercy.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/bankers.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/fmof.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/stock.png') }}" width="120" height="90" alt="">
+
+                            <img src="{{ asset('assets/images/clients/cbn.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/giz.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/ndic.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/pencom.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/securities.png') }}" width="120" height="90"
+                                alt="">
+                            <img src="{{ asset('assets/images/clients/naicom.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/fmys.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/ncc.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/smedan.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/education.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/nsitf.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/nia.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/fmic2.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/mercy.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/bankers.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/fmof.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/stock.png') }}" width="120" height="90" alt="">
+                        </div>
+                        <div class="buttons-container">
+                            <div id="left" class="btn"><i class="fa fa-solid fa-chevron-left"></i></div>
+                            <div id="right" class="btn"><i class="fa fa-solid fa-chevron-right"></i></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

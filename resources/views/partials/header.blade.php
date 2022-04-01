@@ -1,6 +1,6 @@
 <!-- MENU -->
 <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
-    <div class="container">
+    <div class="container nav-space">
 
          <div class="navbar-header">
               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">

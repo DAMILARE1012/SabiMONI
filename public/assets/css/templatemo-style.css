@@ -258,6 +258,7 @@ section {
       MENU              
   -----------------------------------------*/
 
+
 .custom-navbar {
     background: #ffffff;
     border-top: 5px solid #29ca8e;
@@ -745,7 +746,7 @@ section {
 
 footer {
     background: #252020;
-    padding: 80px 0 20px 0 ;
+    padding: 80px 0 20px 0;
 }
 
 footer .section-title {
@@ -777,12 +778,10 @@ footer .social-icon {
     margin-right: 2em;
 }
 
-.footer-logo-wrapper{
+.footer-logo-wrapper {
     display: flex;
     flex-direction: column;
- 
 }
-
 
 .footer-info h2 {
     color: #ffffff;
