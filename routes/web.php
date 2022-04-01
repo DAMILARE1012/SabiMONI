@@ -22,3 +22,8 @@
 Route::post('contact-us', 'ContactController@saveContact')->name('contact-us');
 Route::get('/', 'PagesController@home')->name('home');
 Route::get('/faqs', 'PagesController@faqs')->name('faqs');
+
+
+Route::get('courses/sanef', 'PagesController@sanefGroup')->name('courses.sanef');
+Route::get('courses/cflt', 'PagesController@cfltGroup')->name('courses.cflt');
+Route::get('courses/basic_financial', 'PagesController@basicFinGroup')->name('courses.basicFin');

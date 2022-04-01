@@ -165,7 +165,7 @@ a:focus {
 
 section {
     position: relative;
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 #team,
@@ -900,7 +900,7 @@ footer .social-icon {
 @media only screen and (max-width: 992px) {
     section,
     footer {
-        padding: 60px 0;
+        padding: 50px 0;
     }
     .home-slider .item {
         background-position: center center;

@@ -25,20 +25,22 @@
                         <div class="container">
                             <div class="col-md-6 col-sm-12">
                                 <h1>SabiMONI: The Financial Literacy e-Learning Platform</h1>
-                                <h3>Our e-learning platform offers financial literacy knowledge that provide learners with thorough understanding of the principle of finance.</h3>
+                                <h3>Our e-learning platform offers financial literacy knowledge that provide learners with
+                                    thorough understanding of the principle of finance.</h3>
                                 <a href="#courses" class="section-btn btn btn-default smoothScroll">Take a course</a>
                             </div>
                         </div>
                     </div>
                 </div>
-               
+
 
                 <div class="item item-third">
                     <div class="caption">
                         <div class="container">
                             <div class="col-md-6 col-sm-12">
                                 <h1>SabiMONI: Free for All</h1>
-                                <h3>A platform where you get unrestricted access to courses that will provide you with knowledge on how to manage your finances effectively. </h3>
+                                <h3>A platform where you get unrestricted access to courses that will provide you with
+                                    knowledge on how to manage your finances effectively. </h3>
                                 <a href="#contact" class="section-btn btn btn-default smoothScroll">Let's chat</a>
                             </div>
                         </div>
@@ -54,29 +56,27 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-4 col-sm-4 text-justify">
+                <div class="col-md-4 col-sm-4 text-center">
                     <div class="feature-thumb">
                         <span>01</span>
-                        <h3>Financial literacy</h3>
-                        <p>We offer financial literacy knowledge tailored towards those interested in
-                            becoming Certified Financial Literacy Trainer (CFLT)</p>
+                        <h3>Interactive Courses</h3>
+                        <p>We provide interactive financial literacy courses with a friendly tone.</p>
                     </div>
                 </div>
 
                 <div class="col-md-4 col-sm-4 text-center">
                     <div class="feature-thumb">
                         <span>02</span>
-                        <h3>Certification</h3>
-                        <p>Your certificate will be issued after having completed all assessments successfully.</p>
+                        <h3>Self Paced Learning</h3>
+                        <p>We provide outmost convenience to learners over what we teach.</p>
                     </div>
                 </div>
 
                 <div class="col-md-4 col-sm-4 text-center">
                     <div class="feature-thumb">
                         <span>03</span>
-                        <h3>Certified Teachers</h3>
-                        <p>Take a bold step and become a Certified Financial Literacy Trainer (CFLT). Your journey starts now! 
-                        </p>
+                        <h3>Certification</h3>
+                        <p>After final assessments, users' certificates are issued.</p>
                     </div>
                 </div>
 
@@ -97,9 +97,11 @@
                             discuss our family budget, manage our business or prepare for retirement, our understanding of
                             how money works has a strong effect on our quality of life.</p>
 
-                        <p > This e-learning platform offers financial literacy knowledge tailored towards those interested in
+                        <p> This e-learning platform offers financial literacy knowledge tailored towards those interested
+                            in
                             becoming Certified Financial Literacy Trainer (CFLT) as well as consumers who want to improve
-                            <span >their financial wellbeing</span>.</p>
+                            <span>their financial wellbeing</span>.
+                        </p>
 
                         <figure>
                             <span><i class="fa fa-users"></i></span>
@@ -120,8 +122,9 @@
                         <figure>
                             <span><i class="fa fa-bar-chart-o"></i></span>
                             <figcaption>
-                                <h3>Free for Everyone</h3>
-                                <p>Build a bridge to  better financial Literacy with free courses on our learning platform</p>
+                                <h3>Professional Trainers</h3>
+                                <p>Build a bridge to better financial Literacy with free courses on our learning platform
+                                </p>
                             </figcaption>
                         </figure>
                     </div>
@@ -132,11 +135,11 @@
                         <div class="button-edit">
                             {{-- <h2>Start your journey to a better life....</h2> --}} <br>
                             <iframe width="500" height="350" src="{{ asset('assets/images/videos/dgvideowsound.mp4') }}"
-                                frameborder="0"
-                                id="video"
+                                frameborder="0" id="video"
                                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
-                            <div class="button-edit-1" ><img id="play" src="{{ url('/assets/images/videos/playbutton.png') }}" alt=""></div>
+                            <div class="button-edit-1"><img id="play"
+                                    src="{{ url('/assets/images/videos/playbutton.png') }}" alt=""></div>
                         </div>
 
 
@@ -194,7 +197,9 @@
 
                                     <div class="courses-detail">
                                         <h3><a href="#">Basic Financial Literacy</a></h3>
-                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adip... <a href="#">Read More <i class="fa fa-arrow-right" aria-hidden="true" style="color: #29ca8e"></i></a></p>
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                            consectetur adip... <a href="{{ route('courses.basicFin') }}">Read More <i class="fa fa-arrow-right"
+                                                    aria-hidden="true" style="color: #29ca8e"></i></a></p>
                                     </div>
 
                                     <div class="courses-info">
@@ -204,7 +209,7 @@
                                             <span>General</span>
                                         </div>
                                         <div class="courses-price free">
-                                            <a href="#"><span>Register</span></a>
+                                            <a href="https://sabimonidemo.com/start/login/signup.php" target="_blank"><span>Register</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -350,7 +355,9 @@
 
                                     <div class="courses-detail">
                                         <h3><a href="#">SANEF</a></h3>
-                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adip... <a href="#">Read More <i class="fa fa-arrow-right" aria-hidden="true" style="color: #29ca8e"></i></a></p>
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                            consectetur adip... <a href="{{ route('courses.sanef') }}">Read More <i class="fa fa-arrow-right"
+                                                    aria-hidden="true" style="color: #29ca8e"></i></a></p>
                                     </div>
 
                                     <div class="courses-info">
@@ -360,7 +367,8 @@
                                             <span>SANEF Group</span>
                                         </div>
                                         <div class="courses-price free">
-                                            <a href="#"><span>Register</span></a>
+                                            
+                                            <a href="https://sabimonidemo.com/start/login/signup.php" target="_blank"><span>Register</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -382,7 +390,9 @@
 
                                     <div class="courses-detail">
                                         <h3><a href="#">CFLT</a></h3>
-                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adip... <a href="#">Read More <i class="fa fa-arrow-right" aria-hidden="true" style="color: #29ca8e"></i></a></p>
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                            consectetur adip... <a href="{{ route('courses.cflt') }}">Read More <i class="fa fa-arrow-right"
+                                                    aria-hidden="true" style="color: #29ca8e"></i></a></p>
                                     </div>
 
                                     <div class="courses-info">
@@ -392,7 +402,7 @@
                                             <span>CFLT Group</span>
                                         </div>
                                         <div class="courses-price free">
-                                            <a href="#"><span>Register</span></a>
+                                            <a href="https://sabimonidemo.com/start/login/signup.php" target="_blank"><span>Register</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -437,7 +447,8 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                         <div class="team-image">
-                            <img src="{{ asset('assets/images/news/finance-books-.png') }}" class="img-responsive" alt="">
+                            <img src="{{ asset('assets/images/news/finance-books-.png') }}" class="img-responsive"
+                                alt="">
                         </div>
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Financial Literacy: Meanings and Descriptions</h5>
@@ -451,8 +462,8 @@
                         </ul>
                     </div>
                 </div>
-                 <!-- back to top button -->
-                 <button id="backToTOP"><a href="#"><i class="fa fa-angle-double-up"></i></a></button>
+                <!-- back to top button -->
+                <button id="backToTOP"><a href="#"><i class="fa fa-angle-double-up"></i></a></button>
 
                 <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
