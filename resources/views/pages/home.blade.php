@@ -134,8 +134,9 @@
                     <div class="about-info">
                         <div class="button-edit">
                             {{-- <h2>Start your journey to a better life....</h2> --}} <br>
-                            <iframe width="500" height="350" src="{{ asset('assets/images/videos/dgvideowsound.mp4?autoplay=0') }}"
-                                frameborder="0" id="video"
+                            <iframe width="500" height="350"
+                                src="{{ asset('assets/images/videos/dgvideowsound.mp4?autoplay=0') }}" frameborder="0"
+                                id="video"
                                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                             <div class="button-edit-1"><img id="play"
@@ -209,7 +210,8 @@
                                             <span>General</span>
                                         </div>
                                         <div class="courses-price free">
-                                            <a href="https://sabimonidemo.com/start/login/signup.php" target="_blank"><span>Register</span></a>
+                                            <a href="https://sabimonidemo.com/start/login/signup.php"
+                                                target="_blank"><span>Register</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -367,8 +369,9 @@
                                             <span>SANEF Group</span>
                                         </div>
                                         <div class="courses-price free">
-                                            
-                                            <a href="https://sabimonidemo.com/start/login/signup.php" target="_blank"><span>Register</span></a>
+
+                                            <a href="https://sabimonidemo.com/start/login/signup.php"
+                                                target="_blank"><span>Register</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -402,7 +405,8 @@
                                             <span>CFLT Group</span>
                                         </div>
                                         <div class="courses-price free">
-                                            <a href="https://sabimonidemo.com/start/login/signup.php" target="_blank"><span>Register</span></a>
+                                            <a href="https://sabimonidemo.com/start/login/signup.php"
+                                                target="_blank"><span>Register</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -462,8 +466,8 @@
                         </ul>
                     </div>
                 </div>
-                 <!-- back to top button -->
-                 <button id="backToTOP"><i class="fa fa-angle-double-up"></i></button>
+                <!-- back to top button -->
+                <button id="backToTOP"><i class="fa fa-angle-double-up"></i></button>
 
                 <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
@@ -650,17 +654,11 @@
                 </div>
 
                 <div class="col-md-6 col-sm-12">
-                    <form id="contact-form" role="form" action="/contact-us" method="post">
+                    <form id="contact-form" role="form" action="{{ route('contact-us') }}" method="post">
                         {{ csrf_field() }}
                         <div class="section-title text-center">
                             <h2>Contact Us <small>we love conversations. let us talk!</small></h2>
                         </div>
-
-                        {{-- @if (Session::has('success'))
-                            <div class="alert alert-success">
-                                {{ Session::get('success') }}
-                            </div>
-                        @endif --}}
 
                         @if (session()->has('success'))
                             <div x-data="{ show: true }" x-init="setTimeout(() => show = false, 5000)" x-show="show">
@@ -671,53 +669,76 @@
                         @endif
 
                         <div class="col-md-12 col-sm-12">
-                            <input type="text" class="form-control textarea @error('name') is-invalid @enderror"
-                                placeholder="Enter full name" name="name" required>
-                            @error('name')
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                            @enderror
+                            <div class="row">
+                                <div class="form-group col-md-6 col-sm-12 ">
+                                    <input type="text" class="form-control textarea @error('name') is-invalid @enderror"
+                                        placeholder="Enter full name" name="name" required>
+                                    @error('name')
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
+                                </div>
 
-                            <input type="email" class="form-control textarea @error('email') is-invalid @enderror"
-                                placeholder="Enter email address" name="email" required>
-                            @error('name')
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                            @enderror
+                                <div class="form-group col-md-6 col-sm-12">
+                                    <input type="email" class="form-control textarea @error('email') is-invalid @enderror"
+                                        placeholder="Enter email address" name="email" required>
+                                    @error('email')
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
+                                </div>
+                            </div>
 
-                            <input type="text" class="form-control textarea @error('subject') is-invalid @enderror"
-                                placeholder="Enter subject...." name="subject" required>
-                            @error('name')
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                            @enderror
+                            <div class="form-group">
+                                <input type="text" class="form-control textarea @error('subject') is-invalid @enderror"
+                                    placeholder="Enter subject...." name="subject" required>
+                                @error('subject')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control textarea @error('message') is-invalid @enderror" rows="6"
+                                    placeholder="Tell us about your message" name="message" required></textarea>
+                                @error('message')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
 
-                            <textarea class="form-control textarea @error('message') is-invalid @enderror" rows="6"
-                                placeholder="Tell us about your message" name="message" required></textarea>
-                            @error('message')
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                            @enderror
+                            <div class="form-row">
+                                <div class="captcha ">
+                                    <div class="row col-md-6 form-group" style="display: flex;">
+                                        <span>{!! captcha_img() !!}</span>
+                                        <button type="button" class="btn btn-success btn-refresh">
+                                            <i class="fa fa-refresh"></i>
+                                        </button>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <input id="captcha" type="text" class="form-control" placeholder="Enter Captcha"
+                                            name="captcha">
+                                        @if ($errors->has('captcha'))
+                                            <span class="help-block">
+                                                <strong>{{ $errors->first('captcha') }}</strong>
+                                            </span>
+                                        @endif
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <input type="submit" class="form-control" name="send message" value="Send Message">
+                            </div>
                         </div>
-
-                        <div class="col-md-4 col-sm-12">
-                            <input type="submit" class="form-control" name="send message" value="Send Message">
-                        </div>
-
                     </form>
                 </div>
-
-                {{-- <div class="col-md-6 col-sm-12">
-                    <div class="contact-image">
-                         <img src="{{ asset('assets/images/contact-image.jpg') }}" class="img-responsive" alt="Smiling Two Girls">
-                    </div>
-               </div> --}}
-
             </div>
+        </div>
+
+        </div>
         </div>
     </section>
 
@@ -804,4 +825,6 @@
         </div>
     </section>
     <!-- End of Partners section -->
+
+
 @endsection
