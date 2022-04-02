@@ -14,18 +14,13 @@
             <div class="accordion col-lg-6 col-lg-offset-1  col-sm-12">
                 <div class="accordion-item">
                     <div class="accordion-head">
-                        <h5>Frequency Asked Questions: 1</h5>
+                        <h5>What browser(s) can I use to access the web platform?</h5>
                     </div>
                     <div class="accordion-body">
                         <div class="accordion-item-body-content">
                             <p>
                             <ul class="text-justify" style="padding-right: 30px; padding-bottom:20px;">
-                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum iure deleniti cumque
-                                    debitis sit in, consequuntur tempore rerum facere vero molestias ad dignissimos eius
-                                    omnis asperiores fugiat reiciendis sequi quidem!</li>
-                                <li>Voluptatum quod, non quos, possimus eos et quia, inventore temporibus architecto nam
-                                    porro at corporis! Aperiam veritatis commodi animi dolores repudiandae explicabo
-                                    possimus tempora et soluta quam accusantium, dolorem asperiores.</li>
+                                <li>For best user experience, the recommended browsers are Google Chrome and Firefox.</li>
                             </ul>
                             </p>
                         </div>
@@ -34,100 +29,51 @@
                 </div>
                 <div class="accordion-item">
                     <div class="accordion-head">
-                        <h5>Frequency Asked Questions: 2</h5>
+                        <h5>What are the computer requirements?</h5>
                     </div>
                     <div class="accordion-body">
                         <div class="accordion-item-body-content">
                             <p>
-                                <ul class="text-justify" style="padding-right: 30px; padding-bottom:20px;">
-                                    <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum iure deleniti cumque
-                                        debitis sit in, consequuntur tempore rerum facere vero molestias ad dignissimos eius
-                                        omnis asperiores fugiat reiciendis sequi quidem!</li>
-                                    <li>Voluptatum quod, non quos, possimus eos et quia, inventore temporibus architecto nam
-                                        porro at corporis! Aperiam veritatis commodi animi dolores repudiandae explicabo
-                                        possimus tempora et soluta quam accusantium, dolorem asperiores.</li>
-                                </ul>
-                                </p>
+                            <ul class="text-justify" style="padding-right: 30px; padding-bottom:20px;">
+                                <li>If you want to use a computer, then you would require a Windows computers running a
+                                    minimum of Windows 8 operating system or a Macintosh computer running High Sierra.
+                                    However, it is important to state that you can also learn from this e-learning portal
+                                    using just a smart mobile phone device</li>
+                            </ul>
+                            </p>
                         </div>
 
                     </div>
                 </div>
                 <div class="accordion-item">
                     <div class="accordion-head">
-                        <h5>Frequency Asked Questions: 3</h5>
+                        <h5>What mobile devices are recommended for accessing the mobile application?</h5>
                     </div>
                     <div class="accordion-body">
                         <div class="accordion-item-body-content">
                             <p>
-                                <ul class="text-justify" style="padding-right: 30px; padding-bottom:20px;">
-                                    <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum iure deleniti cumque
-                                        debitis sit in, consequuntur tempore rerum facere vero molestias ad dignissimos eius
-                                        omnis asperiores fugiat reiciendis sequi quidem!</li>
-                                    <li>Voluptatum quod, non quos, possimus eos et quia, inventore temporibus architecto nam
-                                        porro at corporis! Aperiam veritatis commodi animi dolores repudiandae explicabo
-                                        possimus tempora et soluta quam accusantium, dolorem asperiores.</li>
-                                </ul>
-                                </p>
+                            <ul class="text-justify" style="padding-right: 30px; padding-bottom:20px;">
+                                <li>You need a smart phone and enough data. The mobile app can be downloaded on Android and
+                                    IOS app is coming soon.</li>
+                            </ul>
+                            </p>
                         </div>
 
                     </div>
                 </div>
                 <div class="accordion-item">
                     <div class="accordion-head">
-                        <h5>Frequency Asked Questions: 4</h5>
+                        <h5>Why am I unable to view the videos in the modules?</h5>
                     </div>
                     <div class="accordion-body">
                         <div class="accordion-item-body-content">
                             <p>
-                                <ul class="text-justify" style="padding-right: 30px; padding-bottom:20px;">
-                                    <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum iure deleniti cumque
-                                        debitis sit in, consequuntur tempore rerum facere vero molestias ad dignissimos eius
-                                        omnis asperiores fugiat reiciendis sequi quidem!</li>
-                                    <li>Voluptatum quod, non quos, possimus eos et quia, inventore temporibus architecto nam
-                                        porro at corporis! Aperiam veritatis commodi animi dolores repudiandae explicabo
-                                        possimus tempora et soluta quam accusantium, dolorem asperiores.</li>
-                                </ul>
-                                </p>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <div class="accordion-head">
-                        <h5>Frequency Asked Questions: 4</h5>
-                    </div>
-                    <div class="accordion-body">
-                        <div class="accordion-item-body-content">
-                            <p>
-                                <ul class="text-justify" style="padding-right: 30px; padding-bottom:20px;">
-                                    <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum iure deleniti cumque
-                                        debitis sit in, consequuntur tempore rerum facere vero molestias ad dignissimos eius
-                                        omnis asperiores fugiat reiciendis sequi quidem!</li>
-                                    <li>Voluptatum quod, non quos, possimus eos et quia, inventore temporibus architecto nam
-                                        porro at corporis! Aperiam veritatis commodi animi dolores repudiandae explicabo
-                                        possimus tempora et soluta quam accusantium, dolorem asperiores.</li>
-                                </ul>
-                                </p>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <div class="accordion-head">
-                        <h5>Frequency Asked Questions: 4</h5>
-                    </div>
-                    <div class="accordion-body">
-                        <div class="accordion-item-body-content">
-                            <p>
-                                <ul class="text-justify" style="padding-right: 30px; padding-bottom:20px;">
-                                    <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum iure deleniti cumque
-                                        debitis sit in, consequuntur tempore rerum facere vero molestias ad dignissimos eius
-                                        omnis asperiores fugiat reiciendis sequi quidem!</li>
-                                    <li>Voluptatum quod, non quos, possimus eos et quia, inventore temporibus architecto nam
-                                        porro at corporis! Aperiam veritatis commodi animi dolores repudiandae explicabo
-                                        possimus tempora et soluta quam accusantium, dolorem asperiores.</li>
-                                </ul>
-                                </p>
+                            <ul class="text-justify" style="padding-right: 30px; padding-bottom:20px;">
+                                <li>Some browsers require a third party plugin to play multimedia content. You can download
+                                    adobe's flash player plugin using this link
+                                    https://get.adobe.com/flashplayer/otherversions</li>
+                            </ul>
+                            </p>
                         </div>
 
                     </div>
