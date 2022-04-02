@@ -39,7 +39,7 @@
     width: 100%;
 }
 
-.btn {
+.carousel-btn {
     border-radius: 50px;
     background-color: #29ca8e;
     color: #000;
@@ -54,7 +54,7 @@
     justify-content: center;
 }
 
-.btn:hover {
+.carousel-btn:hover {
     opacity: 0.9;
 }
 

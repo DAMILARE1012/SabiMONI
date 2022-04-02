@@ -438,7 +438,7 @@
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Eliminating And Avoiding Debt</h5>
                             <span>Debt is one of the biggest hurdles many younger generations are facing today. When you
-                                have the financial education... <a href="#" style="color: red;">Read More</a></span>
+                                have the financial education... <a href="{{ route('blog') }}" style="color: red;">Read More</a></span>
                         </div>
                         <ul class="social-icon">
                             <li><a href="#" class="fa fa-calendar" attr="calendar icon"></a>Dec 8, 2020</li>
@@ -457,7 +457,7 @@
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Financial Literacy: Meanings and Descriptions</h5>
                             <span>Debt is one of the biggest hurdles many younger generations are facing today. When you
-                                have the financial education... <a href="#" style="color: red;">Read More</a></span>
+                                have the financial education... <a href="{{ route('blog') }}" style="color: red;">Read More</a></span>
                         </div>
                         <ul class="social-icon">
                             <li><a href="#" class="fa fa-calendar" attr="calendar icon"></a>Dec 8, 2020</li>
@@ -478,7 +478,7 @@
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Achieve Financial Literacy on your Own</h5>
                             <span>Debt is one of the biggest hurdles many younger generations are facing today. When you
-                                have the financial education... <a href="#" style="color: red;">Read More</a></span>
+                                have the financial education... <a href="{{ route('blog') }}" style="color: red;">Read More</a></span>
                         </div>
                         <ul class="social-icon">
                             <li><a href="#" class="fa fa-calendar" attr="calendar icon"></a>Dec 6, 2020</li>
@@ -496,7 +496,7 @@
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Break your Consumer Mentality </h5>
                             <span>Debt is one of the biggest hurdles many younger generations are facing today. When you
-                                have the financial education... <a href="#" style="color: red;">Read More</a></span>
+                                have the financial education... <a href="{{ route('blog') }}" style="color: red;">Read More</a></span>
                         </div>
                         <ul class="social-icon">
                             <li><a href="#" class="fa fa-calendar" attr="calendar icon"></a>Dec 6, 2020</li>
@@ -816,8 +816,8 @@
                             <img src="{{ asset('assets/images/clients/stock.png') }}" width="120" height="90" alt="">
                         </div>
                         <div class="buttons-container">
-                            <div id="left" class="btn"><i class="fa fa-solid fa-chevron-left"></i></div>
-                            <div id="right" class="btn"><i class="fa fa-solid fa-chevron-right"></i></div>
+                            <div id="left" class="carousel-btn"><i class="fa fa-solid fa-chevron-left"></i></div>
+                            <div id="right" class="carousel-btn"><i class="fa fa-solid fa-chevron-right"></i></div>
                         </div>
                     </div>
                 </div>

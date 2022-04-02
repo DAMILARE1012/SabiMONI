@@ -32,3 +32,4 @@ Route::get('courses/basic_financial', 'PagesController@basicFinGroup')->name('co
 // Route::get('my-captcha', 'HomeController@myCaptcha')->name('myCaptcha');
 Route::post('my-captcha', 'ContactController@myCaptchaPost')->name('myCaptcha.post');
 Route::get('/refresh_captcha', 'ContactController@refreshCaptcha')->name('refresh_captcha');
+Route::get('/blog', 'PagesController@blog')->name('blog');
