@@ -438,7 +438,8 @@
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Eliminating And Avoiding Debt</h5>
                             <span>Debt is one of the biggest hurdles many younger generations are facing today. When you
-                                have the financial education... <a href="{{ route('blog') }}" style="color: red;">Read More</a></span>
+                                have the financial education... <a href="{{ route('blog') }}" style="color: red;">Read
+                                    More</a></span>
                         </div>
                         <ul class="social-icon">
                             <li><a href="#" class="fa fa-calendar" attr="calendar icon"></a>Dec 8, 2020</li>
@@ -457,7 +458,8 @@
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Financial Literacy: Meanings and Descriptions</h5>
                             <span>Debt is one of the biggest hurdles many younger generations are facing today. When you
-                                have the financial education... <a href="{{ route('blog') }}" style="color: red;">Read More</a></span>
+                                have the financial education... <a href="{{ route('blog') }}" style="color: red;">Read
+                                    More</a></span>
                         </div>
                         <ul class="social-icon">
                             <li><a href="#" class="fa fa-calendar" attr="calendar icon"></a>Dec 8, 2020</li>
@@ -478,7 +480,8 @@
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Achieve Financial Literacy on your Own</h5>
                             <span>Debt is one of the biggest hurdles many younger generations are facing today. When you
-                                have the financial education... <a href="{{ route('blog') }}" style="color: red;">Read More</a></span>
+                                have the financial education... <a href="{{ route('blog') }}" style="color: red;">Read
+                                    More</a></span>
                         </div>
                         <ul class="social-icon">
                             <li><a href="#" class="fa fa-calendar" attr="calendar icon"></a>Dec 6, 2020</li>
@@ -496,7 +499,8 @@
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Break your Consumer Mentality </h5>
                             <span>Debt is one of the biggest hurdles many younger generations are facing today. When you
-                                have the financial education... <a href="{{ route('blog') }}" style="color: red;">Read More</a></span>
+                                have the financial education... <a href="{{ route('blog') }}" style="color: red;">Read
+                                    More</a></span>
                         </div>
                         <ul class="social-icon">
                             <li><a href="#" class="fa fa-calendar" attr="calendar icon"></a>Dec 6, 2020</li>
@@ -711,16 +715,17 @@
                             </div>
 
                             <div class="form-row">
-                                <div class="captcha ">
+                                <div class="captcha" style="display: flex; align-items:flex-end">
                                     <div class="row col-md-6 form-group" style="display: flex;">
-                                        <span>{!! captcha_img() !!}</span>
-                                        <button type="button" class="btn btn-success btn-sm btn-refresh" style="padding: 0px;">
+                                        <span style="width: 50%; height:50px;">{!! captcha_img() !!}</span>
+                                        <button type="button" class="btn btn-success btn-sm btn-refresh"
+                                            style="padding: 0px; width: 40%; margin-left: 24px; height: 50px">
                                             <i class="fa fa-refresh"></i>
                                         </button>
                                     </div>
                                     <div class="form-group col-md-6">
-                                        <input id="captcha" type="text" class="form-control" placeholder="Enter Captcha"
-                                            name="captcha">
+                                        <input id="captcha" type="text" class="form-control" style="margin-bottom: 0px"
+                                            placeholder="Enter Captcha" name="captcha">
                                         @if ($errors->has('captcha'))
                                             <span class="help-block">
                                                 <strong>{{ $errors->first('captcha') }}</strong>

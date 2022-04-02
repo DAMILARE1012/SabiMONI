@@ -15,23 +15,23 @@
         </div>
 
         <!-- MENU LINKS -->
-        <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-nav-first">
-                <li><a href="#top" class="smoothScroll">Home</a></li>
-                <li><a href="#about" class="smoothScroll">About Us</a></li>
-                <li><a href="#courses" class="smoothScroll">Courses</a></li>
-                <li><a href="#team" class="smoothScroll">News</a></li>
-                <li><a href="#testimonial" class="smoothScroll">Reviews</a></li>
-                <li><a href="#contact" class="smoothScroll">Contact</a></li>
-                <li><a href="{{ route('faqs') }}" class="smoothScroll">Faqs</a></li>
+        <div class="collapse navbar-collapse ">
+            <ul class="nav navbar-nav navbar-nav-first nav-res-1">
+                <li><a href="#top" class="smoothScroll nav-res-1a">Home</a></li>
+                <li><a href="#about" class="smoothScroll nav-res-1a">About Us</a></li>
+                <li><a href="#courses" class="smoothScroll nav-res-1a">Courses</a></li>
+                <li><a href="#team" class="smoothScroll nav-res-1a">News</a></li>
+                <li><a href="#testimonial" class="smoothScroll nav-res-1a">Reviews</a></li>
+                <li><a href="#contact" class="smoothScroll nav-res-1a">Contact</a></li>
+                <li><a href="{{ route('faqs') }}" class="smoothScroll nav-res-1a">Faqs</a></li>
 
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="https://sabimonidemo.com/start/login/signup.php" target="_blank"><i
-                            class="fa fa-sign-in"></i>Register</a></li>
-                <li><a href="https://sabimonidemo.com/start/login/index.php" target="_blank"><i
-                            class="fa fa-user-circle" aria-hidden="true"></i>Login</a></li>
+                <li><a href="https://sabimonidemo.com/start/login/signup.php" class="nav-res-2" target="_blank"><i
+                            class="fa fa-sign-in "></i>Register</a></li>
+                <li><a href="https://sabimonidemo.com/start/login/index.php" class="nav-res-2" target="_blank"><i
+                            class="fa fa-user-circle " aria-hidden="true"></i>Login</a></li>
             </ul>
         </div>
 
