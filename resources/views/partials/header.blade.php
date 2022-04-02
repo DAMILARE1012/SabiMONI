@@ -28,10 +28,10 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="https://sabimonidemo.com/start/login/signup.php" target="_blank"><i
-                            class="fa fa-sign-in"></i>Register</a></li>
-                <li><a href="https://sabimonidemo.com/start/login/index.php" target="_blank"><i
-                            class="fa fa-user-circle" aria-hidden="true"></i>Login</a></li>
+                <li><a href="https://sabimonidemo.com/start/login/signup.php" class="nav-res-2" target="_blank"><i
+                            class="fa fa-sign-in "></i>Register</a></li>
+                <li><a href="https://sabimonidemo.com/start/login/index.php" class="nav-res-2" target="_blank"><i
+                            class="fa fa-user-circle " aria-hidden="true"></i>Login</a></li>
             </ul>
         </div>
 

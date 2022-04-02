@@ -72,7 +72,7 @@
 
     {{-- -------------------------------------Rating------------------------------------ --}}
 
-    <div class="blog-content2">
+    {{-- <div class="blog-content2">
 
         <div class="bc2-item1">
 
@@ -89,7 +89,7 @@
             <i class="fa fa-solid fa-star"></i>
             <i class="fa fa-solid fa-star"></i>
         </div>
-    </div>
+    </div> --}}
 
 
 
@@ -119,7 +119,7 @@
     <div class="blog-content4">
         <h1 class="bc4-item1">Similar Articles</h1>
         <div class="row blog-res-4">
-            <div class="col-md-4 bsa">
+            <div class="col-md-3 bsa">
                 <div class="bc4-item2">
                     <img src="{{ url('/assets/images/adeolu-eletu-unRkg2jH1j0-unsplash.jpg') }}" alt="No image found"
                         width="100%">
@@ -136,7 +136,7 @@
 
                 </div>
             </div>
-            <div class="col-md-4 bsa">
+            <div class="col-md-3 bsa">
                 <div class="bc4-item2">
                     <img src="{{ url('/assets/images/adeolu-eletu-unRkg2jH1j0-unsplash.jpg') }}" alt="No image found"
                         width="100%">
@@ -147,13 +147,10 @@
                                 telescope.</p>
                             <div class="bc4-item4"><span>David Docekr</span><span>04 JUN 2020</span></div>
                     </div>
-
-
-
 
                 </div>
             </div>
-            <div class="col-md-4 bsa">
+            <div class="col-md-3 bsa">
                 <div class="bc4-item2">
                     <img src="{{ url('/assets/images/adeolu-eletu-unRkg2jH1j0-unsplash.jpg') }}" alt="No image found"
                         width="100%">
@@ -164,10 +161,19 @@
                                 telescope.</p>
                             <div class="bc4-item4"><span>David Docekr</span><span>04 JUN 2020</span></div>
                     </div>
-
-
-
-
+                </div>
+            </div>
+            <div class="col-md-3 bsa">
+                <div class="bc4-item2">
+                    <img src="{{ url('/assets/images/adeolu-eletu-unRkg2jH1j0-unsplash.jpg') }}" alt="No image found"
+                        width="100%">
+                    <div class="bc4-item3">
+                        <p>LifeStyle</p>
+                        <h4>Where To Look For Cheap Brochure Printing</h2>
+                            <p>There is a moment in the live of any aspiring astronomer that it is timem to buy that first
+                                telescope.</p>
+                            <div class="bc4-item4"><span>David Docekr</span><span>04 JUN 2020</span></div>
+                    </div>
                 </div>
             </div>
 
