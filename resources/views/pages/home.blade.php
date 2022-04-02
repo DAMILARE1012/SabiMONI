@@ -58,7 +58,7 @@
 
                 <div class="col-md-4 col-sm-4 text-center">
                     <div class="feature-thumb">
-                        <span>01</span>
+                        <span><i class="fa fa-users"></i></span>
                         <h3>Interactive Courses</h3>
                         <p>We provide interactive financial literacy courses with a friendly tone.</p>
                     </div>
@@ -66,7 +66,7 @@
 
                 <div class="col-md-4 col-sm-4 text-center">
                     <div class="feature-thumb">
-                        <span>02</span>
+                        <span><i class="fa fa-clock-o"></i></span>
                         <h3>Self Paced Learning</h3>
                         <p>We provide outmost convenience to learners over what we teach.</p>
                     </div>
@@ -74,7 +74,7 @@
 
                 <div class="col-md-4 col-sm-4 text-center">
                     <div class="feature-thumb">
-                        <span>03</span>
+                        <span><i class="fa fa-certificate"></i></span>
                         <h3>Certification</h3>
                         <p>After final assessments, users' certificates are issued.</p>
                     </div>
@@ -714,7 +714,7 @@
                                 <div class="captcha ">
                                     <div class="row col-md-6 form-group" style="display: flex;">
                                         <span>{!! captcha_img() !!}</span>
-                                        <button type="button" class="btn btn-success btn-refresh">
+                                        <button type="button" class="btn btn-success btn-sm btn-refresh" style="padding: 0px;">
                                             <i class="fa fa-refresh"></i>
                                         </button>
                                     </div>

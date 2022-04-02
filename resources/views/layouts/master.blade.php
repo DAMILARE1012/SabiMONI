@@ -46,6 +46,7 @@
               align-content: center;
               justify-content: center;
               color: #ffffff;
+              margin-bottom: 50px;
          }
          .accordion{
               
@@ -103,7 +104,7 @@
           width: 100%;
            /* background-image: url('../assets/images/slider-image1.jpg'); */
          background-repeat: no-repeat;
-         height: 30%;
+         height: 5%!important;
 
          }
          .part2{
