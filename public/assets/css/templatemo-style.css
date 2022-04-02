@@ -191,18 +191,20 @@ section {
 
 .section-btn {
     background: transparent;
-    border-radius: 50px;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
     color: #ffffff;
-    font-size: inherit;
-    font-weight: normal;
+    font-size: 16px;
+    font-weight: medium;
     padding: 15px 30px;
+    width: 30%;
     transition: 0.5s;
 }
 
 .section-btn:hover {
-    background: #ffffff;
+    background: #29ca8e;;
     border-color: transparent;
+    color: #ffffff;
+    
 }
 
 
@@ -451,6 +453,7 @@ section {
     left: 200px;
     cursor: pointer;
 }
+
 
 #about figure {
     display: inline-block;

@@ -25,4 +25,7 @@ class PagesController extends Controller
     public function basicFinGroup(){
         return view('pages.courses.basicFinLit');
     }
+    public function blog(){
+        return view('pages.blog');
+    }
 }
