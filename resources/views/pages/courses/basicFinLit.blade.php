@@ -15,10 +15,9 @@
 
     {{-- ----------Section one---------- --}}
 
-    <div class="row">
+    <div class="row courses-res-1">
 
         <div class="col-md-5 col-md-offset-1">
-            <img src="{{ asset('assets/images/courses-image1.jpg') }}" alt="" width="100%">
             <div class="courses-text">
                 <h3><a href="basicFinLit">Basic Financial Literacy</a></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, necessitatibus reprehenderit a
@@ -28,6 +27,82 @@
                     velit ut mollitia quam, consectetur quis exercitationem neque dolorem rerum voluptate ab deleniti
                     blanditiis!</p>
             </div>
+            <img src="{{ asset('assets/images/courses-image1.jpg') }}" alt="" width="80%"
+                style="margin-bottom: 25px; margin-top: 25px">
+            <div class="courses-text">
+                {{-- <h3><a href="basicFinLit">Basic Financial Literacy</a></h3> --}}
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, necessitatibus reprehenderit a
+                    vitae molestias nesciunt expedita magnam culpa suscipit voluptas possimus laboriosam ducimus
+                    architecto aut quia. Nihil consequuntur tenetur perspiciatis? Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Aliquam corrupti obcaecati aliquid, temporibus perspiciatis nisi nam
+                    velit ut mollitia quam, consectetur quis exercitationem neque dolorem rerum voluptate ab deleniti
+                    blanditiis!</p>
+            </div>
+
+
+
+            {{-- -------------------------------basicfinlit carousel start-------------------------------------------- --}}
+
+
+            <div class="" style=" margin-top: 50px; margin-bottom: 50px">
+
+
+
+                <div class="col-md-12 text-center" style="padding-left: 0px !important">
+                    <div class="carousel">
+                        <div class="image-container" id="imgs">
+                            <img src="{{ asset('assets/images/clients/cbn.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/giz.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/ndic.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/pencom.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/securities.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/naicom.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/fmys.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/ncc.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/smedan.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/education.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/nsitf.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/nia.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/fmic2.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/mercy.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/bankers.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/fmof.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/stock.png') }}" width="120" height="90" alt="">
+
+                            <img src="{{ asset('assets/images/clients/cbn.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/giz.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/ndic.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/pencom.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/securities.png') }}" width="120" height="90"
+                                alt="">
+                            <img src="{{ asset('assets/images/clients/naicom.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/fmys.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/ncc.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/smedan.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/education.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/nsitf.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/nia.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/fmic2.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/mercy.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/bankers.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/fmof.png') }}" width="120" height="90" alt="">
+                            <img src="{{ asset('assets/images/clients/stock.png') }}" width="120" height="90" alt="">
+                        </div>
+                        <div class="buttons-container">
+                            <div id="left" class="carousel-btn"><i class="fa fa-solid fa-chevron-left"></i></div>
+                            <div id="right" class="carousel-btn"><i class="fa fa-solid fa-chevron-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            {{-- -------------------------------basicfinlit carousel ends-------------------------------------------- --}}
+
+
+
         </div>
         <div class="col-md-3 col-md-offset-1 ">
             <div class="courses-card">
@@ -47,6 +122,7 @@
                     <div class="courses-author">
                         <img src="{{ asset('assets/images/author-image1.jpg') }}" alt="">
                         <span>General</span>
+
                     </div>
                     <div class="courses-price">
                         <a href="#"><span>Register</span></a>
@@ -83,6 +159,20 @@
         </div>
 
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     {{-- ----------Section two---------- --}}
 
 

@@ -268,17 +268,17 @@ section {
     }
 }
 
-@media only screen and (min-width: 740px) and (max-width: 1000px) {
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
     .nav-res-1a {
-        padding-left: 7px !important;
-        padding-right: 7px !important;
+        padding-left: 4px !important;
+        padding-right: 4px !important;
     }
 }
 
 @media only screen and (min-width: 1170px) and (max-width: 1200px) {
     .nav-res-1a {
-        padding-left: 7px !important;
-        padding-right: 7px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
     }
 }
 
@@ -534,7 +534,7 @@ section {
     margin-top: 50px;
     background: #f7f7f7;
 }
-.courses-section-2-wrapper{
+.courses-section-2-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -556,7 +556,8 @@ section {
 .courses-card {
     background: #f9f9f9;
     box-shadow: 0.778571px 1.55714px 15.5714px rgba(0, 0, 0, 0.1);
-    width: 90%;
+    width: 100%;
+    margin: auto;
 }
 
 .courses-button-1 {
@@ -574,21 +575,19 @@ section {
     margin-top: 24px;
 }
 
-.courses-section-3-wrapper{
-/* background: red; */
-
+.courses-section-3-wrapper {
+    /* background: red; */
 }
-.cs3-item1{
+.cs3-item1 {
     display: flex;
     border: 1px solid #f7f7f7;
     padding-top: 25px;
     padding-left: 25px;
     padding-right: 25px;
     transition: all 0.4s ease-in-out;
-    
 }
 
-.cs3-item2{
+.cs3-item2 {
     /* margin-left: 20px; */
     margin: 50px 15px 0px 15px;
     display: flex;
@@ -600,26 +599,13 @@ section {
     transition: all 0.4s ease-in-out;
 }
 
-.cs3-item2:hover{
+.cs3-item2:hover {
     background: #f7f7f7;
 }
 
-.cs3-item1:hover{
+.cs3-item1:hover {
     background: #f7f7f7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #courses .section-title {
     text-align: center;
@@ -685,6 +671,37 @@ section {
     position: relative;
     clear: both;
     padding: 15px 25px;
+  
+}
+
+@media only screen and (max-width: 1090px) {
+    .courses-info {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 990px) {
+    .courses-card {
+       width: 50%;
+       margin: 0px;
+    }
+    .courses-card-1{
+        margin-top: 60px;
+    }
+
+    .courses-res-1{
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 560px) {
+    .courses-card {
+       width: 70%;
+       margin: 0px;
+    }
+  
+    .courses-card-1{
+        margin-top: 60px;
+    }
 }
 
 .courses-author,

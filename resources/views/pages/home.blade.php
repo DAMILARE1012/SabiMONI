@@ -749,7 +749,7 @@
                     {{-- <h3 class="no-margin bottom-margin-md-10 text-color2 mainFont">Our Partners</h3> --}}
                     <br>
                 </div>
-                <div class="col-md-12 text-center">
+                {{--<div class="col-md-12 text-center">
                     <img src="{{ asset('assets/images/clients/cbn.png') }}" width="120" height="90" alt="">
                     <img src="{{ asset('assets/images/clients/giz.png') }}" width="120" height="90" alt="">
                     <img src="{{ asset('assets/images/clients/ndic.png') }}" width="120" height="90" alt="">
