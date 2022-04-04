@@ -14,7 +14,6 @@ body {
     padding-top: 70px;
 }
 
-
 /*---------------------------------------
      TYPOGRAPHY              
   -----------------------------------------*/
@@ -58,7 +57,6 @@ p {
     font-weight: normal;
     line-height: 24px;
 }
-
 
 /*---------------------------------------
      GENERAL               
@@ -184,27 +182,26 @@ section {
     height: 390px;
 }
 
-
 /*---------------------------------------
      BUTTONS               
   -----------------------------------------*/
 
 .section-btn {
     background: transparent;
-    border-radius: 50px;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
     color: #ffffff;
-    font-size: inherit;
-    font-weight: normal;
+    font-size: 16px;
+    font-weight: medium;
     padding: 15px 30px;
+    width: 30%;
     transition: 0.5s;
 }
 
 .section-btn:hover {
-    background: #ffffff;
+    background: #29ca8e;
     border-color: transparent;
+    color: #ffffff;
 }
-
 
 /*---------------------------------------
        PRE LOADER              
@@ -258,11 +255,32 @@ section {
     }
 }
 
-
 /*---------------------------------------
       MENU              
   -----------------------------------------*/
 
+@media only screen and (max-width: 1200px) {
+    .nav-res-1 {
+        margin-left: 40px;
+    }
+    .nav-res-2 {
+        padding-left: 0px !important;
+    }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 1000px) {
+    .nav-res-1a {
+        padding-left: 7px !important;
+        padding-right: 7px !important;
+    }
+}
+
+@media only screen and (min-width: 1170px) and (max-width: 1200px) {
+    .nav-res-1a {
+        padding-left: 7px !important;
+        padding-right: 7px !important;
+    }
+}
 
 .custom-navbar {
     background: #ffffff;
@@ -311,8 +329,8 @@ section {
     padding-left: 22px;
 }
 
-.custom-navbar .navbar-nav>li>a:hover,
-.custom-navbar .navbar-nav>li>a:focus {
+.custom-navbar .navbar-nav > li > a:hover,
+.custom-navbar .navbar-nav > li > a:focus {
     background-color: transparent;
 }
 
@@ -321,7 +339,7 @@ section {
     color: #ffffff;
 }
 
-.custom-navbar .nav li.active>a {
+.custom-navbar .nav li.active > a {
     background-color: #29ca8e;
     color: #ffffff;
 }
@@ -339,7 +357,6 @@ section {
     background: #252525;
     border-color: transparent;
 }
-
 
 /*---------------------------------------
       HOME  & SLIDER            
@@ -406,7 +423,6 @@ section {
     background-image: url("/assets/images/slider-image3.jpg");
 }
 
-
 /*---------------------------------------
       FEATURE              
   -----------------------------------------*/
@@ -434,7 +450,6 @@ section {
     margin: 10px 0;
 }
 
-
 /*---------------------------------------
       ABOUT              
   -----------------------------------------*/
@@ -443,7 +458,7 @@ section {
     position: relative;
 }
 
-.button-edit>.button-edit-1 {
+.button-edit > .button-edit-1 {
     position: absolute;
     width: 20px;
     height: 20px;
@@ -477,7 +492,6 @@ section {
     text-align: center;
 }
 
-
 /*---------------------------------------
       TEAM              
   -----------------------------------------*/
@@ -510,7 +524,6 @@ section {
 .team-info h3 {
     margin: 0;
 }
-
 
 /*---------------------------------------
       COURSES             
@@ -613,7 +626,6 @@ section {
     background: #033b4d;
 }
 
-
 /*---------------------------------------
      NEWS              
   -----------------------------------------*/
@@ -641,7 +653,6 @@ section {
     font-weight: bold;
 }
 
-
 /*---------------------------------------
       TESTIMONIAL             
   -----------------------------------------*/
@@ -659,7 +670,7 @@ section {
     width: 100%;
 }
 
-#testimonial .item>p {
+#testimonial .item > p {
     font-size: 16px;
     line-height: 26px;
 }
@@ -696,7 +707,6 @@ section {
     font-size: 14px;
 }
 
-
 /*---------------------------------------
       CONTACT             
   -----------------------------------------*/
@@ -713,7 +723,7 @@ section {
     padding-bottom: 20px;
 }
 
-#contact h2>small,
+#contact h2 > small,
 #contact p,
 #contact a {
     color: #f9f9f9;
@@ -749,7 +759,6 @@ section {
     border-color: #ffffff;
     color: #ffffff;
 }
-
 
 /*---------------------------------------
      FOOTER              
@@ -851,7 +860,6 @@ footer .social-icon {
     margin-top: 20px;
 }
 
-
 /*---------------------------------------
      SOCIAL ICON              
   -----------------------------------------*/
@@ -886,7 +894,6 @@ footer .social-icon {
     background: #29ca8e;
     color: #ffffff;
 }
-
 
 /*---------------------------------------
      RESPONSIVE STYLES              

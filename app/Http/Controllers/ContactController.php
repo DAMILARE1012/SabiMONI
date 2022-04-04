@@ -8,15 +8,23 @@ use Mail;
 
 class ContactController extends Controller
 {
+
+
     public function saveContact(Request $request)
     {
 
-        $this->validate($request, [
-            'name' => 'required',
-            'email' => 'required|email',
-            'subject' => 'required',
-            'message' => 'required'
-        ]);
+        $this->validate(
+            $request,
+            [
+                'name' => 'required',
+                'email' => 'required|email',
+                'subject' => 'required',
+                'message' => 'required',
+                'captcha' => 'required|captcha',
+            ],
+            ['captcha.captcha' => 'Invalid captcha code.']
+        );
+        dd('You are here :) .');
 
         $contact = new Contact;
 
@@ -43,5 +51,10 @@ class ContactController extends Controller
         );
 
         return redirect('/#contact')->with('success', 'Thank you! message well received');
+    }
+
+    public function refreshCaptcha()
+    {
+        return response()->json(['captcha' => captcha_img()]);
     }
 }

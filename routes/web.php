@@ -26,4 +26,14 @@ Route::get('/faqs', 'PagesController@faqs')->name('faqs');
 
 Route::get('courses/sanef', 'PagesController@sanefGroup')->name('courses.sanef');
 Route::get('courses/cflt', 'PagesController@cfltGroup')->name('courses.cflt');
+<<<<<<< HEAD
 Route::get('courses/basicFinLit', 'PagesController@basicFinGroup')->name('courses.basicFin');
+=======
+Route::get('courses/basic_financial', 'PagesController@basicFinGroup')->name('courses.basicFin');
+
+
+// Route::get('my-captcha', 'HomeController@myCaptcha')->name('myCaptcha');
+Route::post('my-captcha', 'ContactController@myCaptchaPost')->name('myCaptcha.post');
+Route::get('/refresh_captcha', 'ContactController@refreshCaptcha')->name('refresh_captcha');
+Route::get('/blog', 'PagesController@blog')->name('blog');
+>>>>>>> c436fbcd6ec9a7a887eb5bafe1bf35d4d8de8225

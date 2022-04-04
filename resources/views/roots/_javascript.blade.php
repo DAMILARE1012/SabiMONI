@@ -7,3 +7,17 @@
 <script src="{{ asset('assets/js/custom.js') }}"></script>
 <script src="{{ asset('assets/js/videoPlay.js') }}"></script>
 <script src="{{ asset('assets/js/carousel.js') }}"></script>
+
+<script type="text/javascript">
+
+    $(".btn-refresh").click(function(){
+      $.ajax({
+         type:'GET',
+         url:'/refresh_captcha',
+         success:function(data){
+            $(".captcha span").html(data.captcha);
+         }
+      });
+    });
+    
+</script>

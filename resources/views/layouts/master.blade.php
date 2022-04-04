@@ -28,35 +28,103 @@
                transition: .5 ease-in;
                display: none;
           }
-          #backToTOP a{
-               color: white;
-          }
           #backToTOP:hover{
                background-color: green;
           }
           html{
                scroll-behavior: smooth;
           }
-          #header-writeup{
-        background: url('../assets/images/adeolu-eletu-unRkg2jH1j0-unsplash.jpg') center center/cover;
-        background-position: center;
-        width: 100%;
-        height:250px;
-        font-size: 40px;
-        color: #ffffff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column
-        
-    }
-    .basic{
-      
-        padding: 50px;
-        font-size: 20px;
-        text-align: justify;
-    }
+         .header-text{
+              width: 100%;
+              height: 242px;
+              background-image: url('assets/images/slider-image1.jpg');
+              background-repeat: no-repeat;
+              background-position: center;
+              font-size: 30px;
+              display: flex;
+              flex-direction: column;
+              align-content: center;
+              justify-content: center;
+              color: #ffffff;
+              margin-bottom: 50px;
+         }
+         .accordion{
+              
+              /* margin: 2rem auto; */
+         }
+         .accordion-head{
+              padding: 1rem;
+              line-height: 1.25rem;
+              display: flex;
+              align-items: center;
+              position: relative;
+              justify-content: space-between;
+
+         }
+         .accordion-head::after{
+              content: "\002B";
+              font-size: 2rem;
+              position: absolute;
+              right: 1rem;
+              transition: .5s ease-in-out;
+         }
+         .accordion-head.active::after{
+              content: "\2212";
+         }
+         .accordion-item{
+              background-color: white;
+              color: #333;
+              margin: 1rem 0;
+              border-radius: 10px;
+              box-shadow:1px 2px 20px rgba(0, 0, 0, 0.1);
+              
+         }
+         .accordion-body{
+              padding: 10px;
+              background-color: #f3f6fa;
+              display: none;
+              
+         }
+         .accordion-head.active + .accordion-body{
+              animation: .5s ease;
+              display: block;
+         }
+
+         .main{
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+              border-radius: 5px;
+              box-shadow: 0.778571px 1.55714px 15.5714px rgba(0, 0, 0, 0.1);
+              padding: 0;
+              
+              margin-bottom: 20px;
+         }
+         .part1{
+          width: 100%;
+           /* background-image: url('../assets/images/slider-image1.jpg'); */
+         background-repeat: no-repeat;
+         height: 5%!important;
+
+         }
+         .part2{
+              width: 100%;
+              padding: 20px;
+              height: 70%;
+         }
+        .margin-2{
+             margin-bottom: 500px;
+        }
+        .back a{
+             font-size: 20px;
+             text-transform: capitalize;
          
+
+        }
+        .back{
+          margin-top: 30px;
+             margin-bottom: 30px;
+        }
      </style>
 
 </head>
@@ -80,5 +148,15 @@
  
      @include('roots._javascript')
 
+
+     <script>
+         const accordion_head = document.querySelectorAll('.accordion-head');
+         accordion_head.forEach((accordion)=>{
+              accordion.addEventListener('click', function(){
+                   accordion.classList.toggle('active')
+              })
+
+         })
+          </script>
 </body>
 </html>
