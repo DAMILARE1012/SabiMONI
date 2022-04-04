@@ -2,6 +2,6 @@
 
 @section('title', 'Frequently Asked Questions')
     
-@section('cotent')
-    
+@section('content')
+
 @endsection
