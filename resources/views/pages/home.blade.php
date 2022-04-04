@@ -13,7 +13,8 @@
                         <div class="container">
                             <div class="col-md-6 col-sm-12">
                                 <h1>SabiMONI: Your Path to Financial Literacy</h1>
-                                <h3>The key to improving your financial stability depends on your financial literacy.</h3>
+                                <h3>Our online courses are designed to fit in your industry supporting all-round with latest
+                                    technologies.</h3>
                                 <a href="#feature" class="section-btn btn btn-default smoothScroll">Discover more</a>
                             </div>
                         </div>
@@ -25,22 +26,21 @@
                         <div class="container">
                             <div class="col-md-6 col-sm-12">
                                 <h1>SabiMONI: The Financial Literacy e-Learning Platform</h1>
-                                <h3>Our e-learning platform offers financial literacy knowledge that provide learners with
-                                    thorough understanding of the principle of finance.</h3>
+                                <h3>Our online courses are built in partnership with technology leaders and are designed to
+                                    meet industry demands.</h3>
                                 <a href="#courses" class="section-btn btn btn-default smoothScroll">Take a course</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-
                 <div class="item item-third">
                     <div class="caption">
                         <div class="container">
                             <div class="col-md-6 col-sm-12">
                                 <h1>SabiMONI: Free for All</h1>
-                                <h3>A platform where you get unrestricted access to courses that will provide you with
-                                    knowledge on how to manage your finances effectively. </h3>
+                                <h3>Nam eget sapien vel nibh euismod vulputate in vel nibh. Quisque eu ex eu urna venenatis
+                                    sollicitudin ut at libero. Visit <a rel="nofollow" href="#">templatemo</a>Read More</h3>
                                 <a href="#contact" class="section-btn btn btn-default smoothScroll">Let's chat</a>
                             </div>
                         </div>
@@ -56,7 +56,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-4 col-sm-4 text-center">
+                <div class="col-md-4 col-sm-4 text-justify">
                     <div class="feature-thumb">
                         <span><i class="fa fa-users"></i></span>
                         <h3>Interactive Courses</h3>
@@ -97,17 +97,15 @@
                             discuss our family budget, manage our business or prepare for retirement, our understanding of
                             how money works has a strong effect on our quality of life.</p>
 
-                        <p> This e-learning platform offers financial literacy knowledge tailored towards those interested
-                            in
+                        <p>This e-learning platform offers financial literacy knowledge tailored towards those interested in
                             becoming Certified Financial Literacy Trainer (CFLT) as well as consumers who want to improve
-                            <span>their financial wellbeing</span>.
-                        </p>
+                            their financial wellbeing.</p>
 
                         <figure>
                             <span><i class="fa fa-users"></i></span>
                             <figcaption>
-                                <h3>Free for Everyone</h3>
-                                <p>Our financial literacy classes are available to everyone, regardless of race.</p>
+                                <h3>Professional Trainers</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ipsa voluptatibus.</p>
                             </figcaption>
                         </figure>
 
@@ -122,9 +120,8 @@
                         <figure>
                             <span><i class="fa fa-bar-chart-o"></i></span>
                             <figcaption>
-                                <h3>Professional Courses</h3>
-                                <p>We have about 14 core modules targeted at impacting participants' financial literacy
-                                    knowledge and wellbeing</p>
+                                <h3>Free for Everyone</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ipsa voluptatibus.</p>
                             </figcaption>
                         </figure>
                     </div>
@@ -178,7 +175,7 @@
 
                 <div class="col-md-12 col-sm-12">
                     <div class="section-title">
-                        <h2>Featured Core Courses <small>The following courses are available on SabiMONI</small></h2>
+                        <h2>Core Courses <small>The following courses are available on SabiMONI</small></h2>
                     </div>
 
                     <div class="owl-carousel owl-theme owl-courses">
@@ -197,10 +194,8 @@
                                     </div>
 
                                     <div class="courses-detail">
-                                        <h3><a href="#">Basic Financial Literacy</a></h3>
-                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                            consectetur adip... <a href="#">Read More <i class="fa fa-arrow-right"
-                                                    aria-hidden="true" style="color: #29ca8e"></i></a></p>
+                                        <h3><a href="courses/basicFinLit">Basic Financial Literacy</a></h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                     </div>
 
                                     <div class="courses-info">
@@ -356,10 +351,8 @@
                                     </div>
 
                                     <div class="courses-detail">
-                                        <h3><a href="#">SANEF</a></h3>
-                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                            consectetur adip... <a href="#">Read More <i class="fa fa-arrow-right"
-                                                    aria-hidden="true" style="color: #29ca8e"></i></a></p>
+                                        <h3><a href="courses/sanef">SANEF</a></h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                     </div>
 
                                     <div class="courses-info">
@@ -392,10 +385,8 @@
                                     </div>
 
                                     <div class="courses-detail">
-                                        <h3><a href="#">CFLT</a></h3>
-                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                            consectetur adip... <a href="#">Read More <i class="fa fa-arrow-right"
-                                                    aria-hidden="true" style="color: #29ca8e"></i></a></p>
+                                        <h3><a href="courses/cflt">CFLT</a></h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                     </div>
 
                                     <div class="courses-info">
@@ -452,8 +443,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                         <div class="team-image">
-                            <img src="{{ asset('assets/images/news/finance-books-.png') }}" class="img-responsive"
-                                alt="">
+                            <img src="{{ asset('assets/images/news/finance-books-.png') }}" class="img-responsive" alt="">
                         </div>
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Financial Literacy: Meanings and Descriptions</h5>
@@ -474,8 +464,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                         <div class="team-image">
-                            <img src="{{ asset('assets/images/news/time-is-money.png') }}" class="img-responsive"
-                                alt="">
+                            <img src="{{ asset('assets/images/news/time-is-money.png') }}" class="img-responsive" alt="">
                         </div>
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Achieve Financial Literacy on your Own</h5>
@@ -651,9 +640,9 @@
                         <a href="https://play.google.com/store/apps/details?id=com.sabimoni.ng" target="_blank"
                             rel="noopener noreferrer">
                             <img src="{{ asset('assets/images/sabiMONI_Phone.jpg') }}" class="img-responsive"
-                                alt="Sabi MONI Mobile Application">
+                            alt="Sabi MONI Mobile Application">
                         </a>
-
+                        
                     </div>
                 </div>
 
@@ -760,7 +749,7 @@
                     {{-- <h3 class="no-margin bottom-margin-md-10 text-color2 mainFont">Our Partners</h3> --}}
                     <br>
                 </div>
-                {{-- <div class="col-md-12 text-center">
+                {{--<div class="col-md-12 text-center">
                     <img src="{{ asset('assets/images/clients/cbn.png') }}" width="120" height="90" alt="">
                     <img src="{{ asset('assets/images/clients/giz.png') }}" width="120" height="90" alt="">
                     <img src="{{ asset('assets/images/clients/ndic.png') }}" width="120" height="90" alt="">
