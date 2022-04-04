@@ -24,7 +24,7 @@
                 <li><a href="#testimonial" class="smoothScroll nav-res-1a">Reviews</a></li>
                 <li><a href="#contact" class="smoothScroll nav-res-1a">Contact</a></li>
                 <li class="{{ Request()->is('/faqs') ? 'active' : '' }}"><a href="{{ route('faqs') }}"
-                        class="smoothScroll nav-res-1a">FAQS</a></li>
+                        class="smoothScroll nav-res-1a">FAQs</a></li>
 
             </ul>
 
