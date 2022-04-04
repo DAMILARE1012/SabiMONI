@@ -23,7 +23,7 @@
                 <li><a href="#team" class="smoothScroll">News</a></li>
                 <li><a href="#testimonial" class="smoothScroll">Reviews</a></li>
                 <li><a href="#contact" class="smoothScroll">Contact</a></li>
-                <li><a href="{{ route('faqs') }}" class="smoothScroll">FAQS</a></li>
+                <li class="{{ Request()->is('/faqs') ? 'active' : '' }}"><a href="{{ route('faqs') }}" class="smoothScroll">FAQS</a></li>
 
             </ul>
 
