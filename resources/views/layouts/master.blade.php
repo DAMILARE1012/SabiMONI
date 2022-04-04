@@ -27,9 +27,15 @@
                font-size: 20px;
                transition: .5 ease-in;
                display: none;
+               animation-name: backtop;
+               animation-duration: 1s; 
           }
           #backToTOP:hover{
                background-color: green;
+          }
+          @keyframes backtop{
+               from{opacity: 0;}
+               to{opacity: 1;}
           }
           html{
                scroll-behavior: smooth;
@@ -54,11 +60,13 @@
          }
          .accordion-head{
               padding: 1rem;
-              line-height: 1.25rem;
+              line-height: 2.25rem;
               display: flex;
               align-items: center;
               position: relative;
               justify-content: space-between;
+              cursor: pointer;
+              
 
          }
          .accordion-head::after{
@@ -74,7 +82,7 @@
          .accordion-item{
               background-color: white;
               color: #333;
-              margin: 1rem 0;
+              margin: 1rem 0 3rem;
               border-radius: 10px;
               box-shadow:1px 2px 20px rgba(0, 0, 0, 0.1);
               
@@ -93,7 +101,7 @@
          .main{
               display: flex;
               flex-direction: column;
-              width: 100%;
+              width: 90%;
               border-radius: 5px;
               box-shadow: 0.778571px 1.55714px 15.5714px rgba(0, 0, 0, 0.1);
               padding: 0;
@@ -107,6 +115,7 @@
          height: 5%!important;
 
          }
+   
          .part2{
               width: 100%;
               padding: 20px;
@@ -125,10 +134,30 @@
           margin-top: 30px;
              margin-bottom: 30px;
         }
+        @media(max-width: 786px){
+          .part1{
+              width: 100%;
+              padding: 20px;
+              height: 70%;
+         }  
+         .part2{
+              width: 100%;
+              padding: 20px;
+              height: 70%;
+         }
+         .main{
+          margin: 20px auto;
+              width: 50%;
+              
+         }
+
+        }
      </style>
 
 </head>
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+     <!-- back to top button -->
+     <button id="backToTOP"><i class="fa fa-angle-double-up"></i></button>
 
      <!-- PRE LOADER -->
      <section class="preloader">
@@ -157,6 +186,13 @@
               })
 
          })
+         const forHome = document.getElementById('forHome');
+         const forFaq = document.getElementById('forFaq');
+
+         if(window.location.pathname === '/faqs'){
+          forHome.setAttribute('href', "{{route('home')}}")
+          forFaq.setAttribute('href', '#top')
+         }
           </script>
 </body>
 </html>
