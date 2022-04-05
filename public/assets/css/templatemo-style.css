@@ -692,7 +692,8 @@ section {
     }
 
     .courses-res-1 {
-        margin-left: 10px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 @media only screen and (max-width: 560px) {

@@ -22,7 +22,7 @@
                         blanditiis ducimus, tempora incidunt aspernatur optio numquam deserunt quis voluptatibus dolore?.
                     </p>
                 </div>
-                <img src="{{ asset('assets/images/courses-image2.jpg') }}" class="img-responsive" alt="" width="80%"
+                <img src="{{ asset('assets/images/courses-image2.jpg') }}" class="img-responsive" alt="" width="100%"
                     style="margin-bottom: 25px; margin-top: 25px">
                 <div class="courses-text">
                     {{-- <h3><a href="sanef">SANEF</a></h3> --}}

@@ -217,6 +217,12 @@
             forHome.setAttribute('href', "{{ route('home') }}")
             forFaq.setAttribute('href', '#top')
         }
+
+        if (window.location.pathname === '/courses/sanef' || window.location.pathname === '/courses/cflt' || window.location
+            .pathname ===
+            '/courses/basicFinLit') {
+            forHome.setAttribute('href', "{{ route('home') }}")
+        }
     </script>
 </body>
 

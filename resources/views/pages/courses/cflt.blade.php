@@ -33,7 +33,7 @@
                         Reiciendis quia et, totam sed maiores fuga! Inventore voluptates hic suscipit autem numquam
                         voluptatem, accusantium modi. Porro quisquam in odio qui veritatis..</p>
                 </div>
-                <img src="{{ asset('assets/images/courses-image5.jpg') }}" class="img-responsive" alt="" width="80%"
+                <img src="{{ asset('assets/images/courses-image5.jpg') }}" class="img-responsive" alt="" width="100%"
                     style="margin-bottom: 25px; margin-top: 25px">
                 <div class="courses-text">
                     {{-- <h3><a href="cflt">CFLT</a></h3> --}}

@@ -131,10 +131,17 @@
                     <div class="about-info">
                         <div class="button-edit">
                             {{-- <h2>Start your journey to a better life....</h2> --}} <br>
-                            <iframe width="500" height="350" src="{{ asset('assets/images/videos/dgvideowsound.mp4') }}"
-                                frameborder="0" id="video"
+                            {{-- <iframe width="500" height="350"
+                                src="{{ asset('assets/images/videos/dgvideowsound.mp4') }}" frameborder="0"
+                                id="video"
                                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
+                                allowfullscreen></iframe> --}}
+
+                            <video width="500" height="350" controls id="video">
+                                <source src="{{ asset('assets/images/videos/dgvideowsound.mp4') }}" type="video/mp4">
+
+                                Your browser does not support the video tag.
+                            </video>
                             <div class="button-edit-1"><img id="play"
                                     src="{{ url('/assets/images/videos/playbutton.png') }}" alt=""></div>
                         </div>
