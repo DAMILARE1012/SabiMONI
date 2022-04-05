@@ -131,9 +131,8 @@
                     <div class="about-info">
                         <div class="button-edit">
                             {{-- <h2>Start your journey to a better life....</h2> --}} <br>
-                            <iframe width="500" height="350"
-                                src="{{ asset('assets/images/videos/dgvideowsound.mp4') }}" frameborder="0"
-                                id="video"
+                            <iframe width="500" height="350" src="{{ asset('assets/images/videos/dgvideowsound.mp4') }}"
+                                frameborder="0" id="video"
                                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                             <div class="button-edit-1"><img id="play"
@@ -443,7 +442,8 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                         <div class="team-image">
-                            <img src="{{ asset('assets/images/news/finance-books-.png') }}" class="img-responsive" alt="">
+                            <img src="{{ asset('assets/images/news/finance-books-.png') }}" class="img-responsive"
+                                alt="">
                         </div>
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Financial Literacy: Meanings and Descriptions</h5>
@@ -458,11 +458,12 @@
                         </ul>
                     </div>
                 </div>
-                
+
                 <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                         <div class="team-image">
-                            <img src="{{ asset('assets/images/news/time-is-money.png') }}" class="img-responsive" alt="">
+                            <img src="{{ asset('assets/images/news/time-is-money.png') }}" class="img-responsive"
+                                alt="">
                         </div>
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Achieve Financial Literacy on your Own</h5>
@@ -638,14 +639,14 @@
                         <a href="https://play.google.com/store/apps/details?id=com.sabimoni.ng" target="_blank"
                             rel="noopener noreferrer">
                             <img src="{{ asset('assets/images/sabiMONI_Phone.jpg') }}" class="img-responsive"
-                            alt="Sabi MONI Mobile Application">
+                                alt="Sabi MONI Mobile Application">
                         </a>
-                        
+
                     </div>
                 </div>
 
                 <div class="col-md-6 col-sm-12">
-                    <form id="contact-form" role="form" action="{{ route('contact-us') }}" method="post">
+                    <form id="contact-form" role="form" action="{{ route('contact_us') }}" method="post">
                         {{ csrf_field() }}
                         <div class="section-title text-center">
                             <h2>Contact Us <small>we love conversations. let us talk!</small></h2>
@@ -663,7 +664,7 @@
                             <div class="row">
                                 <div class="form-group col-md-6 col-sm-12 ">
                                     <input type="text" class="form-control textarea @error('name') is-invalid @enderror"
-                                        placeholder="Enter full name" name="name" required>
+                                        placeholder="Enter full name" name="name" value="{{ old('name') }}" required>
                                     @error('name')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>
@@ -673,7 +674,8 @@
 
                                 <div class="form-group col-md-6 col-sm-12">
                                     <input type="email" class="form-control textarea @error('email') is-invalid @enderror"
-                                        placeholder="Enter email address" name="email" required>
+                                        placeholder="Enter email address" name="email" value="{{ old('email') }}"
+                                        required>
                                     @error('email')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>
@@ -684,7 +686,7 @@
 
                             <div class="form-group">
                                 <input type="text" class="form-control textarea @error('subject') is-invalid @enderror"
-                                    placeholder="Enter subject...." name="subject" required>
+                                    placeholder="Enter subject...." name="subject" value="{{ old('subject') }}" required>
                                 @error('subject')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -693,7 +695,8 @@
                             </div>
                             <div class="form-group">
                                 <textarea class="form-control textarea @error('message') is-invalid @enderror" rows="6"
-                                    placeholder="Tell us about your message" name="message" required></textarea>
+                                    placeholder="Tell us about your message" name="message"
+                                    required>{{ old('message') }}</textarea>
                                 @error('message')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -701,29 +704,23 @@
                                 @enderror
                             </div>
 
-                            <div class="form-row">
-                                <div class="captcha" style="display: flex; align-items:flex-end">
-                                    <div class="row col-md-6 form-group" style="display: flex;">
-                                        <span style="width: 50%; height:50px;">{!! captcha_img() !!}</span>
-                                        <button type="button" class="btn btn-success btn-sm btn-refresh"
-                                            style="padding: 0px; width: 40%; margin-left: 24px; height: 50px">
-                                            <i class="fa fa-refresh"></i>
-                                        </button>
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        <input id="captcha" type="text" class="form-control" style="margin-bottom: 0px"
-                                            placeholder="Enter Captcha" name="captcha">
-                                        @if ($errors->has('captcha'))
-                                            <span class="help-block">
-                                                <strong>{{ $errors->first('captcha') }}</strong>
-                                            </span>
-                                        @endif
-                                    </div>
+                            <div class="form-group{{ $errors->has('g-recaptcha-response') ? ' has-error' : '' }}">
+                                {{-- <label class="col-md-4 control-label">Captcha</label> --}}
+                                <div class="col-md-6">
+                                    {!! NoCaptcha::renderJs() !!}
+                                    {!! app('captcha')->display() !!}
+                                    @if ($errors->has('g-recaptcha-response'))
+                                        <span class="help-block">
+                                            <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
+                                        </span>
+                                    @endif
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <input type="submit" class="form-control" name="send message" value="Send Message">
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-12">
-                                <input type="submit" class="form-control" name="send message" value="Send Message">
-                            </div>
+
+                            
                         </div>
                     </form>
                 </div>
@@ -747,7 +744,7 @@
                     {{-- <h3 class="no-margin bottom-margin-md-10 text-color2 mainFont">Our Partners</h3> --}}
                     <br>
                 </div>
-                {{--<div class="col-md-12 text-center">
+                {{-- <div class="col-md-12 text-center">
                     <img src="{{ asset('assets/images/clients/cbn.png') }}" width="120" height="90" alt="">
                     <img src="{{ asset('assets/images/clients/giz.png') }}" width="120" height="90" alt="">
                     <img src="{{ asset('assets/images/clients/ndic.png') }}" width="120" height="90" alt="">
