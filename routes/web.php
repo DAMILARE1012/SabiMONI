@@ -19,7 +19,7 @@
 //     return view('index');
 // });
 
-Route::post('contact-us', 'ContactController@saveContact')->name('contact-us');
+Route::post('contact-us', 'ContactController@saveContact')->name('contact_us');
 Route::get('/', 'PagesController@home')->name('home');
 Route::get('/faqs', 'PagesController@faqs')->name('faqs');
 
