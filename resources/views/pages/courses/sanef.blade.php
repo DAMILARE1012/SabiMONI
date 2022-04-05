@@ -257,7 +257,7 @@
 
         </div>
         <div class="row">
-            <div class="cs3-item2">
+            <div class="cs3-item2" style="margin-bottom: 50px">
                 <img src="{{ asset('assets/images/1.png') }}" alt="" width="150px" height="130px">
                 <div class="">
                     <h2 style="margin-top: 0px; margin-bottom: 0px; padding-left: 12px;">Final Teaching Assessment (For
