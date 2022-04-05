@@ -56,7 +56,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-4 col-sm-4 text-justify">
+                <div class="col-md-4 col-sm-4 text-center">
                     <div class="feature-thumb">
                         <span><i class="fa fa-users"></i></span>
                         <h3>Interactive Courses</h3>
