@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Contact;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 use Mail;
 
 class ContactController extends Controller
@@ -13,17 +14,18 @@ class ContactController extends Controller
     public function saveContact(Request $request)
     {
 
-        $this->validate(
-            $request,
-            [
-                'name' => 'required',
-                'email' => 'required|email',
-                'subject' => 'required',
-                'message' => 'required',
-                'g-recaptcha-response' => 'required|captcha',
-            ],
-        );
+        $validator = Validator::make($request->all(), [
+            'name' => 'required',
+            'email' => 'required|email',
+            'subject' => 'required',
+            'message' => 'required',
+            'g-recaptcha-response' => 'required|captcha',
+        ]);
         print('Done');
+
+        if ($validator->fails()) {
+            return redirect('/#contact')->withErrors($validator)->withInput();
+        }
 
         $contact = new Contact;
 
