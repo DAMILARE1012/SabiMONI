@@ -20,18 +20,20 @@
         <div class="col-md-5 col-md-offset-1">
             <div class="courses-text">
                 <h3><a href="basicFinLit">Basic Financial Literacy</a></h3>
-                <p align="justify" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, necessitatibus reprehenderit a
+                <p align="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, necessitatibus
+                    reprehenderit a
                     vitae molestias nesciunt expedita magnam culpa suscipit voluptas possimus laboriosam ducimus
                     architecto aut quia. Nihil consequuntur tenetur perspiciatis? Lorem ipsum dolor sit amet,
                     consectetur adipisicing elit. Aliquam corrupti obcaecati aliquid, temporibus perspiciatis nisi nam
                     velit ut mollitia quam, consectetur quis exercitationem neque dolorem rerum voluptate ab deleniti
                     blanditiis!</p>
             </div>
-            <img src="{{ asset('assets/images/courses-image1.jpg') }}" alt="" width="80%"
+            <img src="{{ asset('assets/images/courses-image1.jpg') }}" alt="" width="100%"
                 style="margin-bottom: 25px; margin-top: 25px">
             <div class="courses-text">
                 {{-- <h3><a href="basicFinLit">Basic Financial Literacy</a></h3> --}}
-                <p align="justify" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, necessitatibus reprehenderit a
+                <p align="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, necessitatibus
+                    reprehenderit a
                     vitae molestias nesciunt expedita magnam culpa suscipit voluptas possimus laboriosam ducimus
                     architecto aut quia. Nihil consequuntur tenetur perspiciatis? Lorem ipsum dolor sit amet,
                     consectetur adipisicing elit. Aliquam corrupti obcaecati aliquid, temporibus perspiciatis nisi nam
@@ -45,6 +47,7 @@
 
 
             <div class="" style=" margin-top: 50px; margin-bottom: 50px">
+                <p class="text-center h3" style="margin-bottom: 20px"><b>Course Overview</b></p>
 
 
 
@@ -127,7 +130,7 @@
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel14.png') }}" width="120"
                                 height="90" alt="">
 
-                       </div>
+                        </div>
                         <div class="buttons-container">
                             <div id="left" class="carousel-btn"><i class="fa fa-solid fa-chevron-left"></i></div>
                             <div id="right" class="carousel-btn"><i class="fa fa-solid fa-chevron-right"></i></div>

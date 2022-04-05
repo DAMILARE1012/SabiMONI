@@ -131,11 +131,17 @@
                     <div class="about-info">
                         <div class="button-edit">
                             {{-- <h2>Start your journey to a better life....</h2> --}} <br>
-                            <iframe width="500" height="350"
+                            {{-- <iframe width="500" height="350"
                                 src="{{ asset('assets/images/videos/dgvideowsound.mp4') }}" frameborder="0"
                                 id="video"
                                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
+                                allowfullscreen></iframe> --}}
+
+                            <video width="500" height="350" controls id="video">
+                                <source src="{{ asset('assets/images/videos/dgvideowsound.mp4') }}" type="video/mp4">
+
+                                Your browser does not support the video tag.
+                            </video>
                             <div class="button-edit-1"><img id="play"
                                     src="{{ url('/assets/images/videos/playbutton.png') }}" alt=""></div>
                         </div>
@@ -443,7 +449,8 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                         <div class="team-image">
-                            <img src="{{ asset('assets/images/news/finance-books-.png') }}" class="img-responsive" alt="">
+                            <img src="{{ asset('assets/images/news/finance-books-.png') }}" class="img-responsive"
+                                alt="">
                         </div>
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Financial Literacy: Meanings and Descriptions</h5>
@@ -458,11 +465,12 @@
                         </ul>
                     </div>
                 </div>
-                
+
                 <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                         <div class="team-image">
-                            <img src="{{ asset('assets/images/news/time-is-money.png') }}" class="img-responsive" alt="">
+                            <img src="{{ asset('assets/images/news/time-is-money.png') }}" class="img-responsive"
+                                alt="">
                         </div>
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Achieve Financial Literacy on your Own</h5>
@@ -638,9 +646,9 @@
                         <a href="https://play.google.com/store/apps/details?id=com.sabimoni.ng" target="_blank"
                             rel="noopener noreferrer">
                             <img src="{{ asset('assets/images/sabiMONI_Phone.jpg') }}" class="img-responsive"
-                            alt="Sabi MONI Mobile Application">
+                                alt="Sabi MONI Mobile Application">
                         </a>
-                        
+
                     </div>
                 </div>
 
@@ -747,7 +755,7 @@
                     {{-- <h3 class="no-margin bottom-margin-md-10 text-color2 mainFont">Our Partners</h3> --}}
                     <br>
                 </div>
-                {{--<div class="col-md-12 text-center">
+                {{-- <div class="col-md-12 text-center">
                     <img src="{{ asset('assets/images/clients/cbn.png') }}" width="120" height="90" alt="">
                     <img src="{{ asset('assets/images/clients/giz.png') }}" width="120" height="90" alt="">
                     <img src="{{ asset('assets/images/clients/ndic.png') }}" width="120" height="90" alt="">
