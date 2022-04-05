@@ -212,16 +212,31 @@
         })
         const forHome = document.getElementById('forHome');
         const forFaq = document.getElementById('forFaq');
+        const forAbout = document.getElementById('forAbout')
+        const forCourse = document.getElementById('forCourse')
+        const forTeam = document.getElementById('forTeam')
+        const forTest = document.getElementById('forTest')
+        const forContact = document.getElementById('forContact')
 
         if (window.location.pathname === '/faqs') {
             forHome.setAttribute('href', "{{ route('home') }}")
             forFaq.setAttribute('href', '#top')
+            forAbout.setAttribute('href', "{{ route('home') }}#about")
+            forCourse.setAttribute('href', "{{ route('home') }}#courses")
+            forTeam.setAttribute('href', "{{ route('home') }}#team")
+            forTest.setAttribute('href', "{{ route('home') }}#testimonial")
+            forContact.setAttribute('href', "{{ route('home') }}#contact")
         }
 
         if (window.location.pathname === '/courses/sanef' || window.location.pathname === '/courses/cflt' || window.location
             .pathname ===
             '/courses/basicFinLit') {
             forHome.setAttribute('href', "{{ route('home') }}")
+            forAbout.setAttribute('href', "{{ route('home') }}#about")
+            forCourse.setAttribute('href', "{{ route('home') }}#courses")
+            forTeam.setAttribute('href', "{{ route('home') }}#team")
+            forTest.setAttribute('href', "{{ route('home') }}#testimonial")
+            forContact.setAttribute('href', "{{ route('home') }}#contact")
         }
     </script>
 </body>
