@@ -683,20 +683,20 @@ section {
 @media only screen and (max-width: 990px) {
     .courses-card {
        width: 50%;
-       margin: 0px;
+       margin: auto;
     }
     .courses-card-1{
         margin-top: 60px;
     }
 
     .courses-res-1{
-        margin-left: 50px;
+        margin-left: 10px;
     }
 }
 @media only screen and (max-width: 560px) {
     .courses-card {
        width: 70%;
-       margin: 0px;
+       margin: auto;
     }
   
     .courses-card-1{

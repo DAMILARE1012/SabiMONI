@@ -11,7 +11,7 @@
     </div>
     <div class="container my-5">
         <div class="row">
-            <div class="accordion col-lg-6 col-lg-offset-1  col-sm-12">
+            <div class="accordion col-lg-7  col-sm-12">
                 <div class="accordion-item">
                     <div class="accordion-head">
                         <h5>What browser(s) can I use to access the web platform?</h5>
@@ -78,10 +78,7 @@
 
                     </div>
                 </div>
-                <div class="back">
-                    <a href="{{ route('home') }}"> <i class="fa fa-long-arrow-left" aria-hidden="true"></i> back to
-                        home</a>
-                </div>
+
             </div>
 
             <div class="main-1 col-lg-4 col-lg-offset-1 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
@@ -129,6 +126,10 @@
                         </p>
                     </div>
                 </div>
+            </div>
+            <div class="back">
+                <a href="{{ route('home') }}"> <i class="fa fa-long-arrow-left" aria-hidden="true"></i> back to
+                    home</a>
             </div>
 
         </div>

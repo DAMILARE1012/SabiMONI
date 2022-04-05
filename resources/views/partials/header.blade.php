@@ -17,14 +17,13 @@
         <!-- MENU LINKS -->
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-nav-first">
-                <li><a href="#top" class="smoothScroll nav-res-1a">Home</a></li>
+                <li><a href="#top" class="smoothScroll nav-res-1a" id="forHome">Home</a></li>
                 <li><a href="#about" class="smoothScroll nav-res-1a">About Us</a></li>
                 <li><a href="#courses" class="smoothScroll nav-res-1a">Courses</a></li>
                 <li><a href="#team" class="smoothScroll nav-res-1a">News</a></li>
                 <li><a href="#testimonial" class="smoothScroll nav-res-1a">Reviews</a></li>
                 <li><a href="#contact" class="smoothScroll nav-res-1a">Contact</a></li>
-                <li class="{{ Request()->is('/faqs') ? 'active' : '' }}"><a href="{{ route('faqs') }}"
-                        class="smoothScroll nav-res-1a">FAQs</a></li>
+                <li ><a href="{{ route('faqs') }}" class="smoothScroll" id="forFaq">FAQs</a></li>
 
             </ul>
 

@@ -132,7 +132,7 @@
                         <div class="button-edit">
                             {{-- <h2>Start your journey to a better life....</h2> --}} <br>
                             <iframe width="500" height="350"
-                                src="{{ asset('assets/images/videos/dgvideowsound.mp4?autoplay=0') }}" frameborder="0"
+                                src="{{ asset('assets/images/videos/dgvideowsound.mp4') }}" frameborder="0"
                                 id="video"
                                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
@@ -458,9 +458,7 @@
                         </ul>
                     </div>
                 </div>
-                <!-- back to top button -->
-                <button id="backToTOP"><i class="fa fa-angle-double-up"></i></button>
-
+                
                 <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                         <div class="team-image">
