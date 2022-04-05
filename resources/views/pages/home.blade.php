@@ -57,10 +57,10 @@
             <div class="row">
 
                 <div class="col-md-4 col-sm-4 text-justify">
-                    <div class="feature-thumb">
+                    <div class="feature-thumb" style="display: flex; flex-direction:column; align-items:center">
                         <span><i class="fa fa-users"></i></span>
                         <h3>Interactive Courses</h3>
-                        <p>We provide interactive financial literacy courses with a friendly tone.</p>
+                        <p style="text-align: center">We provide interactive financial literacy courses with a friendly tone.</p>
                     </div>
                 </div>
 
