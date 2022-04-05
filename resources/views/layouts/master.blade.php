@@ -43,7 +43,7 @@
          .header-text{
               width: 100%;
               height: 242px;
-              background-image: url('assets/images/slider-image1.jpg');
+              background-image: url('../assets/images/slider-image1.jpg');
               background-repeat: no-repeat;
               background-position: center;
               font-size: 30px;
