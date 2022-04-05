@@ -20,11 +20,10 @@ class ContactController extends Controller
                 'email' => 'required|email',
                 'subject' => 'required',
                 'message' => 'required',
-                'captcha' => 'required|captcha',
+                'g-recaptcha-response' => 'required|captcha',
             ],
-            ['captcha.captcha' => 'Invalid captcha code.']
         );
-        dd('You are here :) .');
+        print('Done');
 
         $contact = new Contact;
 
