@@ -528,6 +528,9 @@ section {
 /*---------------------------------------
       COURSES             
   -----------------------------------------*/
+.courses-text > h3 {
+    margin-bottom: 20px;
+}
 
 .courses-section-2 {
     padding: 125px 0px;
@@ -671,7 +674,6 @@ section {
     position: relative;
     clear: both;
     padding: 15px 25px;
-  
 }
 
 @media only screen and (max-width: 1090px) {
@@ -682,24 +684,24 @@ section {
 }
 @media only screen and (max-width: 990px) {
     .courses-card {
-       width: 50%;
-       margin: auto;
+        width: 50%;
+        margin: auto;
     }
-    .courses-card-1{
+    .courses-card-1 {
         margin-top: 60px;
     }
 
-    .courses-res-1{
+    .courses-res-1 {
         margin-left: 10px;
     }
 }
 @media only screen and (max-width: 560px) {
     .courses-card {
-       width: 70%;
-       margin: auto;
+        width: 70%;
+        margin: auto;
     }
-  
-    .courses-card-1{
+
+    .courses-card-1 {
         margin-top: 60px;
     }
 }

@@ -5,5 +5,8 @@ document.querySelector("#play").addEventListener("click", () => {
     console.log(typeof play);
     play.src = "assets/images/videos/dgvideowsound.mp4";
 
-document.querySelector("#play").style.display = "none";
+    document.querySelector("#play").style.display = "none";
+});
+document.querySelector("#play").addEventListener("DOMContentLoaded", () => {
+    play.src = "";
 });
