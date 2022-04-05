@@ -669,9 +669,10 @@
 
                         <div class="col-md-12 col-sm-12">
                             <div class="row">
-                                <div class="form-group col-md-6 col-sm-12 ">
+                                <div class="form-group col-md-6 col-sm-12" style="margin-bottom: 5px;">
                                     <input type="text" class="form-control textarea @error('name') is-invalid @enderror"
-                                        placeholder="Enter full name" name="name" value="{{ old('name') }}" required>
+                                        placeholder="Enter full name" name="name" value="{{ old('name') }}" required
+                                        style="margin-bottom: 0px;">
                                     @error('name')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>
@@ -679,10 +680,10 @@
                                     @enderror
                                 </div>
 
-                                <div class="form-group col-md-6 col-sm-12">
+                                <div class="form-group col-md-6 col-sm-12" style="margin-bottom: 5px;">
                                     <input type="email" class="form-control textarea @error('email') is-invalid @enderror"
                                         placeholder="Enter email address" name="email" value="{{ old('email') }}"
-                                        required>
+                                        required style="margin-bottom: 0px;">
                                     @error('email')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>
@@ -711,8 +712,10 @@
                                 @enderror
                             </div>
 
-                            <div class="form-group{{ $errors->has('g-recaptcha-response') ? ' has-error' : '' }}">
-                                <div class="col-md-6">
+                            <div
+                                class="form-group{{ $errors->has('g-recaptcha-response') ? ' has-error' : '' }} d-flex justify-content-space-between">
+                                {{-- <label class="col-md-4 control-label">Captcha</label> --}}
+                                <div class="col-lg-10 col-md-6 col-sm-12" style="padding-left:0px!important;">
                                     {!! NoCaptcha::renderJs() !!}
                                     {!! app('captcha')->display() !!}
                                     @if ($errors->has('g-recaptcha-response'))
@@ -721,12 +724,13 @@
                                         </span>
                                     @endif
                                 </div>
-                                <div class="col-md-4 col-sm-12">
-                                    <input type="submit" class="form-control" name="send message" value="Send Message">
+                                <div class="col-md-4 col-sm-12 d-flex justify-content-center text-center">
+                                    <input type="submit" class="form-control" name="send message" value="Send Message"
+                                        style="">
                                 </div>
                             </div>
 
-                            
+
                         </div>
                     </form>
                 </div>
