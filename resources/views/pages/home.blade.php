@@ -39,8 +39,7 @@
                         <div class="container">
                             <div class="col-md-6 col-sm-12">
                                 <h1>SabiMONI: Free for All</h1>
-                                <h3>Nam eget sapien vel nibh euismod vulputate in vel nibh. Quisque eu ex eu urna venenatis
-                                    sollicitudin ut at libero. Visit <a rel="nofollow" href="#">templatemo</a>Read More</h3>
+                                <h3>The SabiMoni e-learning platform is designed to train as many people as possible with up-to-date financial tools and resources at no-cost. It is free for all! </h3>
                                 <a href="#contact" class="section-btn btn btn-default smoothScroll">Let's chat</a>
                             </div>
                         </div>
@@ -105,7 +104,7 @@
                             <span><i class="fa fa-users"></i></span>
                             <figcaption>
                                 <h3>Professional Trainers</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ipsa voluptatibus.</p>
+                                <p>At SabiMoni, we have the best corporate trainers who are specialists in increasing your financial productivity, skill and knowledge.</p>
                             </figcaption>
                         </figure>
 
@@ -121,7 +120,7 @@
                             <span><i class="fa fa-bar-chart-o"></i></span>
                             <figcaption>
                                 <h3>Free for Everyone</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ipsa voluptatibus.</p>
+                                <p>The SabiMoni e-learning platform is designed to train as many people as possible with up-to-date financial tools and resources at no-cost.</p>
                             </figcaption>
                         </figure>
                     </div>
@@ -201,7 +200,8 @@
 
                                     <div class="courses-detail">
                                         <h3><a href="courses/basicFinLit">Basic Financial Literacy</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <p>This module focuses on why and how to set financial goals and how to plan for your future. </p>
+                                                                            
                                     </div>
 
                                     <div class="courses-info">
@@ -358,7 +358,7 @@
 
                                     <div class="courses-detail">
                                         <h3><a href="courses/sanef">SANEF</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <p>It is important to put part of your income aside for the future and not to spend all at once. </p>
                                     </div>
 
                                     <div class="courses-info">
@@ -392,7 +392,7 @@
 
                                     <div class="courses-detail">
                                         <h3><a href="courses/cflt">CFLT</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <p>This module informs you about needs and wants from an economic perspective.</p>
                                     </div>
 
                                     <div class="courses-info">
@@ -434,8 +434,7 @@
                         </div>
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Eliminating And Avoiding Debt</h5>
-                            <span>Debt is one of the biggest hurdles many younger generations are facing today. When you
-                                have the financial education... <a href="{{ route('blog') }}" style="color: red;">Read
+                            <span>Debt is one of the biggest hurdles many younger generations are facing today. When you have the financial education, you start to know how debt works  <a href="{{ route('blog') }}" style="color: red;">Read
                                     More</a></span>
                         </div>
                         <ul class="social-icon">
@@ -454,8 +453,7 @@
                         </div>
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Financial Literacy: Meanings and Descriptions</h5>
-                            <span>Debt is one of the biggest hurdles many younger generations are facing today. When you
-                                have the financial education... <a href="{{ route('blog') }}" style="color: red;">Read
+                            <span> Financial literacy is not something  you will magically know.  Majority of schools and institutions are not teaching personal finances to students.<a href="{{ route('blog') }}" style="color: red;">Read
                                     More</a></span>
                         </div>
                         <ul class="social-icon">
@@ -474,8 +472,7 @@
                         </div>
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Achieve Financial Literacy on your Own</h5>
-                            <span>Debt is one of the biggest hurdles many younger generations are facing today. When you
-                                have the financial education... <a href="{{ route('blog') }}" style="color: red;">Read
+                            <span> Since you might not have had any classes or had much insight, its up to you to become financially literate and develop good financial habits. <a href="{{ route('blog') }}" style="color: red;">Read
                                     More</a></span>
                         </div>
                         <ul class="social-icon">
@@ -493,8 +490,7 @@
                         </div>
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Break your Consumer Mentality </h5>
-                            <span>Debt is one of the biggest hurdles many younger generations are facing today. When you
-                                have the financial education... <a href="{{ route('blog') }}" style="color: red;">Read
+                            <span> Instead of letting money control you, now you hold the reins to your personal finances. This empowers you and makes you feel more confident and decisive with your money. <a href="{{ route('blog') }}" style="color: red;">Read
                                     More</a></span>
                         </div>
                         <ul class="social-icon">
