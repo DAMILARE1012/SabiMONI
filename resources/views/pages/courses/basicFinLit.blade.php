@@ -47,7 +47,7 @@
 
 
             <div class="" style=" margin-top: 50px; margin-bottom: 50px">
-                <p class="text-center h3" style="margin-bottom: 20px"><b>Course Overview</b></p>
+                <p class="text-center h3" style="margin-bottom: 20px"><b>Modules Overview</b></p>
 
 
 

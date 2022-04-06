@@ -78,7 +78,6 @@
 
                     </div>
                 </div>
-
             </div>
 
             <div class="main-1 col-lg-4 col-lg-offset-1 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
@@ -132,6 +131,10 @@
                     home</a>
             </div>
 
+        </div>
+        <div class="back">
+            <a href="{{ route('home') }}" class="backTOHome"> <i class="fa fa-long-arrow-left" aria-hidden="true"></i> back to
+                home</a>
         </div>
     </div>
     </div>

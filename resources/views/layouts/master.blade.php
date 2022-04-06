@@ -180,8 +180,13 @@
 </head>
 
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+<<<<<<< HEAD
     <!-- back to top button -->
     <button id="backToTOP"><i class="fa fa-angle-double-up"></i></button>
+=======
+     <!-- back to top button -->
+     <button id="backToTOP"><i class="fa fa-angle-double-up"></i></button>
+>>>>>>> 21a57ca0da7a52430d678441a0bc3c39df2dea23
 
     <!-- PRE LOADER -->
     <section class="preloader">
