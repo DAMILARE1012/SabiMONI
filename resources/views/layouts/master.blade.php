@@ -129,7 +129,7 @@
             /* background-image: url('../assets/images/slider-image1.jpg'); */
             background-repeat: no-repeat;
             height: 5% !important;
-
+            
         }
 
         .part2 {
@@ -230,13 +230,14 @@
 
         if (window.location.pathname === '/courses/sanef' || window.location.pathname === '/courses/cflt' || window.location
             .pathname ===
-            '/courses/basicFinLit') {
+            '/courses/basicFinLit'|| window.location.pathname === "/blog") {
             forHome.setAttribute('href', "{{ route('home') }}")
             forAbout.setAttribute('href', "{{ route('home') }}#about")
             forCourse.setAttribute('href', "{{ route('home') }}#courses")
             forTeam.setAttribute('href', "{{ route('home') }}#team")
             forTest.setAttribute('href', "{{ route('home') }}#testimonial")
             forContact.setAttribute('href', "{{ route('home') }}#contact")
+            
         }
     </script>
 </body>
