@@ -60,7 +60,8 @@
                     <div class="feature-thumb">
                         <span><i class="fa fa-users"></i></span>
                         <h3>Interactive Courses</h3>
-                        <p style="text-align: center">We provide interactive financial literacy courses with a friendly tone.</p>
+                        <p style="text-align: center">We provide interactive financial literacy courses with a friendly
+                            tone.</p>
                     </div>
                 </div>
 
@@ -137,7 +138,7 @@
                                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe> --}}
 
-                            <video width="500" height="350" controls id="video">
+                            <video style="width: 100%;" height="350" controls id="video">
                                 <source src="{{ asset('assets/images/videos/dgvideowsound.mp4') }}" type="video/mp4">
 
                                 Your browser does not support the video tag.
