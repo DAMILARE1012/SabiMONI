@@ -5,7 +5,7 @@
 @section('content')
     <!-- HOME -->
     <section id="home">
-        <div class="row">
+        <div style="width: 100%">
 
             <div class="owl-carousel owl-theme home-slider">
                 <div class="item item-first">
@@ -93,11 +93,13 @@
                 <div class="col-md-6 col-sm-12">
                     <div class="about-info">
                         <h2>About <strong>SabiMONI</strong></h2>
-                        <p>Financial literacy impacts almost every aspect in our lives today. Whether we go to the market,
+                        <p align="justify">Financial literacy impacts almost every aspect in our lives today. Whether we go
+                            to the market,
                             discuss our family budget, manage our business or prepare for retirement, our understanding of
                             how money works has a strong effect on our quality of life.</p>
 
-                        <p>This e-learning platform offers financial literacy knowledge tailored towards those interested in
+                        <p align="justify">This e-learning platform offers financial literacy knowledge tailored towards
+                            those interested in
                             becoming Certified Financial Literacy Trainer (CFLT) as well as consumers who want to improve
                             their financial wellbeing.</p>
 

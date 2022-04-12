@@ -193,7 +193,7 @@ section {
     font-size: 16px;
     font-weight: medium;
     padding: 15px 30px;
-    width: 30%;
+    width: 150px;
     transition: 0.5s;
 }
 
@@ -1045,6 +1045,10 @@ footer .social-icon {
     .contact-image {
         margin-top: 50px;
     }
+    .about-info>h2{
+        text-align: center;
+    }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 995px) {
