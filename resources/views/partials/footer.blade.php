@@ -43,8 +43,8 @@
                             <h2>Contact Info</h2>
                         </div>
                         <address>
-                            <p>+2348103966057, +234 8103 966057</p>
-                            <p><a href="mailto:youremail.co">hello@youremail.co</a></p>
+                            <p>Call Support :<a href="tel:+2348103966057">+2348103966057</a></p>
+                            <p>Email: <a href="mailto:dammy4did@gmail.com?subject=Mail from our Website">dammy4did@gmail.com</a></p>
                         </address>
 
                         <div class="footer_menu">
