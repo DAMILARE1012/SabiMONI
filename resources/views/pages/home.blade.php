@@ -350,7 +350,7 @@
                                 <div class="courses-thumb">
                                     <div class="courses-top">
                                         <div class="courses-image">
-                                            <img src="{{ asset('assets/images/modules/courses-image2.jpg') }}"
+                                            <img src="{{ asset('assets/images/modules/courses-image3.jpg') }}"
                                                 class="img-responsive" alt="">
                                         </div>
                                         <div class="courses-date">
@@ -384,7 +384,7 @@
                                 <div class="courses-thumb">
                                     <div class="courses-top">
                                         <div class="courses-image">
-                                            <img src="{{ asset('assets/images/modules/courses-image1.jpg') }}"
+                                            <img src="{{ asset('assets/images/modules/courses-image2.jpg') }}"
                                                 class="img-responsive" alt="">
                                         </div>
                                         <div class="courses-date">
@@ -394,7 +394,7 @@
                                     </div>
 
                                     <div class="courses-detail">
-                                        <h3><a href="courses/cflt">CFLT</a></h3>
+                                        <h3><a href="courses/cflt">NAPGEP</a></h3>
                                         <p>This module informs you about needs and wants from an economic perspective.</p>
                                     </div>
 
