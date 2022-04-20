@@ -142,7 +142,7 @@
                 <div class="courses-card">
 
                     <div class="sanef">
-                        <img src="{{ asset('assets/images/courses-image1.jpg') }}" alt="" width="100%" height="170px">
+                        <img src="{{ asset('assets/images/modules/courses-image1.jpg') }}" alt="" width="100%" height="170px">
                     </div>
 
                     <div class="courses-detail">
@@ -167,7 +167,7 @@
                 <div class="courses-card courses-card-1">
 
                     <div class="cflt">
-                        <img src="{{ asset('assets/images/courses-image5.jpg') }}" alt="" width="100%" height="170px">
+                        <img src="{{ asset('assets/images/modules/courses-image1.jpg') }}" alt="" width="100%" height="170px">
                     </div>
 
                     <div class="courses-detail">
