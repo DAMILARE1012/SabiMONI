@@ -15,7 +15,7 @@
                                 <h1>SabiMONI: Your Path to Financial Literacy</h1>
                                 <h3>Our online courses are designed to fit in your industry supporting all-round with latest
                                     technologies.</h3>
-                                <a href="#feature" class="section-btn btn btn-default smoothScroll">Discover more</a>
+                                <a href="#about" class="section-btn btn btn-default smoothScroll">Discover more</a>
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,8 @@
                         <div class="container">
                             <div class="col-md-6 col-sm-12">
                                 <h1>SabiMONI: Free for All</h1>
-                                <h3>The SabiMoni e-learning platform is designed to train as many people as possible with up-to-date financial tools and resources at no-cost. It is free for all! </h3>
+                                <h3>The SabiMoni e-learning platform is designed to train as many people as possible with
+                                    up-to-date financial tools and resources at no-cost. It is free for all! </h3>
                                 <a href="#contact" class="section-btn btn btn-default smoothScroll">Let's chat</a>
                             </div>
                         </div>
@@ -107,7 +108,8 @@
                             <span><i class="fa fa-users"></i></span>
                             <figcaption>
                                 <h3>Professional Trainers</h3>
-                                <p>At SabiMoni, we have the best corporate trainers who are specialists in increasing your financial productivity, skill and knowledge.</p>
+                                <p>At SabiMoni, we have the best corporate trainers who are specialists in increasing your
+                                    financial productivity, skill and knowledge.</p>
                             </figcaption>
                         </figure>
 
@@ -123,7 +125,8 @@
                             <span><i class="fa fa-bar-chart-o"></i></span>
                             <figcaption>
                                 <h3>Free for Everyone</h3>
-                                <p>The SabiMoni e-learning platform is designed to train as many people as possible with up-to-date financial tools and resources at no-cost.</p>
+                                <p>The SabiMoni e-learning platform is designed to train as many people as possible with
+                                    up-to-date financial tools and resources at no-cost.</p>
                             </figcaption>
                         </figure>
                     </div>
@@ -202,16 +205,16 @@
                                     </div>
 
                                     <div class="courses-detail">
-                                        <h3><a href="courses/basicFinLit">Basic Financial Literacy</a></h3>
-                                        <p>This module focuses on why and how to set financial goals and how to plan for your future. </p>
-                                                                            
+                                        <h3><a href="javascript:void(0)" class="disabled">CFLT</a></h3>
+                                        <p class="text-justify">An individual who has taken the 14 Financial Literacy Modules and Learning Methodology on the SabiMONI platform and obtained a mark of 60% and undergone a physical assessment session to demonstrate that he or she can teach and transfer the knowledge to others.</p>
+
                                     </div>
 
                                     <div class="courses-info">
                                         <div class="courses-author">
                                             <img src="{{ asset('assets/images/author-image1.jpg') }}"
                                                 class="img-responsive" alt="">
-                                            <span>General</span>
+                                            <span>CFLT Cohort</span>
                                         </div>
                                         <div class="courses-price free">
                                             <a href="https://sabimonidemo.com/start/login/signup.php"
@@ -360,15 +363,15 @@
                                     </div>
 
                                     <div class="courses-detail">
-                                        <h3><a href="courses/sanef">SANEF</a></h3>
-                                        <p>It is important to put part of your income aside for the future and not to spend all at once. </p>
+                                        <h3><a href="javascript:void(0)">SANEF</a></h3>
+                                        <p class="text-justify">The SANEF training aims to equip their Agents with basic financial literacy knowledge to better serve their clients, improve their business and their level of financial literacy   with the goal of promoting the uptake of financial services especially at the grassroots.</p>
                                     </div>
 
                                     <div class="courses-info">
                                         <div class="courses-author">
                                             <img src="{{ asset('assets/images/author-image2.jpg') }}"
                                                 class="img-responsive" alt="">
-                                            <span>SANEF Group</span>
+                                            <span>SANEF Cohort</span>
                                         </div>
                                         <div class="courses-price free">
 
@@ -394,15 +397,15 @@
                                     </div>
 
                                     <div class="courses-detail">
-                                        <h3><a href="courses/cflt">NAPGEP</a></h3>
-                                        <p>This module informs you about needs and wants from an economic perspective.</p>
+                                        <h3><a href="javascript:void(0)">NAPGEP</a></h3>
+                                        <p class="text-justify">This programme leverages on the platform of the National Youth Services Corps (NYSC) to train selected Volunteer Corps Members (VCMs) on Financial Literacy in order to deliver financial education in rural communities during their Community Development Service (CDS)</p>
                                     </div>
 
                                     <div class="courses-info">
                                         <div class="courses-author">
                                             <img src="{{ asset('assets/images/author-image2.jpg') }}"
                                                 class="img-responsive" alt="">
-                                            <span>CFLT Group</span>
+                                            <span>NAPGEP Cohort</span>
                                         </div>
                                         <div class="courses-price free">
                                             <a href="https://sabimonidemo.com/start/login/signup.php"
@@ -428,27 +431,32 @@
                     <div class="section-title">
                         <h2>Latest News<small>Read through our blog for recent updates</small></h2>
                     </div>
+                    <h4 style="color:red;">
+                        <marquee width="60%" direction="left" height="100px">
+                            The News section to be populated soon. Kindly anticipate our response...
+                        </marquee>
+                    </h4>
                 </div>
 
-                <div class="col-md-3 col-sm-6">
+                {{-- <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                         <div class="team-image">
                             <img src="{{ asset('assets/images/news/bank.png') }}" class="img-responsive" alt="">
                         </div>
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Eliminating And Avoiding Debt</h5>
-                            <span>Debt is one of the biggest hurdles many younger generations are facing today. When you have the financial education, you start to know how debt works  <a href="{{ route('blog') }}" style="color: red;">Read
+                            <span>Debt is one of the biggest hurdles many younger generations are facing today. When you
+                                have the financial education, you start to know how debt works <a
+                                    href="{{ route('blog') }}" style="color: red;">Read
                                     More</a></span>
                         </div>
                         <ul class="social-icon">
                             <li><a href="#" class="fa fa-calendar" attr="calendar icon"></a>Dec 8, 2020</li>
-                            {{-- <li><a href="#" class="fa fa-twitter"></a></li>
-                              <li><a href="#" class="fa fa-instagram"></a></li> --}}
                         </ul>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="col-md-3 col-sm-6">
+                {{-- <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                         <div class="team-image">
                             <img src="{{ asset('assets/images/news/finance-books-.png') }}" class="img-responsive"
@@ -456,18 +464,18 @@
                         </div>
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Financial Literacy: Meanings and Descriptions</h5>
-                            <span> Financial literacy is not something  you will magically know.  Majority of schools and institutions are not teaching personal finances to students.<a href="{{ route('blog') }}" style="color: red;">Read
+                            <span> Financial literacy is not something you will magically know. Majority of schools and
+                                institutions are not teaching personal finances to students.<a href="{{ route('blog') }}"
+                                    style="color: red;">Read
                                     More</a></span>
                         </div>
                         <ul class="social-icon">
                             <li><a href="#" class="fa fa-calendar" attr="calendar icon"></a>Dec 8, 2020</li>
-                            {{-- <li><a href="#" class="fa fa-twitter"></a></li>
-                              <li><a href="#" class="fa fa-instagram"></a></li> --}}
                         </ul>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="col-md-3 col-sm-6">
+                {{-- <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                         <div class="team-image">
                             <img src="{{ asset('assets/images/news/time-is-money.png') }}" class="img-responsive"
@@ -475,34 +483,34 @@
                         </div>
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Achieve Financial Literacy on your Own</h5>
-                            <span> Since you might not have had any classes or had much insight, its up to you to become financially literate and develop good financial habits. <a href="{{ route('blog') }}" style="color: red;">Read
+                            <span> Since you might not have had any classes or had much insight, its up to you to become
+                                financially literate and develop good financial habits. <a href="{{ route('blog') }}"
+                                    style="color: red;">Read
                                     More</a></span>
                         </div>
                         <ul class="social-icon">
                             <li><a href="#" class="fa fa-calendar" attr="calendar icon"></a>Dec 6, 2020</li>
-                            {{-- <li><a href="#" class="fa fa-twitter"></a></li>
-                              <li><a href="#" class="fa fa-instagram"></a></li> --}}
                         </ul>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="col-md-3 col-sm-6">
+                {{-- <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                         <div class="team-image">
                             <img src="{{ asset('assets/images/news/money-tree.png') }}" class="img-responsive" alt="">
                         </div>
                         <div class="team-info text-justify">
                             <h5 style="font-weight: bold;">Break your Consumer Mentality </h5>
-                            <span> Instead of letting money control you, now you hold the reins to your personal finances. This empowers you and makes you feel more confident and decisive with your money. <a href="{{ route('blog') }}" style="color: red;">Read
+                            <span> Instead of letting money control you, now you hold the reins to your personal finances.
+                                This empowers you and makes you feel more confident and decisive with your money. <a
+                                    href="{{ route('blog') }}" style="color: red;">Read
                                     More</a></span>
                         </div>
                         <ul class="social-icon">
                             <li><a href="#" class="fa fa-calendar" attr="calendar icon"></a>Dec 6, 2020</li>
-                            {{-- <li><a href="#" class="fa fa-twitter"></a></li>
-                              <li><a href="#" class="fa fa-instagram"></a></li> --}}
                         </ul>
                     </div>
-                </div>
+                </div> --}}
 
 
 
@@ -536,10 +544,15 @@
 
                 <div class="col-md-12 col-sm-12">
                     <div class="section-title">
-                        <h2>Trust Section<small>from around the world</small></h2>
+                        <h2>Testimonial Section<small>from around the world</small></h2>
                     </div>
+                    <h4 style="color:red;">
+                        <marquee width="60%" direction="right" height="100px">
+                            The Testimonial section to be populated soon. Kindly anticipate our response...
+                        </marquee>
+                    </h4>
 
-                    <div class="owl-carousel owl-theme owl-client">
+                    {{-- <div class="owl-carousel owl-theme owl-client">
                         <div class="col-md-4 col-sm-4">
                             <div class="item">
                                 <div class="tst-image">
@@ -624,7 +637,7 @@
                             </div>
                         </div>
 
-                    </div>
+                    </div> --}}
 
                 </div>
             </div>

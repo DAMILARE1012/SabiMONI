@@ -29,9 +29,9 @@
                         <img class="footer-logo" src="{{ url('/assets/images/footerLogo.png') }}" alt="">
 
                         <ul class="social-icon">
-                            <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
-                            <li><a href="#" class="fa fa-twitter"></a></li>
-                            <li><a href="#" class="fa fa-instagram"></a></li>
+                            <li><a href="javascript:void(0)" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                            <li><a href="javascript:void(0)" class="fa fa-twitter"></a></li>
+                            <li><a href="javascript:void(0)" class="fa fa-instagram"></a></li>
                         </ul>
                     </div>
                 </div>
@@ -43,21 +43,29 @@
                             <h2>Contact Info</h2>
                         </div>
                         <address>
-                            <p>Call Support :<a href="tel:+2348103966057">+2348103966057</a></p>
-                            <p>Email: <a href="mailto:dammy4did@gmail.com?subject=Mail from our Website">dammy4did@gmail.com</a></p>
+                            {{-- <p>Call Support :<a href="tel:+2348103966057">+2348103966057</a></p> --}}
+                            <p><a href="#" class="fa fa-envelope"></a> <a
+                                    href="mailto:contact@sabimoni.org.ng?subject=SabiMONI Contact Us Request">
+                                    contact@sabimoni.org.ng</a></p>
+                            <p><a href="#" class="fa fa-envelope"></a><a
+                                    href="mailto:support@sabimoni.org.ng?subject=SabiMONI Contact Us Request">
+                                    support@sabimoni.org.ng</a></p>
                         </address>
 
                         <div class="footer_menu">
                             <h2>Quick Links</h2>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Courses</a></li><br>
-                                <li><a href="#">News</a></li>
-                                <li><a href="#">Review</a></li>
-                                <li><a href="#">FAQ</a></li><br>
-                                <li><a href="#">Register</a></li>
-                                <li><a href="#">Login</a></li>
+                                <li><a href="#top">Home</a></li>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#courses">Courses</a></li><br>
+                                <li><a href="#team">News</a></li>
+                                <li><a href="#testimonial">Testimonials</a></li>
+                                <li><a href="#contact">FAQ</a></li><br>
+                                <li><a href="https://sabimonidemo.com/start/login/signup.php" class="nav-res-2"
+                                        target="_blank">Register</a></li>
+                                <li><a href="https://sabimonidemo.com/start/login/index.php" class="nav-res-2"
+                                        target="_blank">Login</a>
+                                </li>
                             </ul>
                         </div>
                     </div>

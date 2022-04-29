@@ -132,10 +132,6 @@
             </div>
 
         </div>
-        <div class="back">
-            <a href="{{ route('home') }}" class="backTOHome"> <i class="fa fa-long-arrow-left" aria-hidden="true"></i> back to
-                home</a>
-        </div>
     </div>
     </div>
 
