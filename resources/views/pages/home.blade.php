@@ -398,7 +398,7 @@
 
                                     <div class="courses-detail">
                                         <h3><a href="javascript:void(0)">NAPGEP</a></h3>
-                                        <p class="text-justify">This programme leverages on the platform of the National Youth Services Corps (NYSC) to train selected Volunteer Corps Members (VCMs) on Financial Literacy in order to deliver financial education in rural communities during their Community Development Service (CDS)</p>
+                                        <p class="text-justify">This programme leverages on the platform of the National Youth Services Corps (NYSC) to train selected Volunteer Corps Members (VCMs) on Financial Literacy in order to deliver financial education in rural communities during their Community Development Service (CDS).</p>
                                     </div>
 
                                     <div class="courses-info">
@@ -433,7 +433,7 @@
                     </div>
                     <h4 style="color:red;">
                         <marquee width="60%" direction="left" height="100px">
-                            The News section to be populated soon. Kindly anticipate our response...
+                            The News section to be populated soon...
                         </marquee>
                     </h4>
                 </div>
@@ -544,11 +544,11 @@
 
                 <div class="col-md-12 col-sm-12">
                     <div class="section-title">
-                        <h2>Testimonial Section<small>from around the world</small></h2>
+                        <h2>Testimonials<small>from around the world</small></h2>
                     </div>
                     <h4 style="color:red;">
                         <marquee width="60%" direction="right" height="100px">
-                            The Testimonial section to be populated soon. Kindly anticipate our response...
+                            The Testimonial section to be populated soon...
                         </marquee>
                     </h4>
 
