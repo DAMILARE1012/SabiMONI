@@ -4,6 +4,7 @@
 <head>
 
     <title> @yield('title', 'SabiMONI Welcome Page') </title>
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/images/favicon.jpg') }}">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
