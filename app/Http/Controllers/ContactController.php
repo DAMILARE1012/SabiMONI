@@ -47,11 +47,11 @@ class ContactController extends Controller
             function ($message) use ($request) {
                 $message->from($request->email);
                 $message->subject('SabiMONI Contact US');
-                $message->to('dammy4did@gmail.com');
+                $message->to('support@sabimoni.org.ng');
             }
         );
 
-        return redirect('/#contact')->with('success', 'Thank you! message well received');
+        return redirect('/#contact')->with('success', 'We have received your enquiry on the SabiMONI financial literacy e-Learning portal. We will respond to you as soon as possible.');
     }
 
     public function refreshCaptcha()

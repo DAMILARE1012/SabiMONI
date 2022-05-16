@@ -19,6 +19,8 @@
 //     return view('index');
 // });
 
+use Illuminate\Support\Facades\Route;
+
 Route::post('contact-us', 'ContactController@saveContact')->name('contact_us');
 Route::get('/', 'PagesController@home')->name('home');
 Route::get('/faqs', 'PagesController@faqs')->name('faqs');
@@ -33,3 +35,13 @@ Route::get('courses/basicFinLit', 'PagesController@basicFinGroup')->name('course
 Route::post('my-captcha', 'ContactController@myCaptchaPost')->name('myCaptcha.post');
 Route::get('/refresh_captcha', 'ContactController@refreshCaptcha')->name('refresh_captcha');
 Route::get('/blog', 'PagesController@blog')->name('blog');
+
+
+Route::group(['prefix' => 'news'], function() {
+    Route::get('/', 'NewsController@index')->name('news.index');
+    Route::get('create', 'NewsController@create')->name('news.create');
+    Route::post('store', 'NewsController@store')->name('news.store');
+    Route::get('edit/{id}', 'NewsController@edit')->name('news.edit');
+    Route::put('update/{id}', 'NewsController@update')->name('news.update');
+    Route::delete('delete/{id}', 'NewsController@destroy')->name('news.delete');
+});

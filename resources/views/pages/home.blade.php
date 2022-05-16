@@ -206,7 +206,10 @@
 
                                     <div class="courses-detail">
                                         <h3><a href="javascript:void(0)" class="disabled">CFLT</a></h3>
-                                        <p class="text-justify">An individual who has taken the 14 Financial Literacy Modules and Learning Methodology on the SabiMONI platform and obtained a mark of 60% and undergone a physical assessment session to demonstrate that he or she can teach and transfer the knowledge to others.</p>
+                                        <p class="text-justify">An individual who has taken the 14 Financial Literacy
+                                            Modules and Learning Methodology on the SabiMONI platform and obtained a mark of
+                                            60% and undergone a physical assessment session to demonstrate that he or she
+                                            can teach and transfer the knowledge to others.</p>
 
                                     </div>
 
@@ -364,7 +367,10 @@
 
                                     <div class="courses-detail">
                                         <h3><a href="javascript:void(0)">SANEF</a></h3>
-                                        <p class="text-justify">The SANEF training aims to equip their Agents with basic financial literacy knowledge to better serve their clients, improve their business and their level of financial literacy   with the goal of promoting the uptake of financial services especially at the grassroots.</p>
+                                        <p class="text-justify">The SANEF training aims to equip their Agents with basic
+                                            financial literacy knowledge to better serve their clients, improve their
+                                            business and their level of financial literacy with the goal of promoting the
+                                            uptake of financial services especially at the grassroots.</p>
                                     </div>
 
                                     <div class="courses-info">
@@ -398,7 +404,10 @@
 
                                     <div class="courses-detail">
                                         <h3><a href="javascript:void(0)">NAPGEP</a></h3>
-                                        <p class="text-justify">This programme leverages on the platform of the National Youth Services Corps (NYSC) to train selected Volunteer Corps Members (VCMs) on Financial Literacy in order to deliver financial education in rural communities during their Community Development Service (CDS).</p>
+                                        <p class="text-justify">This programme leverages on the platform of the National
+                                            Youth Services Corps (NYSC) to train selected Volunteer Corps Members (VCMs) on
+                                            Financial Literacy in order to deliver financial education in rural communities
+                                            during their Community Development Service (CDS).</p>
                                     </div>
 
                                     <div class="courses-info">
@@ -546,25 +555,26 @@
                     <div class="section-title">
                         <h2>Testimonials<small>from around the world</small></h2>
                     </div>
-                    <h4 style="color:red;">
+                    {{-- <h4 style="color:red;">
                         <marquee width="60%" direction="right" height="100px">
                             The Testimonial section to be populated soon...
                         </marquee>
-                    </h4>
+                    </h4> --}}
 
-                    {{-- <div class="owl-carousel owl-theme owl-client">
+                    <div class="owl-carousel owl-theme owl-client">
                         <div class="col-md-4 col-sm-4">
                             <div class="item">
                                 <div class="tst-image">
-                                    <img src="{{ asset('assets/images/tst-image1.jpg') }}" class="img-responsive"
+                                    <img src="{{ asset('assets/images/tst-image2.jpeg') }}" class="img-responsive"
                                         alt="">
                                 </div>
                                 <div class="tst-author">
-                                    <h4>Damilare Emmanuel</h4>
-                                    <span>Web Developer</span>
+                                    <h4>Florence Onwumere</h4>
+                                    <span>Women Enterprise Alliance</span>
                                 </div>
-                                <p>You really do help young creative minds to get quality education and professional job
-                                    search assistance.</p>
+                                <p class="text-justify">The online courses were deep and insightful. I was able to use
+                                    the teachings to solve business issues. I learnt great business lessons from each
+                                    course.</p>
                                 <div class="tst-rating">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -578,15 +588,15 @@
                         <div class="col-md-4 col-sm-4">
                             <div class="item">
                                 <div class="tst-image">
-                                    <img src="{{ asset('assets/images/tst-image2.jpg') }}" class="img-responsive"
-                                        alt="">
+                                    <img src="{{ asset('assets/images/tst-image1.jpg') }}" class="img-responsive" alt="">
                                 </div>
                                 <div class="tst-author">
-                                    <h4>Damilare Emmanuel</h4>
-                                    <span>Web Developer</span>
+                                    <h4>Lani Gbogboade</h4>
+                                    <span>Women Enterprise Alliance</span>
                                 </div>
-                                <p>You really do help young creative minds to get quality education and professional job
-                                    search assistance.</p>
+                                <p class="text-justify">The courses were rich, practical, and enlightening. What I learnt
+                                    were applicable to my businesses and finances - everyone should take a financial
+                                    literacy course.</p>
                                 <div class="tst-rating">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -637,7 +647,7 @@
                             </div>
                         </div>
 
-                    </div> --}}
+                    </div>
 
                 </div>
             </div>
