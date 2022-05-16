@@ -61,9 +61,9 @@
                                 <li><a href="#team">News</a></li>
                                 <li><a href="#testimonial">Testimonials</a></li>
                                 <li><a href="#contact">FAQ</a></li><br>
-                                <li><a href="https://sabimonidemo.com/start/login/signup.php" class="nav-res-2"
+                                <li><a href="https://sabimoni.org.ng/start/login/signup.php" class="nav-res-2"
                                         target="_blank">Register</a></li>
-                                <li><a href="https://sabimonidemo.com/start/login/index.php" class="nav-res-2"
+                                <li><a href="https://sabimoni.org.ng/start/login/index.php" class="nav-res-2"
                                         target="_blank">Login</a>
                                 </li>
                             </ul>
