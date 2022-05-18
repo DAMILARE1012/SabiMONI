@@ -4,6 +4,7 @@
 <head>
 
     <title> @yield('title', 'SabiMONI Welcome Page') </title>
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/images/favicon.jpg') }}">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -31,6 +32,7 @@
             animation-name: backtop;
             animation-duration: 1s
         }
+      
 
         #backToTOP:hover {
             background-color: green;
@@ -210,33 +212,22 @@
             })
 
         })
-        const forHome = document.getElementById('forHome');
-        const forFaq = document.getElementById('forFaq');
-        const forAbout = document.getElementById('forAbout')
-        const forCourse = document.getElementById('forCourse')
-        const forTeam = document.getElementById('forTeam')
-        const forTest = document.getElementById('forTest')
-        const forContact = document.getElementById('forContact')
+        const forHome = document.querySelectorAll('.forHome');
+        const forFaq = document.querySelectorAll('.forFaq');
+        const forAbout = document.querySelectorAll('.forAbout')
+        const forCourse = document.querySelectorAll('.forCourse')
+        const forTeam = document.querySelectorAll('.forTeam')
+        const forTest = document.querySelectorAll('.forTest')
+        const forContact = document.querySelectorAll('.forContact')
 
-        if (window.location.pathname === '/faqs') {
-            forHome.setAttribute('href', "{{ route('home') }}")
-            forFaq.setAttribute('href', '#top')
-            forAbout.setAttribute('href', "{{ route('home') }}#about")
-            forCourse.setAttribute('href', "{{ route('home') }}#courses")
-            forTeam.setAttribute('href', "{{ route('home') }}#team")
-            forTest.setAttribute('href', "{{ route('home') }}#testimonial")
-            forContact.setAttribute('href', "{{ route('home') }}#contact")
-        }
-
-        if (window.location.pathname === '/courses/sanef' || window.location.pathname === '/courses/cflt' || window.location
-            .pathname ===
-            '/courses/basicFinLit' || window.location.pathname === "/blog") {
-            forHome.setAttribute('href', "{{ route('home') }}")
-            forAbout.setAttribute('href', "{{ route('home') }}#about")
-            forCourse.setAttribute('href', "{{ route('home') }}#courses")
-            forTeam.setAttribute('href', "{{ route('home') }}#team")
-            forTest.setAttribute('href', "{{ route('home') }}#testimonial")
-            forContact.setAttribute('href', "{{ route('home') }}#contact")
+        if (window.location.pathname === "/index.php/faqs") {
+            forFaq.forEach(home=>home.setAttribute('href', "#top")) 
+            forHome.forEach(home=>home.setAttribute('href', "{{ route('home') }}"))
+            forAbout.forEach(home=>home.setAttribute('href', "{{ route('home') }}#about"))
+            forCourse.forEach(home=>home.setAttribute('href', "{{ route('home') }}#courses"))
+            forContact.forEach(home=>home.setAttribute('href', "{{ route('home') }}#contact"))
+            forTeam.forEach(home=>home.setAttribute('href', "{{ route('home') }}#team"))
+            forTest.forEach(home=>home.setAttribute('href', "{{ route('home') }}#testimonial"))
         }
     </script>
 </body>

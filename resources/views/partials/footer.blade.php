@@ -55,15 +55,15 @@
                         <div class="footer_menu">
                             <h2>Quick Links</h2>
                             <ul>
-                                <li><a href="#top">Home</a></li>
-                                <li><a href="#about">About Us</a></li>
-                                <li><a href="#courses">Courses</a></li><br>
-                                <li><a href="#team">News</a></li>
-                                <li><a href="#testimonial">Testimonials</a></li>
-                                <li><a href="#contact">FAQ</a></li><br>
-                                <li><a href="https://sabimonidemo.com/start/login/signup.php" class="nav-res-2"
+                                <li><a href="#top" class="forHome">Home</a></li>
+                                <li><a href="#about" class="forAbout">About Us</a></li>
+                                <li><a href="#courses" class="forCourse">Courses</a></li><br>
+                                <li><a href="#team" class="forTeam">News</a></li>
+                                <li><a href="#testimonial" class="forTest">Testimonials</a></li>
+                                <li><a href="/index.php/faqs" class="forFaq">FAQ</a></li><br>
+                                <li><a href="https://sabimoni.org.ng/start/login/signup.php" class="nav-res-2"
                                         target="_blank">Register</a></li>
-                                <li><a href="https://sabimonidemo.com/start/login/index.php" class="nav-res-2"
+                                <li><a href="https://sabimoni.org.ng/start/login/index.php" class="nav-res-2"
                                         target="_blank">Login</a>
                                 </li>
                             </ul>

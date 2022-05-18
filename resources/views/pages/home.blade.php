@@ -220,7 +220,7 @@
                                             <span>CFLT Cohort</span>
                                         </div>
                                         <div class="courses-price free">
-                                            <a href="https://sabimonidemo.com/start/login/signup.php"
+                                            <a href="https://sabimoni.org.ng/start/login/signup.php"
                                                 target="_blank"><span>Register</span></a>
                                         </div>
                                     </div>
@@ -381,7 +381,7 @@
                                         </div>
                                         <div class="courses-price free">
 
-                                            <a href="https://sabimonidemo.com/start/login/signup.php"
+                                            <a href="https://sabimoni.org.ng/start/login/signup.php"
                                                 target="_blank"><span>Register</span></a>
                                         </div>
                                     </div>
@@ -417,7 +417,7 @@
                                             <span>NAPGEP Cohort</span>
                                         </div>
                                         <div class="courses-price free">
-                                            <a href="https://sabimonidemo.com/start/login/signup.php"
+                                            <a href="https://sabimoni.org.ng/start/login/signup.php"
                                                 target="_blank"><span>Register</span></a>
                                         </div>
                                     </div>
@@ -594,9 +594,8 @@
                                     <h4>Lani Gbogboade</h4>
                                     <span>Women Enterprise Alliance</span>
                                 </div>
-                                <p class="text-justify">The courses were rich, practical, and enlightening. What I learnt
-                                    were applicable to my businesses and finances - everyone should take a financial
-                                    literacy course.</p>
+                                <p class="text-justify">The courses were rich and enlightening. It was applicable to my
+                                    businesses and finances - everyone should take the course.</p>
                                 <div class="tst-rating">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -608,15 +607,16 @@
                         <div class="col-md-4 col-sm-4">
                             <div class="item">
                                 <div class="tst-image">
-                                    <img src="{{ asset('assets/images/tst-image3.jpg') }}" class="img-responsive"
+                                    <img src="{{ asset('assets/images/tst-image4.jpg') }}" class="img-responsive"
                                         alt="">
                                 </div>
                                 <div class="tst-author">
-                                    <h4>Damilare Emmanuel</h4>
-                                    <span>Web Developer</span>
+                                    <h4>Ofornagolu Chioma</h4>
+                                    <span>Farmers' Home Foundation</span>
                                 </div>
-                                <p>You really do help young creative minds to get quality education and professional job
-                                    search assistance.</p>
+                                <p class="text-justify">My orientation about life and money changed, due to the
+                                    explanatory nature of the Course. The imagery explanation of each topic were amazing.
+                                </p>
                                 <div class="tst-rating">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -633,11 +633,55 @@
                                         alt="">
                                 </div>
                                 <div class="tst-author">
-                                    <h4>Damilare Emmanuel</h4>
-                                    <span>Web Developer</span>
+                                    <h4>Chima Glory</h4>
+                                    <span>Farmers' Home Foundation</span>
                                 </div>
-                                <p>You really do help young creative minds to get quality education and professional job
-                                    search assistance.</p>
+                                <p class="text-justify"> I understood the actual meaning of needs and want. I can now
+                                    boldly go for my needs because they are basic things one cannot live without while wants
+                                    are luxuries.</p>
+                                <div class="tst-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="item">
+                                <div class="tst-image">
+                                    <img src="{{ asset('assets/images/tst-image4.jpg') }}" class="img-responsive"
+                                        alt="">
+                                </div>
+                                <div class="tst-author">
+                                    <h4>Olivia</h4>
+                                    <span>Farmers' Home Foundation</span>
+                                </div>
+                                <p class="text-justify">I was happy to learn on the SabiMONI platform that businesses
+                                    fail when records are not kept. I recommend this course for business owners and
+                                    entrepreneurs.</p>
+                                <div class="tst-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="item">
+                                <div class="tst-image">
+                                    <img src="{{ asset('assets/images/tst-image4.jpg') }}" class="img-responsive"
+                                        alt="">
+                                </div>
+                                <div class="tst-author">
+                                    <h4>Loveth U. Ehihia</h4>
+                                    <span>Farmers' Home Foundation</span>
+                                </div>
+                                <p class="text-justify">I learnt a lot from the training. I got a clear understanding of
+                                    what needs and wants were.</p>
                                 <div class="tst-rating">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -675,7 +719,7 @@
                 </div>
 
                 <div class="col-md-6 col-sm-12">
-                    <form id="contact-form" role="form" action="{{ route('contact_us') }}" method="post">
+                    <form id="contact-form" role="form" action="/index.php/contact_us" method="post">
                         {{ csrf_field() }}
                         <div class="section-title text-center">
                             <h2>Contact Us <small>we love conversations. let us talk!</small></h2>
