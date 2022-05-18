@@ -419,16 +419,54 @@ section {
 .home-slider .item-first {
     background-image: url("/assets/images/slider/image1.jpg");
     background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.home-slider .item-first::after{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+z-index: -1;
+background-color: rgba(0, 0, 0,.6);
+
 }
 
 .home-slider .item-second {
     background-image: url("/assets/images/slider/image2.jpg");
+    position: relative;
+    z-index: 1;
 }
+.home-slider .item-second::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: rgba(0, 0, 0,.6);
+    }
 
 .home-slider .item-third {
     background-image: url("/assets/images/slider/image3.jpg");
+    position: relative;
+    z-index: 1;
 }
 
+.home-slider .item-third::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: rgba(0, 0, 0,.6);
+    
+    }
 /*---------------------------------------
       FEATURE              
   -----------------------------------------*/
