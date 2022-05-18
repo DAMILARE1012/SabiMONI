@@ -990,6 +990,15 @@ footer .social-icon {
     margin-top: 20px;
 }
 
+.terms_and_conditions{
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.terms_and_conditions:hover{
+    color: #5C5C5C;
+}
+
 /*---------------------------------------
      SOCIAL ICON              
   -----------------------------------------*/

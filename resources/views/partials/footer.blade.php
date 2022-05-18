@@ -116,9 +116,45 @@
             </div>
         </div>
         <hr>
-        <div class="copyright-text text-center">
+        <div class="copyright-text text-center ">
             <p>Copyright &copy; 2022 SabiMONI Learning Portal</p>
 
-            <p>Terms of Use/Privacy</p>
+            <p id="terms_and_conditions" class="terms_and_conditions">Terms of Use/Privacy</p>
+        </div>
+
+
+        <div id="margin_remove" style="margin-bottom: 130px;">
+            <div id="term_visibility" class=" copyright-text text-center"
+                style="color: #909090; display: none; height: 0px; transition: all 2s ease-in-out;">
+                <p class="container-fluid"
+                    style="padding-top: 30px; padding-bottom: 20px; padding-left: 180px; padding-right: 180px; color: #909090; box-shadow: 4px 2px 24px -5px rgba(0, 0, 0, 0.25); background: #F9F9F9">
+                    It is permitted
+                    to
+                    copy material from this Internet address - either electronically or in paper form - provided that
+                    CBN is
+                    stated expressly as the source. It is however, not permitted to amend or distort the contents of the
+                    materials. Please note, however, the special rules concerning reproduction of banknotes and
+                    prohibition
+                    of counterfeiting.</p>
+            </div>
+        </div>
+
+
+
+
+        <div
+        id="agree_display"
+            style=" background-color: #F9F9F9; position: fixed; bottom: 0px; left: 0px; z-index: 50; width: 100%; display: flex">
+
+            <p class="container text-center" style="padding-top: 20px; padding-bottom: 10px; color: #909090;">For all
+                visitors to
+                its website, the CBN requires the Stakeholder to read and agree to the terms of the <b
+                    id="terms_and_conditions_2" style="color: #29CA8E; cursor: pointer">Privacy/Cookie
+                    Notice</b> on its website.
+                <button
+                id="agree"
+                    style="font:bold; color: white; background:#777777; padding: 5px 20px; outline: none; border:none; border-radius: 5px; ">Agree</button>
+            </p>
+
         </div>
     </footer>
