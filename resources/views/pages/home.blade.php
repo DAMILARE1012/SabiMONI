@@ -719,7 +719,7 @@
                 </div>
 
                 <div class="col-md-6 col-sm-12">
-                    <form id="contact-form" role="form" action="{{ route('contact_us') }}" method="post">
+                    <form id="contact-form" role="form" action="/index.php/contact_us" method="post">
                         {{ csrf_field() }}
                         <div class="section-title text-center">
                             <h2>Contact Us <small>we love conversations. let us talk!</small></h2>

@@ -219,7 +219,7 @@
         const forTest = document.getElementById('forTest')
         const forContact = document.getElementById('forContact')
 
-        if (window.location.pathname === '/faqs') {
+        if (window.location.pathname === '/index.php/faqs') {
             forHome.setAttribute('href', "{{ route('home') }}")
             forFaq.setAttribute('href', '#top')
             forAbout.setAttribute('href', "{{ route('home') }}#about")

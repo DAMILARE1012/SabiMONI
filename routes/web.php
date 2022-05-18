@@ -21,9 +21,9 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::post('contact-us', 'ContactController@saveContact')->name('contact_us');
+Route::post('/contact_us', 'ContactController@saveContact')->name('contact_us');
 Route::get('/', 'PagesController@home')->name('home');
-Route::get('/faqs', 'PagesController@faqs')->name('faqs');
+Route::get('faqs', 'PagesController@faqs')->name('faqs');
 
 
 Route::get('courses/sanef', 'PagesController@sanefGroup')->name('courses.sanef');
@@ -37,7 +37,7 @@ Route::get('/refresh_captcha', 'ContactController@refreshCaptcha')->name('refres
 Route::get('/blog', 'PagesController@blog')->name('blog');
 
 
-Route::group(['prefix' => 'news'], function() {
+Route::group(['prefix' => 'news'], function () {
     Route::get('/', 'NewsController@index')->name('news.index');
     Route::get('create', 'NewsController@create')->name('news.create');
     Route::post('store', 'NewsController@store')->name('news.store');

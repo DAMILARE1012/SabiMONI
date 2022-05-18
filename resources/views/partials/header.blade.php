@@ -23,7 +23,7 @@
                 <li><a href="#team" class="smoothScroll nav-res-1a" id="forTeam">News</a></li>
                 <li><a href="#testimonial" class="smoothScroll nav-res-1a" id="forTest">Testimonials</a></li>
                 <li><a href="#contact" class="smoothScroll nav-res-1a" id="forContact">Contact</a></li>
-                <li><a href="{{ route('faqs') }}" class="smoothScroll" id="forFaq">FAQS</a></li>
+                <li><a href="/index.php/faqs" class="smoothScroll" id="forFaq">FAQS</a></li>
 
             </ul>
 
