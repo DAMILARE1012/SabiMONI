@@ -17,7 +17,7 @@
     <style>
         #backToTOP {
             position: fixed;
-            bottom: 20px;
+            bottom: 150px;
             right: 20px;
             z-index: 10000;
             background: #29ca8e;

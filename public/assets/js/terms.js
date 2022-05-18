@@ -21,6 +21,9 @@ document
             window.scrollTo(0, document.body.scrollHeight);
         }
     });
+document.getElementById("close").addEventListener("click", () => {
+    terms_visibility.style.display = "none";
+});
 
 document.getElementById("agree").addEventListener("click", () => {
     agree_display.style.display = "none";
