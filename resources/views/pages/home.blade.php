@@ -147,8 +147,8 @@
 
                                 Your browser does not support the video tag.
                             </video>
-                            <div class="button-edit-1"><img id="play"
-                                    src="{{ url('/assets/images/videos/playbutton.png') }}" alt=""></div>
+                            {{-- <div class="button-edit-1"><img id="play"
+                                    src="{{ url('/assets/images/videos/playbutton.png') }}" alt=""></div> --}}
                         </div>
 
 
