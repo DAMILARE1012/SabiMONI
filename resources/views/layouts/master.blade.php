@@ -220,12 +220,8 @@
         const forTest = document.querySelectorAll('.forTest')
         const forContact = document.querySelectorAll('.forContact')
 
-        if (window.location.href !== "{{ route('home') }}") {
-            if(location.pathname === "/index.php/faqs"){
-            forFaq.forEach(home=>home.setAttribute('href', "#top"))
-            }else{
-                forFaq.forEach(home=>home.setAttribute('href', "/index.php/faqs")) 
-            }
+        if (window.location.pathname === "/index.php/faqs") {
+            forFaq.forEach(home=>home.setAttribute('href', "#top")) 
             forHome.forEach(home=>home.setAttribute('href', "{{ route('home') }}"))
             forAbout.forEach(home=>home.setAttribute('href', "{{ route('home') }}#about"))
             forCourse.forEach(home=>home.setAttribute('href', "{{ route('home') }}#courses"))
