@@ -26,7 +26,7 @@
 
                 <div class="col-md-4 col-sm-6">
                     <div class="footer-logo-wrapper">
-                        <img class="footer-logo" src="{{ url('/assets/images/footerLogo.png') }}" alt="">
+                        <img class="footer-logo" src="{{ url('/assets/images/footerLogo.png') }}" alt="image not found">
 
                         <ul class="social-icon">
                             <li><a href="javascript:void(0)" class="fa fa-facebook-square" attr="facebook icon"></a></li>

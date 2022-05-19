@@ -12,7 +12,7 @@
                 </div>
                 <div class="row blog-res-2">
                     <div class="col-md-1">
-                        <img id="play" src="{{ url('/assets/images/blogLogo.png') }}" alt="">
+                        <img id="play" src="{{ url('/assets/images/blogLogo.png') }}" alt="image not found">
 
                     </div>
                     <div class="col-md-8 item2">
@@ -96,7 +96,7 @@
     <div class="blog-content3">
         <div class="row bc3-item1">
             <div class="col-md-2 bc3-item1a">
-                <img id="play" src="{{ url('/assets/images/blogLogo.png') }}" alt="">
+                <img id="play" src="{{ url('/assets/images/blogLogo.png') }}" alt="image not found">
             </div>
             <div class="col-md-8">
 
