@@ -11,7 +11,7 @@
 
             <!-- lOGO TEXT HERE -->
             <a href="{{ route('home') }}" class="navbar-brand"><img
-                    src="{{ asset('assets/images/sabi_icon.png') }}" alt="image not found" srcset=""></a>
+                    src="{{ asset('assets/images/sabi_icon.png') }}" alt="sabimoni" srcset=""></a>
         </div>
 
         <!-- MENU LINKS -->

@@ -85,7 +85,7 @@
 
                 <div class="main">
                     <div class="part1">
-                        <img src="../assets/images/related_info/footerLogo.png" alt="image not found" width="100%">
+                        <img src="../assets/images/related_info/footerLogo.png" alt="related info" width="100%">
                     </div>
                     <div class="part2">
                         <h5 style="font-weight: bold;"><a href="#">Eliminating And Avoiding Debt</a></h5>
@@ -99,7 +99,7 @@
                 </div>
                 <div class="main">
                     <div class="part1">
-                        <img src="../assets/images/related_info/footerLogo.png" alt="image not found" width="100%">
+                        <img src="../assets/images/related_info/footerLogo.png" alt="related info" width="100%">
                     </div>
                     <div class="part2">
                         <h5 style="font-weight: bold;"><a href="#">Eliminating And Avoiding Debt</a></h5>
@@ -113,7 +113,7 @@
                 </div>
                 <div class="main">
                     <div class="part1">
-                        <img src="../assets/images/related_info/footerLogo.png" alt="image not found" width="100%">
+                        <img src="../assets/images/related_info/footerLogo.png" alt="related info" width="100%">
                     </div>
                     <div class="part2">
                         <h5 style="font-weight: bold;"><a href="#">Eliminating And Avoiding Debt</a></h5>

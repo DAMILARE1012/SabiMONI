@@ -196,7 +196,7 @@
                                     <div class="courses-top">
                                         <div class="courses-image">
                                             <img src="{{ asset('assets/images/modules/courses-image1.jpg') }}"
-                                                class="img-responsive" alt="image not found">
+                                                class="img-responsive" alt="certified financial literacy trainer">
                                         </div>
                                         <div class="courses-date">
                                             <span><i class="fa fa-calendar"></i> 12 / 7 / 2018</span>
@@ -216,7 +216,7 @@
                                     <div class="courses-info">
                                         <div class="courses-author">
                                             <img src="{{ asset('assets/images/author-image1.jpg') }}"
-                                                class="img-responsive" alt="image not found">
+                                                class="img-responsive" alt="cflt cohort">
                                             <span>CFLT Cohort</span>
                                         </div>
                                         <div class="courses-price free">
@@ -357,7 +357,7 @@
                                     <div class="courses-top">
                                         <div class="courses-image">
                                             <img src="{{ asset('assets/images/modules/courses-image3.jpg') }}"
-                                                class="img-responsive" alt="image not found">
+                                                class="img-responsive" alt="sanef">
                                         </div>
                                         <div class="courses-date">
                                             <span><i class="fa fa-calendar"></i> 5 / 10 / 2018</span>
@@ -376,7 +376,7 @@
                                     <div class="courses-info">
                                         <div class="courses-author">
                                             <img src="{{ asset('assets/images/author-image2.jpg') }}"
-                                                class="img-responsive" alt="image not found">
+                                                class="img-responsive" alt="sanef">
                                             <span>SANEF Cohort</span>
                                         </div>
                                         <div class="courses-price free">
@@ -394,7 +394,7 @@
                                     <div class="courses-top">
                                         <div class="courses-image">
                                             <img src="{{ asset('assets/images/modules/courses-image2.jpg') }}"
-                                                class="img-responsive" alt="image not found">
+                                                class="img-responsive" alt="napgep">
                                         </div>
                                         <div class="courses-date">
                                             <span><i class="fa fa-calendar"></i> 5 / 10 / 2018</span>
@@ -413,7 +413,7 @@
                                     <div class="courses-info">
                                         <div class="courses-author">
                                             <img src="{{ asset('assets/images/author-image2.jpg') }}"
-                                                class="img-responsive" alt="image not found">
+                                                class="img-responsive" alt="napgep">
                                             <span>NAPGEP Cohort</span>
                                         </div>
                                         <div class="courses-price free">
@@ -566,7 +566,7 @@
                             <div class="item">
                                 <div class="tst-image">
                                     <img src="{{ asset('assets/images/tst-image2.jpeg') }}" class="img-responsive"
-                                        alt="image not found">
+                                        alt="profile image">
                                 </div>
                                 <div class="tst-author">
                                     <h4>Florence Onwumere</h4>
@@ -588,7 +588,8 @@
                         <div class="col-md-4 col-sm-4">
                             <div class="item">
                                 <div class="tst-image">
-                                    <img src="{{ asset('assets/images/tst-image1.jpg') }}" class="img-responsive" alt="image not found">
+                                    <img src="{{ asset('assets/images/tst-image1.jpg') }}" class="img-responsive"
+                                        alt="profile">
                                 </div>
                                 <div class="tst-author">
                                     <h4>Lani Gbogboade</h4>
@@ -608,7 +609,7 @@
                             <div class="item">
                                 <div class="tst-image">
                                     <img src="{{ asset('assets/images/tst-image4.jpg') }}" class="img-responsive"
-                                        alt="image not found">
+                                        alt="profile">
                                 </div>
                                 <div class="tst-author">
                                     <h4>Ofornagolu Chioma</h4>
@@ -630,7 +631,7 @@
                             <div class="item">
                                 <div class="tst-image">
                                     <img src="{{ asset('assets/images/tst-image4.jpg') }}" class="img-responsive"
-                                        alt="image not found">
+                                        alt="profile">
                                 </div>
                                 <div class="tst-author">
                                     <h4>Chima Glory</h4>
@@ -652,7 +653,7 @@
                             <div class="item">
                                 <div class="tst-image">
                                     <img src="{{ asset('assets/images/tst-image4.jpg') }}" class="img-responsive"
-                                        alt="image not found">
+                                        alt="profile">
                                 </div>
                                 <div class="tst-author">
                                     <h4>Olivia</h4>
@@ -674,7 +675,7 @@
                             <div class="item">
                                 <div class="tst-image">
                                     <img src="{{ asset('assets/images/tst-image4.jpg') }}" class="img-responsive"
-                                        alt="image not found">
+                                        alt="profile">
                                 </div>
                                 <div class="tst-author">
                                     <h4>Loveth U. Ehihia</h4>
@@ -842,43 +843,61 @@
                 <div class="col-md-12 text-center">
                     <div class="carousel">
                         <div class="image-container" id="imgs">
-                            <img src="{{ asset('assets/images/clients/cbn.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/giz.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/ndic.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/pencom.png') }}" width="120" height="90" alt="image not found">
+                            <img src="{{ asset('assets/images/clients/cbn.png') }}" width="120" height="90" alt="cbn">
+                            <img src="{{ asset('assets/images/clients/giz.png') }}" width="120" height="90" alt="giz">
+                            <img src="{{ asset('assets/images/clients/ndic.png') }}" width="120" height="90" alt="ndic">
+                            <img src="{{ asset('assets/images/clients/pencom.png') }}" width="120" height="90"
+                                alt="pencom">
                             <img src="{{ asset('assets/images/clients/securities.png') }}" width="120" height="90"
-                                alt="image not found">
-                            <img src="{{ asset('assets/images/clients/naicom.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/fmys.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/ncc.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/smedan.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/education.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/nsitf.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/nia.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/fmic2.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/mercy.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/bankers.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/fmof.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/stock.png') }}" width="120" height="90" alt="image not found">
+                                alt="securities">
+                            <img src="{{ asset('assets/images/clients/naicom.png') }}" width="120" height="90"
+                                alt="naicom">
+                            <img src="{{ asset('assets/images/clients/fmys.png') }}" width="120" height="90" alt="fmys">
+                            <img src="{{ asset('assets/images/clients/ncc.png') }}" width="120" height="90" alt="ncc">
+                            <img src="{{ asset('assets/images/clients/smedan.png') }}" width="120" height="90"
+                                alt="smedan">
+                            <img src="{{ asset('assets/images/clients/education.png') }}" width="120" height="90"
+                                alt="education">
+                            <img src="{{ asset('assets/images/clients/nsitf.png') }}" width="120" height="90"
+                                alt="nsitf">
+                            <img src="{{ asset('assets/images/clients/nia.png') }}" width="120" height="90" alt="nia">
+                            <img src="{{ asset('assets/images/clients/fmic2.png') }}" width="120" height="90"
+                                alt="fmic2">
+                            <img src="{{ asset('assets/images/clients/mercy.png') }}" width="120" height="90"
+                                alt="mercy">
+                            <img src="{{ asset('assets/images/clients/bankers.png') }}" width="120" height="90"
+                                alt="bankers">
+                            <img src="{{ asset('assets/images/clients/fmof.png') }}" width="120" height="90" alt="fmof">
+                            <img src="{{ asset('assets/images/clients/stock.png') }}" width="120" height="90"
+                                alt="stock">
 
-                            <img src="{{ asset('assets/images/clients/cbn.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/giz.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/ndic.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/pencom.png') }}" width="120" height="90" alt="image not found">
+                            <img src="{{ asset('assets/images/clients/cbn.png') }}" width="120" height="90" alt="cbn">
+                            <img src="{{ asset('assets/images/clients/giz.png') }}" width="120" height="90" alt="giz">
+                            <img src="{{ asset('assets/images/clients/ndic.png') }}" width="120" height="90" alt="ndic">
+                            <img src="{{ asset('assets/images/clients/pencom.png') }}" width="120" height="90"
+                                alt="pencom">
                             <img src="{{ asset('assets/images/clients/securities.png') }}" width="120" height="90"
-                                alt="image not found">
-                            <img src="{{ asset('assets/images/clients/naicom.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/fmys.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/ncc.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/smedan.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/education.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/nsitf.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/nia.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/fmic2.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/mercy.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/bankers.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/fmof.png') }}" width="120" height="90" alt="image not found">
-                            <img src="{{ asset('assets/images/clients/stock.png') }}" width="120" height="90" alt="image not found">
+                                alt="securities">
+                            <img src="{{ asset('assets/images/clients/naicom.png') }}" width="120" height="90"
+                                alt="naicom">
+                            <img src="{{ asset('assets/images/clients/fmys.png') }}" width="120" height="90" alt="fmys">
+                            <img src="{{ asset('assets/images/clients/ncc.png') }}" width="120" height="90" alt="ncc">
+                            <img src="{{ asset('assets/images/clients/smedan.png') }}" width="120" height="90"
+                                alt="smedan">
+                            <img src="{{ asset('assets/images/clients/education.png') }}" width="120" height="90"
+                                alt="education">
+                            <img src="{{ asset('assets/images/clients/nsitf.png') }}" width="120" height="90"
+                                alt="nsitf">
+                            <img src="{{ asset('assets/images/clients/nia.png') }}" width="120" height="90" alt="nia">
+                            <img src="{{ asset('assets/images/clients/fmic2.png') }}" width="120" height="90"
+                                alt="fmic2">
+                            <img src="{{ asset('assets/images/clients/mercy.png') }}" width="120" height="90"
+                                alt="mercy">
+                            <img src="{{ asset('assets/images/clients/bankers.png') }}" width="120" height="90"
+                                alt="bankers">
+                            <img src="{{ asset('assets/images/clients/fmof.png') }}" width="120" height="90" alt="fmof">
+                            <img src="{{ asset('assets/images/clients/stock.png') }}" width="120" height="90"
+                                alt="stock">
                         </div>
                         <div class="buttons-container">
                             <div id="left" class="carousel-btn"><i class="fa fa-solid fa-chevron-left"></i></div>

@@ -12,7 +12,7 @@
                 </div>
                 <div class="row blog-res-2">
                     <div class="col-md-1">
-                        <img id="play" src="{{ url('/assets/images/blogLogo.png') }}" alt="image not found">
+                        <img id="play" src="{{ url('/assets/images/blogLogo.png') }}" alt="bloglogo">
 
                     </div>
                     <div class="col-md-8 item2">
@@ -96,7 +96,7 @@
     <div class="blog-content3">
         <div class="row bc3-item1">
             <div class="col-md-2 bc3-item1a">
-                <img id="play" src="{{ url('/assets/images/blogLogo.png') }}" alt="image not found">
+                <img id="play" src="{{ url('/assets/images/blogLogo.png') }}" alt="blog_profile">
             </div>
             <div class="col-md-8">
 
@@ -121,7 +121,7 @@
         <div class="row blog-res-4">
             <div class="col-md-3 bsa">
                 <div class="bc4-item2">
-                    <img src="{{ url('/assets/images/adeolu-eletu-unRkg2jH1j0-unsplash.jpg') }}" alt="No image found"
+                    <img src="{{ url('/assets/images/adeolu-eletu-unRkg2jH1j0-unsplash.jpg') }}" alt="similar articles"
                         width="100%">
                     <div class="bc4-item3">
                         <p>LifeStyle</p>
@@ -138,7 +138,7 @@
             </div>
             <div class="col-md-3 bsa">
                 <div class="bc4-item2">
-                    <img src="{{ url('/assets/images/adeolu-eletu-unRkg2jH1j0-unsplash.jpg') }}" alt="No image found"
+                    <img src="{{ url('/assets/images/adeolu-eletu-unRkg2jH1j0-unsplash.jpg') }}" alt="similar articles"
                         width="100%">
                     <div class="bc4-item3">
                         <p>LifeStyle</p>
@@ -152,7 +152,7 @@
             </div>
             <div class="col-md-3 bsa">
                 <div class="bc4-item2">
-                    <img src="{{ url('/assets/images/adeolu-eletu-unRkg2jH1j0-unsplash.jpg') }}" alt="No image found"
+                    <img src="{{ url('/assets/images/adeolu-eletu-unRkg2jH1j0-unsplash.jpg') }}" alt="similar articles"
                         width="100%">
                     <div class="bc4-item3">
                         <p>LifeStyle</p>
@@ -165,7 +165,7 @@
             </div>
             <div class="col-md-3 bsa">
                 <div class="bc4-item2">
-                    <img src="{{ url('/assets/images/adeolu-eletu-unRkg2jH1j0-unsplash.jpg') }}" alt="No image found"
+                    <img src="{{ url('/assets/images/adeolu-eletu-unRkg2jH1j0-unsplash.jpg') }}" alt="similar articles"
                         width="100%">
                     <div class="bc4-item3">
                         <p>LifeStyle</p>
