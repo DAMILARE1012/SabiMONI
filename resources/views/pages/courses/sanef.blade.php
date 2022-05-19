@@ -15,18 +15,20 @@
             <div class="col-md-5 col-md-offset-1">
                 <div class="courses-text">
                     <h3><a href="sanef">SANEF</a></h3>
-                    <p align="justify" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum ratione obcaecati beatae sapiente
+                    <p align="justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum ratione obcaecati
+                        beatae sapiente
                         eaque, necessitatibus, perferendis consectetur non explicabo vero accusantium provident nesciunt
                         doloribus deleniti cupiditate ipsa quia repudiandae commodi? Lorem ipsum dolor, sit amet consectetur
                         adipisicing elit. Animi nemo iusto unde officiis quidem? Est voluptatum nostrum autem? Assumenda
                         blanditiis ducimus, tempora incidunt aspernatur optio numquam deserunt quis voluptatibus dolore?.
                     </p>
                 </div>
-                <img src="{{ asset('assets/images/courses-image2.jpg') }}" class="img-responsive" alt="image not found" width="100%"
+                <img src="{{ asset('assets/images/courses-image2.jpg') }}" class="img-responsive" alt="sanef" width="100%"
                     style="margin-bottom: 25px; margin-top: 25px">
                 <div class="courses-text">
                     {{-- <h3><a href="sanef">SANEF</a></h3> --}}
-                    <p align="justify" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum ratione obcaecati beatae sapiente
+                    <p align="justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum ratione obcaecati
+                        beatae sapiente
                         eaque, necessitatibus, perferendis consectetur non explicabo vero accusantium provident nesciunt
                         doloribus deleniti cupiditate ipsa quia repudiandae commodi? Lorem ipsum dolor, sit amet consectetur
                         adipisicing elit. Animi nemo iusto unde officiis quidem? Est voluptatum nostrum autem? Assumenda
@@ -40,88 +42,91 @@
 
                 <div class="" style=" margin-top: 50px; margin-bottom: 50px">
                     <p class="text-center h3" style="margin-bottom: 20px"><b>Modules Overview</b></p>
-    
-    
-    
+
+
+
                     <div class="col-md-12 text-center" style="padding-left: 0px !important">
                         <div class="carousel">
                             <div class="image-container" id="imgs">
-    
+
+
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel1.png') }}" width="150"
-                                    height="120" alt="image not found">
+                                    height="120" alt="financials">
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel2.png') }}" width="150"
-                                    height="120" alt="image not found">
+                                    height="120" alt="my business">
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel3.png') }}" width="150"
-                                    height="120" alt="image not found">
+                                    height="120" alt="consumer right">
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel4.png') }}" width="150"
-                                    height="120" alt="image not found">
+                                    height="120" alt="financial environment">
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel5.png') }}" width="150"
-                                    height="120" alt="image not found">
+                                    height="120" alt="fraud and scams">
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel6.png') }}" width="150"
-                                    height="120" alt="image not found">
+                                    height="120" alt="investing">
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel7.png') }}" width="150"
-                                    height="120" alt="image not found">
+                                    height="120" alt="Learner centeredness">
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel1.png') }}" width="150"
-                                    height="120" alt="image not found">
+                                    height="120" alt="fiancials">
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel2.png') }}" width="150"
-                                    height="120" alt="image not found">
+                                    height="120" alt="my business">
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel3.png') }}" width="150"
-                                    height="120" alt="image not found">
+                                    height="120" alt="consumer right">
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel4.png') }}" width="150"
-                                    height="120" alt="image not found">
+                                    height="120" alt="financial enviroment">
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel5.png') }}" width="150"
-                                    height="120" alt="image not found">
+                                    height="120" alt="fraud and scams">
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel6.png') }}" width="150"
-                                    height="120" alt="image not found">
+                                    height="120" alt="investing">
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel7.png') }}" width="150"
-                                    height="120" alt="image not found">
+                                    height="120" alt="Learner centeredness">
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel8.png') }}" width="150"
-                                    height="120" alt="image not found">
+                                    height="120" alt="borrowing">
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel9.png') }}" width="150"
-                                    height="120" alt="image not found">
-                                <img src="{{ asset('assets/images/courses_carousel_images/carousel10.png') }}" width="150"
-                                    height="120" alt="image not found">
-                                <img src="{{ asset('assets/images/courses_carousel_images/carousel11.png') }}" width="150"
-                                    height="120" alt="image not found">
-                                <img src="{{ asset('assets/images/courses_carousel_images/carousel12.png') }}" width="150"
-                                    height="120" alt="image not found">
-                                <img src="{{ asset('assets/images/courses_carousel_images/carousel13.png') }}" width="150"
-                                    height="120" alt="image not found">
+                                    height="120" alt="needs and wants">
+                                <img src="{{ asset('assets/images/courses_carousel_images/carousel10.png') }}"
+                                    width="150" height="120" alt="financial negotiation">
+                                <img src="{{ asset('assets/images/courses_carousel_images/carousel11.png') }}"
+                                    width="150" height="120" alt="sending money">
+                                <img src="{{ asset('assets/images/courses_carousel_images/carousel12.png') }}"
+                                    width="150" height="120" alt="managing money keeping records">
+                                <img src="{{ asset('assets/images/courses_carousel_images/carousel13.png') }}"
+                                    width="150" height="120" alt="managing risk">
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel4.png') }}" width="150"
-                                    height="120" alt="image not found">
+                                    height="120" alt="financial environment">
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel5.png') }}" width="150"
-                                    height="120" alt="image not found">
+                                    height="120" alt="fraud and scams">
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel6.png') }}" width="150"
-                                    height="120" alt="image not found">
+                                    height="120" alt="investing">
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel7.png') }}" width="150"
-                                    height="120" alt="image not found">
+                                    height="120" alt="Learner Centeredness">
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel8.png') }}" width="150"
-                                    height="120" alt="image not found">
+                                    height="120" alt="borrowing">
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel9.png') }}" width="150"
-                                    height="120" alt="image not found">
-                                <img src="{{ asset('assets/images/courses_carousel_images/carousel10.png') }}" width="150"
-                                    height="120" alt="image not found">
-                                <img src="{{ asset('assets/images/courses_carousel_images/carousel11.png') }}" width="150"
-                                    height="120" alt="image not found">
-                                <img src="{{ asset('assets/images/courses_carousel_images/carousel12.png') }}" width="150"
-                                    height="120" alt="image not found">
-                                <img src="{{ asset('assets/images/courses_carousel_images/carousel13.png') }}" width="150"
-                                    height="120" alt="image not found">
-                                <img src="{{ asset('assets/images/courses_carousel_images/carousel14.png') }}" width="150"
-                                    height="120" alt="image not found">
+                                    height="120" alt="needs and wants">
+                                <img src="{{ asset('assets/images/courses_carousel_images/carousel10.png') }}"
+                                    width="150" height="120" alt="financial negotiation">
+                                <img src="{{ asset('assets/images/courses_carousel_images/carousel11.png') }}"
+                                    width="150" height="120" alt="sending money">
+                                <img src="{{ asset('assets/images/courses_carousel_images/carousel12.png') }}"
+                                    width="150" height="120" alt="managing money keeping records">
+                                <img src="{{ asset('assets/images/courses_carousel_images/carousel13.png') }}"
+                                    width="150" height="120" alt="managing risk">
+                                <img src="{{ asset('assets/images/courses_carousel_images/carousel14.png') }}"
+                                    width="150" height="120" alt="saving">
                                 <img src="{{ asset('assets/images/courses_carousel_images/carousel9.png') }}" width="150"
-                                    height="120" alt="image not found">
-                                <img src="{{ asset('assets/images/courses_carousel_images/carousel10.png') }}" width="150"
-                                    height="120" alt="image not found">
-                                <img src="{{ asset('assets/images/courses_carousel_images/carousel11.png') }}" width="150"
-                                    height="120" alt="image not found">
-                                <img src="{{ asset('assets/images/courses_carousel_images/carousel12.png') }}" width="150"
-                                    height="120" alt="image not found">
-                                <img src="{{ asset('assets/images/courses_carousel_images/carousel13.png') }}" width="150"
-                                    height="120" alt="image not found">
-                                <img src="{{ asset('assets/images/courses_carousel_images/carousel14.png') }}" width="150"
-                                    height="120" alt="image not found">
-    
+                                    height="120" alt="needs and wants">
+                                <img src="{{ asset('assets/images/courses_carousel_images/carousel10.png') }}"
+                                    width="150" height="120" alt="financial negotiation">
+                                <img src="{{ asset('assets/images/courses_carousel_images/carousel11.png') }}"
+                                    width="150" height="120" alt="sending money">
+                                <img src="{{ asset('assets/images/courses_carousel_images/carousel12.png') }}"
+                                    width="150" height="120" alt="managing money keeping records">
+                                <img src="{{ asset('assets/images/courses_carousel_images/carousel13.png') }}"
+                                    width="150" height="120" alt="managing risk">
+                                <img src="{{ asset('assets/images/courses_carousel_images/carousel14.png') }}"
+                                    width="150" height="120" alt="saving">
+
+
+
                             </div>
                             <div class="buttons-container">
                                 <div id="left" class="carousel-btn"><i class="fa fa-solid fa-chevron-left"></i></div>
@@ -129,9 +134,9 @@
                             </div>
                         </div>
                     </div>
-    
-    
-    
+
+
+
                 </div>
 
                 {{-- -------------------------------sanef carousel ends-------------------------------------------- --}}
@@ -142,7 +147,8 @@
                 <div class="courses-card">
 
                     <div class="sanef">
-                        <img src="{{ asset('assets/images/modules/courses-image1.jpg') }}" alt="image not found" width="100%" height="170px">
+                        <img src="{{ asset('assets/images/modules/courses-image1.jpg') }}" alt="image not found"
+                            width="100%" height="170px">
                     </div>
 
                     <div class="courses-detail">
@@ -167,7 +173,8 @@
                 <div class="courses-card courses-card-1">
 
                     <div class="cflt">
-                        <img src="{{ asset('assets/images/modules/courses-image1.jpg') }}" alt="image not found" width="100%" height="170px">
+                        <img src="{{ asset('assets/images/modules/courses-image1.jpg') }}" alt="image not found"
+                            width="100%" height="170px">
                     </div>
 
                     <div class="courses-detail">
