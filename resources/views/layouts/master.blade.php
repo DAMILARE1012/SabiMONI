@@ -8,7 +8,10 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="description" content="">
+    <meta name="description" content="
+    Financial literacy impacts almost every aspect in our lives 
+    today. Whether we go to the market, discuss our family budget, manage our business 
+    or prepare for retirement, our understanding of how money works has a strong effect on our quality of life.">
     <meta name="keywords" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -32,7 +35,6 @@
             animation-name: backtop;
             animation-duration: 1s
         }
-      
 
         #backToTOP:hover {
             background-color: green;
@@ -220,12 +222,9 @@
         const forTest = document.querySelectorAll('.forTest')
         const forContact = document.querySelectorAll('.forContact')
 
-        if (window.location.href !== "{{ route('home') }}") {
-            if(location.pathname === "/index.php/faqs"){
-            forFaq.forEach(home=>home.setAttribute('href', "#top"))
-            }else{
-                forFaq.forEach(home=>home.setAttribute('href', "/index.php/faqs")) 
-            }
+        if (window.location.pathname === "/index.php/faqs" ){
+            
+            forFaq.forEach(home=>home.setAttribute('href', "#top")) 
             forHome.forEach(home=>home.setAttribute('href', "{{ route('home') }}"))
             forAbout.forEach(home=>home.setAttribute('href', "{{ route('home') }}#about"))
             forCourse.forEach(home=>home.setAttribute('href', "{{ route('home') }}#courses"))
