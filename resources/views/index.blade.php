@@ -233,7 +233,7 @@ https://templatemo.com/tm-516-known
                 <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                         <div class="team-image">
-                            <img src="images/author-image1.jpg" class="img-responsive" alt="">
+                            <img src="images/author-image1.jpg" class="img-responsive" alt="image not found">
                         </div>
                         <div class="team-info">
                             <h3>Mark Wilson</h3>
@@ -250,7 +250,7 @@ https://templatemo.com/tm-516-known
                 <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                         <div class="team-image">
-                            <img src="images/author-image2.jpg" class="img-responsive" alt="">
+                            <img src="images/author-image2.jpg" class="img-responsive" alt="image not found">
                         </div>
                         <div class="team-info">
                             <h3>Catherine</h3>
@@ -266,7 +266,7 @@ https://templatemo.com/tm-516-known
                 <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                         <div class="team-image">
-                            <img src="images/author-image3.jpg" class="img-responsive" alt="">
+                            <img src="images/author-image3.jpg" class="img-responsive" alt="image not found">
                         </div>
                         <div class="team-info">
                             <h3>Jessie Ca</h3>
@@ -283,7 +283,7 @@ https://templatemo.com/tm-516-known
                 <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                         <div class="team-image">
-                            <img src="images/author-image4.jpg" class="img-responsive" alt="">
+                            <img src="images/author-image4.jpg" class="img-responsive" alt="image not found">
                         </div>
                         <div class="team-info">
                             <h3>Andrew Berti</h3>
@@ -318,7 +318,7 @@ https://templatemo.com/tm-516-known
                                 <div class="courses-thumb">
                                     <div class="courses-top">
                                         <div class="courses-image">
-                                            <img src="images/courses-image1.jpg" class="img-responsive" alt="">
+                                            <img src="images/courses-image1.jpg" class="img-responsive" alt="image not found">
                                         </div>
                                         <div class="courses-date">
                                             <span><i class="fa fa-calendar"></i> 12 / 7 / 2018</span>
@@ -333,7 +333,7 @@ https://templatemo.com/tm-516-known
 
                                     <div class="courses-info">
                                         <div class="courses-author">
-                                            <img src="images/author-image1.jpg" class="img-responsive" alt="">
+                                            <img src="images/author-image1.jpg" class="img-responsive" alt="image not found">
                                             <span>Mark Wilson</span>
                                         </div>
                                         <div class="courses-price">
@@ -349,7 +349,7 @@ https://templatemo.com/tm-516-known
                                 <div class="courses-thumb">
                                     <div class="courses-top">
                                         <div class="courses-image">
-                                            <img src="images/courses-image2.jpg" class="img-responsive" alt="">
+                                            <img src="images/courses-image2.jpg" class="img-responsive" alt="image not found">
                                         </div>
                                         <div class="courses-date">
                                             <span><i class="fa fa-calendar"></i> 20 / 7 / 2018</span>
@@ -364,7 +364,7 @@ https://templatemo.com/tm-516-known
 
                                     <div class="courses-info">
                                         <div class="courses-author">
-                                            <img src="images/author-image2.jpg" class="img-responsive" alt="">
+                                            <img src="images/author-image2.jpg" class="img-responsive" alt="image not found">
                                             <span>Jessica</span>
                                         </div>
                                         <div class="courses-price">
@@ -380,7 +380,7 @@ https://templatemo.com/tm-516-known
                                 <div class="courses-thumb">
                                     <div class="courses-top">
                                         <div class="courses-image">
-                                            <img src="images/courses-image3.jpg" class="img-responsive" alt="">
+                                            <img src="images/courses-image3.jpg" class="img-responsive" alt="image not found">
                                         </div>
                                         <div class="courses-date">
                                             <span><i class="fa fa-calendar"></i> 15 / 8 / 2018</span>
@@ -395,7 +395,7 @@ https://templatemo.com/tm-516-known
 
                                     <div class="courses-info">
                                         <div class="courses-author">
-                                            <img src="images/author-image3.jpg" class="img-responsive" alt="">
+                                            <img src="images/author-image3.jpg" class="img-responsive" alt="image not found">
                                             <span>Catherine</span>
                                         </div>
                                         <div class="courses-price free">
@@ -411,7 +411,7 @@ https://templatemo.com/tm-516-known
                                 <div class="courses-thumb">
                                     <div class="courses-top">
                                         <div class="courses-image">
-                                            <img src="images/courses-image4.jpg" class="img-responsive" alt="">
+                                            <img src="images/courses-image4.jpg" class="img-responsive" alt="image not found">
                                         </div>
                                         <div class="courses-date">
                                             <span><i class="fa fa-calendar"></i> 10 / 8 / 2018</span>
@@ -426,7 +426,7 @@ https://templatemo.com/tm-516-known
 
                                     <div class="courses-info">
                                         <div class="courses-author">
-                                            <img src="images/author-image1.jpg" class="img-responsive" alt="">
+                                            <img src="images/author-image1.jpg" class="img-responsive" alt="image not found">
                                             <span>Mark Wilson</span>
                                         </div>
                                         <div class="courses-price">
@@ -442,7 +442,7 @@ https://templatemo.com/tm-516-known
                                 <div class="courses-thumb">
                                     <div class="courses-top">
                                         <div class="courses-image">
-                                            <img src="images/courses-image5.jpg" class="img-responsive" alt="">
+                                            <img src="images/courses-image5.jpg" class="img-responsive" alt="image not found">
                                         </div>
                                         <div class="courses-date">
                                             <span><i class="fa fa-calendar"></i> 5 / 10 / 2018</span>
@@ -457,7 +457,7 @@ https://templatemo.com/tm-516-known
 
                                     <div class="courses-info">
                                         <div class="courses-author">
-                                            <img src="images/author-image2.jpg" class="img-responsive" alt="">
+                                            <img src="images/author-image2.jpg" class="img-responsive" alt="image not found">
                                             <span>Jessica</span>
                                         </div>
                                         <div class="courses-price free">
@@ -489,7 +489,7 @@ https://templatemo.com/tm-516-known
                         <div class="col-md-4 col-sm-4">
                             <div class="item">
                                 <div class="tst-image">
-                                    <img src="images/tst-image1.jpg" class="img-responsive" alt="">
+                                    <img src="images/tst-image1.jpg" class="img-responsive" alt="image not found">
                                 </div>
                                 <div class="tst-author">
                                     <h4>Jackson</h4>
@@ -510,7 +510,7 @@ https://templatemo.com/tm-516-known
                         <div class="col-md-4 col-sm-4">
                             <div class="item">
                                 <div class="tst-image">
-                                    <img src="images/tst-image2.jpg" class="img-responsive" alt="">
+                                    <img src="images/tst-image2.jpg" class="img-responsive" alt="image not found">
                                 </div>
                                 <div class="tst-author">
                                     <h4>Camila</h4>
@@ -529,7 +529,7 @@ https://templatemo.com/tm-516-known
                         <div class="col-md-4 col-sm-4">
                             <div class="item">
                                 <div class="tst-image">
-                                    <img src="images/tst-image3.jpg" class="img-responsive" alt="">
+                                    <img src="images/tst-image3.jpg" class="img-responsive" alt="image not found">
                                 </div>
                                 <div class="tst-author">
                                     <h4>Barbie</h4>
@@ -549,7 +549,7 @@ https://templatemo.com/tm-516-known
                         <div class="col-md-4 col-sm-4">
                             <div class="item">
                                 <div class="tst-image">
-                                    <img src="images/tst-image4.jpg" class="img-responsive" alt="">
+                                    <img src="images/tst-image4.jpg" class="img-responsive" alt="image not found">
                                 </div>
                                 <div class="tst-author">
                                     <h4>Andrio</h4>

@@ -28,7 +28,7 @@
                     velit ut mollitia quam, consectetur quis exercitationem neque dolorem rerum voluptate ab deleniti
                     blanditiis!</p>
             </div>
-            <img src="{{ asset('assets/images/courses-image1.jpg') }}" alt="" width="100%"
+            <img src="{{ asset('assets/images/courses-image1.jpg') }}" alt="image not found" width="100%"
                 style="margin-bottom: 25px; margin-top: 25px">
             <div class="courses-text">
                 {{-- <h3><a href="basicFinLit">Basic Financial Literacy</a></h3> --}}
@@ -56,79 +56,79 @@
                         <div class="image-container" id="imgs">
 
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel1.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel2.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel3.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel4.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel5.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel6.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel7.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel1.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel2.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel3.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel4.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel5.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel6.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel7.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel8.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel9.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel10.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel11.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel12.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel13.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel4.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel5.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel6.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel7.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel8.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel9.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel10.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel11.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel12.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel13.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel14.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel9.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel10.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel11.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel12.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel13.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
                             <img src="{{ asset('assets/images/courses_carousel_images/carousel14.png') }}" width="150"
-                                height="120" alt="">
+                                height="120" alt="image not found">
 
                         </div>
                         <div class="buttons-container">
@@ -151,7 +151,7 @@
             <div class="courses-card">
 
                 <div class="sanef">
-                    <img src="{{ asset('assets/images/modules/courses-image2.jpg') }}" alt="" width="100%" height="170px">
+                    <img src="{{ asset('assets/images/modules/courses-image2.jpg') }}" alt="image not found" width="100%" height="170px">
                 </div>
 
                 <div class="courses-detail">
@@ -163,7 +163,7 @@
 
                 <div class="courses-info">
                     <div class="courses-author">
-                        <img src="{{ asset('assets/images/author-image1.jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/author-image1.jpg') }}" alt="image not found">
                         <span>General</span>
 
                     </div>
@@ -177,7 +177,7 @@
             <div class="courses-card courses-card-1">
 
                 <div class="cflt">
-                    <img src="{{ asset('assets/images/modules/courses-image1.jpg') }}" alt="" width="100%" height="170px">
+                    <img src="{{ asset('assets/images/modules/courses-image1.jpg') }}" alt="image not found" width="100%" height="170px">
                 </div>
 
                 <div class="courses-detail">
@@ -189,7 +189,7 @@
 
                 <div class="courses-info">
                     <div class="courses-author">
-                        <img src="{{ asset('assets/images/author-image1.jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/author-image1.jpg') }}" alt="image not found">
                         <span>General</span>
                     </div>
                     <div class="courses-price">
@@ -242,7 +242,7 @@
         <div class="row">
             <div class="col-md-6 ">
                 <div class="cs3-item1">
-                    <img src="{{ asset('assets/images/2.png') }}" alt="" width="150px" height="130px">
+                    <img src="{{ asset('assets/images/2.png') }}" alt="image not found" width="150px" height="130px">
                     <div class="">
                         <h2 style="margin-top: 0px; margin-bottom: 0px; padding-left: 12px;">Online Assessment
                         </h2>
@@ -259,7 +259,7 @@
             </div>
             <div class="col-md-6 ">
                 <div class="cs3-item1" style="padding-bottom: 20px">
-                    <img src="{{ asset('assets/images/3.png') }}" alt="" width="150px" height="130px">
+                    <img src="{{ asset('assets/images/3.png') }}" alt="image not found" width="150px" height="130px">
                     <div class="">
                         <h2 style="margin-top: 0px; margin-bottom: 0px; padding-left: 12px;">Certification
                         </h2>
@@ -276,7 +276,7 @@
         </div>
         <div class="row">
             <div class="cs3-item2" style="margin-bottom: 50px">
-                <img src="{{ asset('assets/images/1.png') }}" alt="" width="150px" height="130px">
+                <img src="{{ asset('assets/images/1.png') }}" alt="image not found" width="150px" height="130px">
                 <div class="">
                     <h2 style="margin-top: 0px; margin-bottom: 0px; padding-left: 12px;">Final Teaching Assessment (For
                         Trainers Only)
