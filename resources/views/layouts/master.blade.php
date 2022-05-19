@@ -9,11 +9,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="description" content="
-    Financial literacy impacts almost every aspect in our lives 
-    today. Whether we go to the market, discuss our family budget, manage our business 
-    or prepare for retirement, our understanding of how money works has a strong effect on our quality of life.">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
+    SabiMONI is a Financial Literacy Learning Platform that offers training to both individuals aspiring to be Certified 
+    Financial Literacy Trainers (CFLTs) and also to consumers looking to enhance their financial well-being.">
+    <meta name="keywords" content="sabimoni, CBN Financial Learning Management System, Free Financial Literacy, Professional Trainers, Free Financial Literacy for anyone">
+    <meta name="author" content="CBN, GIZ, NCC,NIA">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     @include('roots._css')
