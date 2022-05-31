@@ -19,7 +19,7 @@
     <style>
         #backToTOP {
             position: fixed;
-            bottom: 150px;
+            bottom: 160px;
             right: 20px;
             z-index: 10000;
             background: #29ca8e;
@@ -183,6 +183,12 @@
 </head>
 
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+    <!----------Whatsapp chat handle------------->
+   <img src="{{ asset('assets/images/whatsapp.png') }}" class="img-responsive" style="position: fixed; bottom: 50%; right: 20px; z-index: 2000; width: 50px; height: 50px; " alt="profile">
+
+
+
     <!-- back to top button -->
     <button id="backToTOP"><i class="fa fa-angle-double-up"></i></button>
 
@@ -191,7 +197,7 @@
         <div class="spinner">
 
             <span class="spinner-rotate"></span>
-
+ 
         </div>
     </section>
 
