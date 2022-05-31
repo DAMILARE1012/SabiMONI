@@ -35,6 +35,7 @@ Route::get('courses/basicFinLit', 'PagesController@basicFinGroup')->name('course
 Route::post('my-captcha', 'ContactController@myCaptchaPost')->name('myCaptcha.post');
 Route::get('/refresh_captcha', 'ContactController@refreshCaptcha')->name('refresh_captcha');
 Route::get('/blog', 'PagesController@blog')->name('blog');
+Route::get('/terms_of_use', 'PagesController@terms_of_use')->name('terms_of_use');
 
 
 Route::group(['prefix' => 'news'], function () {

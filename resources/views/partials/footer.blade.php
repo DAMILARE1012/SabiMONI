@@ -119,7 +119,7 @@
         <div class="copyright-text text-center ">
             <p>Copyright &copy; 2022 SabiMONI Learning Portal</p>
 
-            <p id="terms_and_conditions" class="terms_and_conditions">Terms of Use/Privacy</p>
+            <p id="terms_and_conditions" class="terms_and_conditions"><a href="{{ route('terms_of_use') }}">Terms of Use/Privacy</a></p>
         </div>
 
 
