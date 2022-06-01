@@ -185,7 +185,10 @@
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
     <!----------Whatsapp chat handle------------->
-   <img src="{{ asset('assets/images/whatsapp.png') }}" class="img-responsive" style="position: fixed; bottom: 50%; right: 20px; z-index: 2000; width: 50px; height: 50px; " alt="profile">
+    <a href="#">
+     <img src="{{ asset('assets/images/whatsapp.png') }}" class="img-responsive" style="position: fixed; bottom: 50%; right: 20px; z-index: 2000; width: 50px; height: 50px; " alt="profile">   
+    </a>
+   
 
 
 
