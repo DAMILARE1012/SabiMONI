@@ -186,7 +186,7 @@
 
     <!----------Whatsapp chat handle------------->
     <a href="#">
-     <img src="{{ asset('assets/images/whatsapp.png') }}" class="img-responsive" style="position: fixed; bottom: 50%; right: 20px; z-index: 2000; width: 50px; height: 50px; " alt="profile">   
+     <img src="{{ asset('assets/images/whatsapp.png') }}" class="img-responsive" style="position: fixed; bottom: 50%; right: 20px; z-index: 2000; width: 30px; height: 30px; " alt="profile">   
     </a>
    
 
