@@ -68,7 +68,7 @@
                 <div class="col-md-4 col-sm-4 text-center">
                     <div class="feature-thumb">
                         <span><i class="fa fa-clock-o"></i></span>
-                        <h3>Self Paced Learning</h3>
+                        <h3>Self-Paced Learning</h3>
                         <p>We provide outmost convenience to learners over what we teach.</p>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                     <div class="feature-thumb">
                         <span><i class="fa fa-certificate"></i></span>
                         <h3>Certification</h3>
-                        <p>After final assessments, users' certificates are issued.</p>
+                        <p>After final assessments, user's certificate is signed/endsored by the CBN.</p>
                     </div>
                 </div>
 
@@ -108,7 +108,7 @@
                             <span><i class="fa fa-users"></i></span>
                             <figcaption>
                                 <h3>Professional Trainers</h3>
-                                <p>At SabiMoni, we have the best corporate trainers who are specialists in increasing your
+                                <p>At SabiMONI, we have the best corporate trainers who are specialists in increasing your
                                     financial productivity, skill and knowledge.</p>
                             </figcaption>
                         </figure>
@@ -125,7 +125,7 @@
                             <span><i class="fa fa-bar-chart-o"></i></span>
                             <figcaption>
                                 <h3>Free for Everyone</h3>
-                                <p>The SabiMoni e-learning platform is designed to train as many people as possible with
+                                <p>The SabiMONI e-learning platform is designed to train as many people as possible with
                                     up-to-date financial tools and resources at no-cost.</p>
                             </figcaption>
                         </figure>
@@ -712,7 +712,7 @@
                     <div class="contact-image">
                         <a href="https://play.google.com/store/apps/details?id=com.sabimoni.ng" target="_blank"
                             rel="noopener noreferrer">
-                            <img src="{{ asset('assets/images/sabiMONI_Phone.jpg') }}" class="img-responsive"
+                            <img src="{{ asset('assets/images/sabiMONI_Phone.png') }}" class="img-responsive"
                                 alt="Sabi MONI Mobile Application">
                         </a>
 

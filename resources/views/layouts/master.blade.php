@@ -9,11 +9,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="description" content="
-    SabiMONI is a Financial Literacy Learning Platform that offers training to both individuals aspiring to be Certified 
+    SabiMONI is a Financial Literacy Learning Platform that offers training to both individuals aspiring to be Certified
     Financial Literacy Trainers (CFLTs) and also to consumers looking to enhance their financial well-being.">
-    <meta name="keywords" content="sabimoni, CBN Financial Learning Management System, Free Financial Literacy, Professional Trainers, Free Financial Literacy for anyone">
+    <meta name="keywords"
+        content="sabimoni, CBN Financial Learning Management System, Free Financial Literacy, Professional Trainers, Free Financial Literacy for anyone">
     <meta name="author" content="CBN, GIZ, Federal University of Technology Minna">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
 
     @include('roots._css')
     <style>
@@ -185,61 +187,62 @@
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
     <!----------Whatsapp chat handle------------->
-    <a href="javascript:void(0)">
-     <img src="{{ asset('assets/images/whatsapp.png') }}" class="img-responsive" style="position: fixed; bottom: 50%; right: 20px; z-index: 2000; width: 30px; height: 30px; " alt="profile">   
+    <a href="#">
+        <img src="{{ asset('assets/images/whatsapp.png') }}" class="img-responsive"
+            style="position: fixed; bottom: 50%; right: 20px; z-index: 2000; width: 30px; height: 30px; " alt="profile">
     </a>
-   
+
+    <a href="{{ asset('assets/users_guide.pdf') }}" download="user_guide" target="_blank" hidden>
 
 
+        <!-- back to top button -->
+        <button id="backToTOP"><i class="fa fa-angle-double-up"></i></button>
 
-    <!-- back to top button -->
-    <button id="backToTOP"><i class="fa fa-angle-double-up"></i></button>
+        <!-- PRE LOADER -->
+        <section class="preloader">
+            <div class="spinner">
 
-    <!-- PRE LOADER -->
-    <section class="preloader">
-        <div class="spinner">
+                <span class="spinner-rotate"></span>
 
-            <span class="spinner-rotate"></span>
- 
-        </div>
-    </section>
-
-
-    @include('partials.header')
-
-    @yield('content')
-
-    @include('partials.footer')
-
-    @include('roots._javascript')
+            </div>
+        </section>
 
 
-    <script>
-        const accordion_head = document.querySelectorAll('.accordion-head');
-        accordion_head.forEach((accordion) => {
-            accordion.addEventListener('click', function() {
-                accordion.classList.toggle('active')
+        @include('partials.header')
+
+        @yield('content')
+
+        @include('partials.footer')
+
+        @include('roots._javascript')
+
+
+        <script>
+            const accordion_head = document.querySelectorAll('.accordion-head');
+            accordion_head.forEach((accordion) => {
+                accordion.addEventListener('click', function() {
+                    accordion.classList.toggle('active')
+                })
+
             })
+            const forHome = document.querySelectorAll('.forHome');
+            const forFaq = document.querySelectorAll('.forFaq');
+            const forAbout = document.querySelectorAll('.forAbout')
+            const forCourse = document.querySelectorAll('.forCourse')
+            const forTeam = document.querySelectorAll('.forTeam')
+            const forTest = document.querySelectorAll('.forTest')
+            const forContact = document.querySelectorAll('.forContact')
 
-        })
-        const forHome = document.querySelectorAll('.forHome');
-        const forFaq = document.querySelectorAll('.forFaq');
-        const forAbout = document.querySelectorAll('.forAbout')
-        const forCourse = document.querySelectorAll('.forCourse')
-        const forTeam = document.querySelectorAll('.forTeam')
-        const forTest = document.querySelectorAll('.forTest')
-        const forContact = document.querySelectorAll('.forContact')
-
-        if (window.location.pathname === "/index.php/faqs") {
-            forFaq.forEach(home=>home.setAttribute('href', "#top")) 
-            forHome.forEach(home=>home.setAttribute('href', "{{ route('home') }}"))
-            forAbout.forEach(home=>home.setAttribute('href', "{{ route('home') }}#about"))
-            forCourse.forEach(home=>home.setAttribute('href', "{{ route('home') }}#courses"))
-            forContact.forEach(home=>home.setAttribute('href', "{{ route('home') }}#contact"))
-            forTeam.forEach(home=>home.setAttribute('href', "{{ route('home') }}#team"))
-            forTest.forEach(home=>home.setAttribute('href', "{{ route('home') }}#testimonial"))
-        }
-    </script>
+            if (window.location.pathname === "/index.php/faqs") {
+                forFaq.forEach(home => home.setAttribute('href', "#top"))
+                forHome.forEach(home => home.setAttribute('href', "{{ route('home') }}"))
+                forAbout.forEach(home => home.setAttribute('href', "{{ route('home') }}#about"))
+                forCourse.forEach(home => home.setAttribute('href', "{{ route('home') }}#courses"))
+                forContact.forEach(home => home.setAttribute('href', "{{ route('home') }}#contact"))
+                forTeam.forEach(home => home.setAttribute('href', "{{ route('home') }}#team"))
+                forTest.forEach(home => home.setAttribute('href', "{{ route('home') }}#testimonial"))
+            }
+        </script>
 </body>
 
 </html>

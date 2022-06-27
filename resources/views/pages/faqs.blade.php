@@ -11,7 +11,7 @@
     </div>
     <div class="container my-5">
         <div class="row">
-            <div class="accordion col-lg-7  col-sm-12">
+            <div class="accordion col-lg-6  col-sm-12">
                 <div class="accordion-item">
                     <div class="accordion-head">
                         <h5>What browser(s) can I use to access the web platform?</h5>
@@ -80,56 +80,45 @@
                 </div>
             </div>
 
-            <div class="main-1 col-lg-4 col-lg-offset-1 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-                <h4 class="text-center" style="margin-bottom: 15px;">Other Related Information</h4>
+            <div class="main-1 col-lg-6 col-md-12">
+                <div class="accordion-item">
+                    <div class="accordion-head">
+                        <h5>What mobile devices are recommended for accessing the mobile application?</h5>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-item-body-content">
+                            <p>
+                            <ul class="text-justify" style="padding-right: 30px; padding-bottom:20px;">
+                                <li>You need a smart phone and enough data. The mobile app can be downloaded on Android and
+                                    IOS app is coming soon.</li>
+                            </ul>
+                            </p>
+                        </div>
 
-                <div class="main">
-                    <div class="part1">
-                        <img src="../assets/images/related_info/footerLogo.png" alt="related info" width="100%">
-                    </div>
-                    <div class="part2">
-                        <h5 style="font-weight: bold;"><a href="#">Eliminating And Avoiding Debt</a></h5>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae,
-                            libero blanditiis debitis quibusdam deleniti adipisci voluptas quam iusto ab mollitia rem eius
-                            minus. Laborum voluptatem pariatur recusandae! Sunt, neque.
-                            <a href="#">Read More <i class="fa fa-arrow-right" aria-hidden="true"
-                                    style="color: #29ca8e"></i></a>
-                        </p>
                     </div>
                 </div>
-                <div class="main">
-                    <div class="part1">
-                        <img src="../assets/images/related_info/footerLogo.png" alt="related info" width="100%">
+
+                <div class="accordion-item">
+                    <div class="accordion-head">
+                        <h5>What mobile devices are recommended for accessing the mobile application?</h5>
                     </div>
-                    <div class="part2">
-                        <h5 style="font-weight: bold;"><a href="#">Eliminating And Avoiding Debt</a></h5>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae,
-                            libero blanditiis debitis quibusdam deleniti adipisci voluptas quam iusto ab mollitia rem eius
-                            minus. Laborum voluptatem pariatur recusandae! Sunt, neque.
-                            <a href="#">Read More <i class="fa fa-arrow-right" aria-hidden="true"
-                                    style="color: #29ca8e"></i></a>
-                        </p>
-                    </div>
-                </div>
-                <div class="main">
-                    <div class="part1">
-                        <img src="../assets/images/related_info/footerLogo.png" alt="related info" width="100%">
-                    </div>
-                    <div class="part2">
-                        <h5 style="font-weight: bold;"><a href="#">Eliminating And Avoiding Debt</a></h5>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae,
-                            libero blanditiis debitis quibusdam deleniti adipisci voluptas quam iusto ab mollitia rem eius
-                            minus. Laborum voluptatem pariatur recusandae! Sunt, neque.
-                            <a href="#">Read More <i class="fa fa-arrow-right" aria-hidden="true"
-                                    style="color: #29ca8e"></i></a>
-                        </p>
+                    <div class="accordion-body">
+                        <div class="accordion-item-body-content">
+                            <p>
+                            <ul class="text-justify" style="padding-right: 30px; padding-bottom:20px;">
+                                <li>You need a smart phone and enough data. The mobile app can be downloaded on Android and
+                                    IOS app is coming soon.</li>
+                            </ul>
+                            </p>
+                        </div>
+
                     </div>
                 </div>
             </div>
-            <div class="back">
+            {{-- <div class="back">
                 <a href="{{ route('home') }}"> <i class="fa fa-long-arrow-left" aria-hidden="true"></i> back to
                     home</a>
-            </div>
+            </div> --}}
 
         </div>
     </div>
