@@ -15,7 +15,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        
     }
 
     /**
@@ -25,6 +25,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        URL::forceScheme('https');
+        URL::forceScheme('http');
+        // if ($this->app->environment() === 'production') {
+        //     $this->app['request']->server->set('HTTPS', true);
+        // }
+        // Schema::defaultStringLength(191);
     }
 }

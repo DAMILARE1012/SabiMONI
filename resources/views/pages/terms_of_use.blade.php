@@ -49,9 +49,6 @@
     identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users'
     movement on the website, and gathering demographic information.</p>
 
-
-
-
 <h2>Advertising Partners Privacy Policies</h2>
 
 <P>You may consult this list to find the Privacy Policy for each of the advertising partners of SabiMONI Financial
