@@ -795,15 +795,14 @@
                                 </div>
                                 <div class="col-md-4 col-sm-12 d-flex flex-row justify-content-center text-center"
                                     style="width: 100%">
-                                    <div
-                                        style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+                                    <div style="display: flex; align-items: center;">
                                         <input type="submit" class="form-control" name="send message"
                                             value="Send Message" style="width: 40%">
-                                        <a href="#"
-                                            style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; width: 22%; margin-right: 150px">
-                                            <p style="color: white; margin-top: 10px">Quick Line</p>
+                                        <a href="#">
+                                            {{-- <p style="color: white; margin-top: 10px">Quick Line</p> --}}
                                             <img src="{{ asset('assets/images/whatsapp.png') }}" class="img-responsive"
-                                                style="width: 30px; height: 30px;" alt="profile">
+                                                style="width: 30px; height: 30px; margin-left: 25px" alt="profile"
+                                                data-toggle="tooltip" data-placement="bottom" title="Quick Line">
                                         </a>
                                     </div>
 
