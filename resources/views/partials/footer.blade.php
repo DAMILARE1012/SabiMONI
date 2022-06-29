@@ -75,7 +75,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="footer-info">
                         <div class="section-title">
-                            <h2>Get in Touch</h2>
+                            <h2>Contact Info</h2>
                         </div>
                         <address>
                             <p>
