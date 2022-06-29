@@ -13,8 +13,7 @@
                         <div class="container">
                             <div class="col-md-6 col-sm-12">
                                 <h1>SabiMONI: Your Path to Financial Literacy</h1>
-                                <h3>Our online courses are designed to fit in your industry supporting all-round with latest
-                                    technologies.</h3>
+                                <h3>Learn how to manage your money. Start your journey here: Anywhere, anytime at your own pace.</h3>
                                 <a href="#about" class="section-btn btn btn-default smoothScroll">Discover more</a>
                             </div>
                         </div>
@@ -94,12 +93,12 @@
                 <div class="col-md-6 col-sm-12">
                     <div class="about-info">
                         <h2>About <strong>SabiMONI</strong></h2>
-                        <p align="justify">Financial literacy impacts almost every aspect in our lives today. Whether we go
+                        <p align="justify">Financial literacy impacts almost every aspect of our lives today. Whether we go
                             to the market,
-                            discuss our family budget, manage our business or prepare for retirement, our understanding of
-                            how money works has a strong effect on our quality of life.</p>
+                            discuss our family budget, manage our businesses or prepare for retirement, our understanding of
+                            how money works has a strong effect on the quality of our lives.</p>
 
-                        <p align="justify">This e-learning platform offers financial literacy knowledge tailored towards
+                        <p align="justify">This e-learning platform offers Financial education tailored towards
                             those interested in
                             becoming Certified Financial Literacy Trainer (CFLT) as well as consumers who want to improve
                             their financial wellbeing.</p>
@@ -107,9 +106,8 @@
                         <figure>
                             <span><i class="fa fa-users"></i></span>
                             <figcaption>
-                                <h3>Professional Trainers</h3>
-                                <p>At SabiMONI, we have the best corporate trainers who are specialists in increasing your
-                                    financial productivity, skill and knowledge.</p>
+                                <h3>The Team</h3>
+                                <p>The SabiMONI has been put together by a team of experts to help increase your financial Skills, Knowledge, and Attitude.</p>
                             </figcaption>
                         </figure>
 
@@ -206,9 +204,9 @@
 
                                     <div class="courses-detail">
                                         <h3><a href="javascript:void(0)" class="disabled">CFLT</a></h3>
-                                        <p class="text-justify">An individual who has taken the 14 Financial Literacy
-                                            Modules and Learning Methodology on the SabiMONI platform and obtained a mark of
-                                            60% and undergone a physical assessment session to demonstrate that he or she
+                                        <p class="text-justify">An individual who has taken all the Financial Literacy
+                                            Modules, Learning Methodology on the SabiMONI platform and obtained a pass mark of
+                                            60% and undergone an assessment session (physical/virtual) to demonstrate that he or she
                                             can teach and transfer the knowledge to others.</p>
 
                                     </div>
@@ -367,9 +365,9 @@
 
                                     <div class="courses-detail">
                                         <h3><a href="javascript:void(0)">SANEF</a></h3>
-                                        <p class="text-justify">The SANEF training aims to equip their Agents with basic
+                                        <p class="text-justify">The SANEF training aims to equip it's Agent with basic
                                             financial literacy knowledge to better serve their clients, improve their
-                                            business and their level of financial literacy with the goal of promoting the
+                                            businesses and their level of financial literacy with the goal of promoting the
                                             uptake of financial services especially at the grassroots.</p>
                                     </div>
 
@@ -406,7 +404,7 @@
                                         <h3><a href="javascript:void(0)">NAPGEP</a></h3>
                                         <p class="text-justify">This programme leverages on the platform of the National
                                             Youth Services Corps (NYSC) to train selected Volunteer Corps Members (VCMs) on
-                                            Financial Literacy in order to deliver financial education in rural communities
+                                            Financial Literacy in order to deliver financial education in rural communities and environs
                                             during their Community Development Service (CDS).</p>
                                     </div>
 
@@ -723,7 +721,7 @@
                     <form id="contact-form" role="form" action="/index.php/contact_us" method="post">
                         {{ csrf_field() }}
                         <div class="section-title text-center">
-                            <h2>Contact Us <small>we love conversations. let us talk!</small></h2>
+                            <h2>Contact Us <small>For enquiries. please contact us</small></h2>
                         </div>
 
                         @if (session()->has('success'))
@@ -773,7 +771,7 @@
                             </div>
                             <div class="form-group">
                                 <textarea class="form-control textarea @error('message') is-invalid @enderror" rows="6"
-                                    placeholder="Tell us about your message" name="message" required>{{ old('message') }}</textarea>
+                                    placeholder="Message" name="message" required>{{ old('message') }}</textarea>
                                 @error('message')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
