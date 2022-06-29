@@ -737,9 +737,10 @@
                         <div class="col-md-12 col-sm-12">
                             <div class="row">
                                 <div class="form-group col-md-6 col-sm-12" style="margin-bottom: 5px;">
-                                    <input type="text" class="form-control textarea @error('name') is-invalid @enderror"
-                                        placeholder="Enter full name" name="name" value="{{ old('name') }}" required
-                                        style="margin-bottom: 0px;">
+                                    <input type="text"
+                                        class="form-control textarea @error('name') is-invalid @enderror"
+                                        placeholder="Enter full name" name="name" value="{{ old('name') }}"
+                                        required style="margin-bottom: 0px;">
                                     @error('name')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>
@@ -748,7 +749,8 @@
                                 </div>
 
                                 <div class="form-group col-md-6 col-sm-12" style="margin-bottom: 5px;">
-                                    <input type="email" class="form-control textarea @error('email') is-invalid @enderror"
+                                    <input type="email"
+                                        class="form-control textarea @error('email') is-invalid @enderror"
                                         placeholder="Enter email address" name="email" value="{{ old('email') }}"
                                         required style="margin-bottom: 0px;">
                                     @error('email')
@@ -761,7 +763,8 @@
 
                             <div class="form-group">
                                 <input type="text" class="form-control textarea @error('subject') is-invalid @enderror"
-                                    placeholder="Enter subject...." name="subject" value="{{ old('subject') }}" required>
+                                    placeholder="Enter subject...." name="subject" value="{{ old('subject') }}"
+                                    required>
                                 @error('subject')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -770,8 +773,7 @@
                             </div>
                             <div class="form-group">
                                 <textarea class="form-control textarea @error('message') is-invalid @enderror" rows="6"
-                                    placeholder="Tell us about your message" name="message"
-                                    required>{{ old('message') }}</textarea>
+                                    placeholder="Tell us about your message" name="message" required>{{ old('message') }}</textarea>
                                 @error('message')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -791,10 +793,24 @@
                                         </span>
                                     @endif
                                 </div>
-                                <div class="col-md-4 col-sm-12 d-flex justify-content-center text-center">
-                                    <input type="submit" class="form-control" name="send message" value="Send Message"
-                                        style="">
+                                <div class="col-md-4 col-sm-12 d-flex flex-row justify-content-center text-center"
+                                    style="width: 100%">
+                                    <div
+                                        style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+                                        <input type="submit" class="form-control" name="send message"
+                                            value="Send Message" style="width: 40%">
+                                        <a href="#"
+                                            style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; width: 22%; margin-right: 150px">
+                                            <p style="color: white; margin-top: 10px">Quick Line</p>
+                                            <img src="{{ asset('assets/images/whatsapp.png') }}" class="img-responsive"
+                                                style="width: 30px; height: 30px;" alt="profile">
+                                        </a>
+                                    </div>
+
+
+
                                 </div>
+
                             </div>
 
 
@@ -843,59 +859,73 @@
                 <div class="col-md-12 text-center">
                     <div class="carousel">
                         <div class="image-container" id="imgs">
-                            <img src="{{ asset('assets/images/clients/cbn.png') }}" width="120" height="90" alt="cbn">
-                            <img src="{{ asset('assets/images/clients/giz.png') }}" width="120" height="90" alt="giz">
-                            <img src="{{ asset('assets/images/clients/ndic.png') }}" width="120" height="90" alt="ndic">
+                            <img src="{{ asset('assets/images/clients/cbn.png') }}" width="120" height="90"
+                                alt="cbn">
+                            <img src="{{ asset('assets/images/clients/giz.png') }}" width="120" height="90"
+                                alt="giz">
+                            <img src="{{ asset('assets/images/clients/ndic.png') }}" width="120" height="90"
+                                alt="ndic">
                             <img src="{{ asset('assets/images/clients/pencom.png') }}" width="120" height="90"
                                 alt="pencom">
-                            <img src="{{ asset('assets/images/clients/securities.png') }}" width="120" height="90"
-                                alt="securities">
+                            <img src="{{ asset('assets/images/clients/securities.png') }}" width="120"
+                                height="90" alt="securities">
                             <img src="{{ asset('assets/images/clients/naicom.png') }}" width="120" height="90"
                                 alt="naicom">
-                            <img src="{{ asset('assets/images/clients/fmys.png') }}" width="120" height="90" alt="fmys">
-                            <img src="{{ asset('assets/images/clients/ncc.png') }}" width="120" height="90" alt="ncc">
+                            <img src="{{ asset('assets/images/clients/fmys.png') }}" width="120" height="90"
+                                alt="fmys">
+                            <img src="{{ asset('assets/images/clients/ncc.png') }}" width="120" height="90"
+                                alt="ncc">
                             <img src="{{ asset('assets/images/clients/smedan.png') }}" width="120" height="90"
                                 alt="smedan">
-                            <img src="{{ asset('assets/images/clients/education.png') }}" width="120" height="90"
-                                alt="education">
+                            <img src="{{ asset('assets/images/clients/education.png') }}" width="120"
+                                height="90" alt="education">
                             <img src="{{ asset('assets/images/clients/nsitf.png') }}" width="120" height="90"
                                 alt="nsitf">
-                            <img src="{{ asset('assets/images/clients/nia.png') }}" width="120" height="90" alt="nia">
+                            <img src="{{ asset('assets/images/clients/nia.png') }}" width="120" height="90"
+                                alt="nia">
                             <img src="{{ asset('assets/images/clients/fmic2.png') }}" width="120" height="90"
                                 alt="fmic2">
                             <img src="{{ asset('assets/images/clients/mercy.png') }}" width="120" height="90"
                                 alt="mercy">
                             <img src="{{ asset('assets/images/clients/bankers.png') }}" width="120" height="90"
                                 alt="bankers">
-                            <img src="{{ asset('assets/images/clients/fmof.png') }}" width="120" height="90" alt="fmof">
+                            <img src="{{ asset('assets/images/clients/fmof.png') }}" width="120" height="90"
+                                alt="fmof">
                             <img src="{{ asset('assets/images/clients/stock.png') }}" width="120" height="90"
                                 alt="stock">
 
-                            <img src="{{ asset('assets/images/clients/cbn.png') }}" width="120" height="90" alt="cbn">
-                            <img src="{{ asset('assets/images/clients/giz.png') }}" width="120" height="90" alt="giz">
-                            <img src="{{ asset('assets/images/clients/ndic.png') }}" width="120" height="90" alt="ndic">
+                            <img src="{{ asset('assets/images/clients/cbn.png') }}" width="120" height="90"
+                                alt="cbn">
+                            <img src="{{ asset('assets/images/clients/giz.png') }}" width="120" height="90"
+                                alt="giz">
+                            <img src="{{ asset('assets/images/clients/ndic.png') }}" width="120" height="90"
+                                alt="ndic">
                             <img src="{{ asset('assets/images/clients/pencom.png') }}" width="120" height="90"
                                 alt="pencom">
-                            <img src="{{ asset('assets/images/clients/securities.png') }}" width="120" height="90"
-                                alt="securities">
+                            <img src="{{ asset('assets/images/clients/securities.png') }}" width="120"
+                                height="90" alt="securities">
                             <img src="{{ asset('assets/images/clients/naicom.png') }}" width="120" height="90"
                                 alt="naicom">
-                            <img src="{{ asset('assets/images/clients/fmys.png') }}" width="120" height="90" alt="fmys">
-                            <img src="{{ asset('assets/images/clients/ncc.png') }}" width="120" height="90" alt="ncc">
+                            <img src="{{ asset('assets/images/clients/fmys.png') }}" width="120" height="90"
+                                alt="fmys">
+                            <img src="{{ asset('assets/images/clients/ncc.png') }}" width="120" height="90"
+                                alt="ncc">
                             <img src="{{ asset('assets/images/clients/smedan.png') }}" width="120" height="90"
                                 alt="smedan">
-                            <img src="{{ asset('assets/images/clients/education.png') }}" width="120" height="90"
-                                alt="education">
+                            <img src="{{ asset('assets/images/clients/education.png') }}" width="120"
+                                height="90" alt="education">
                             <img src="{{ asset('assets/images/clients/nsitf.png') }}" width="120" height="90"
                                 alt="nsitf">
-                            <img src="{{ asset('assets/images/clients/nia.png') }}" width="120" height="90" alt="nia">
+                            <img src="{{ asset('assets/images/clients/nia.png') }}" width="120" height="90"
+                                alt="nia">
                             <img src="{{ asset('assets/images/clients/fmic2.png') }}" width="120" height="90"
                                 alt="fmic2">
                             <img src="{{ asset('assets/images/clients/mercy.png') }}" width="120" height="90"
                                 alt="mercy">
                             <img src="{{ asset('assets/images/clients/bankers.png') }}" width="120" height="90"
                                 alt="bankers">
-                            <img src="{{ asset('assets/images/clients/fmof.png') }}" width="120" height="90" alt="fmof">
+                            <img src="{{ asset('assets/images/clients/fmof.png') }}" width="120" height="90"
+                                alt="fmof">
                             <img src="{{ asset('assets/images/clients/stock.png') }}" width="120" height="90"
                                 alt="stock">
                         </div>

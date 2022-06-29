@@ -203,8 +203,8 @@ https://templatemo.com/tm-516-known
                             <input type="text" name="full name" class="form-control" placeholder="Full name"
                                 required="">
 
-                            <input type="email" name="email" class="form-control" placeholder="Your email address"
-                                required="">
+                            <input type="email" name="email" class="form-control"
+                                placeholder="Your email address" required="">
 
                             <input type="password" name="password" class="form-control" placeholder="Your password"
                                 required="">
@@ -351,7 +351,8 @@ https://templatemo.com/tm-516-known
                                 <div class="courses-thumb">
                                     <div class="courses-top">
                                         <div class="courses-image">
-                                            <img src="images/courses-image2.jpg" class="img-responsive" alt="napgep">
+                                            <img src="images/courses-image2.jpg" class="img-responsive"
+                                                alt="napgep">
                                         </div>
                                         <div class="courses-date">
                                             <span><i class="fa fa-calendar"></i> 20 / 7 / 2018</span>
@@ -366,7 +367,8 @@ https://templatemo.com/tm-516-known
 
                                     <div class="courses-info">
                                         <div class="courses-author">
-                                            <img src="images/author-image2.jpg" class="img-responsive" alt="napgep">
+                                            <img src="images/author-image2.jpg" class="img-responsive"
+                                                alt="napgep">
                                             <span>Jessica</span>
                                         </div>
                                         <div class="courses-price">
@@ -382,7 +384,8 @@ https://templatemo.com/tm-516-known
                                 <div class="courses-thumb">
                                     <div class="courses-top">
                                         <div class="courses-image">
-                                            <img src="images/courses-image3.jpg" class="img-responsive" alt="author">
+                                            <img src="images/courses-image3.jpg" class="img-responsive"
+                                                alt="author">
                                         </div>
                                         <div class="courses-date">
                                             <span><i class="fa fa-calendar"></i> 15 / 8 / 2018</span>
@@ -397,7 +400,8 @@ https://templatemo.com/tm-516-known
 
                                     <div class="courses-info">
                                         <div class="courses-author">
-                                            <img src="images/author-image3.jpg" class="img-responsive" alt="author">
+                                            <img src="images/author-image3.jpg" class="img-responsive"
+                                                alt="author">
                                             <span>Catherine</span>
                                         </div>
                                         <div class="courses-price free">
@@ -413,7 +417,8 @@ https://templatemo.com/tm-516-known
                                 <div class="courses-thumb">
                                     <div class="courses-top">
                                         <div class="courses-image">
-                                            <img src="images/courses-image4.jpg" class="img-responsive" alt="date">
+                                            <img src="images/courses-image4.jpg" class="img-responsive"
+                                                alt="date">
                                         </div>
                                         <div class="courses-date">
                                             <span><i class="fa fa-calendar"></i> 10 / 8 / 2018</span>
@@ -428,7 +433,8 @@ https://templatemo.com/tm-516-known
 
                                     <div class="courses-info">
                                         <div class="courses-author">
-                                            <img src="images/author-image1.jpg" class="img-responsive" alt="author">
+                                            <img src="images/author-image1.jpg" class="img-responsive"
+                                                alt="author">
                                             <span>Mark Wilson</span>
                                         </div>
                                         <div class="courses-price">
@@ -444,7 +450,8 @@ https://templatemo.com/tm-516-known
                                 <div class="courses-thumb">
                                     <div class="courses-top">
                                         <div class="courses-image">
-                                            <img src="images/courses-image5.jpg" class="img-responsive" alt="date">
+                                            <img src="images/courses-image5.jpg" class="img-responsive"
+                                                alt="date">
                                         </div>
                                         <div class="courses-date">
                                             <span><i class="fa fa-calendar"></i> 5 / 10 / 2018</span>
@@ -459,7 +466,8 @@ https://templatemo.com/tm-516-known
 
                                     <div class="courses-info">
                                         <div class="courses-author">
-                                            <img src="images/author-image2.jpg" class="img-responsive" alt="author">
+                                            <img src="images/author-image2.jpg" class="img-responsive"
+                                                alt="author">
                                             <span>Jessica</span>
                                         </div>
                                         <div class="courses-price free">
@@ -590,12 +598,14 @@ https://templatemo.com/tm-516-known
                             <input type="text" class="form-control" placeholder="Enter full name" name="name"
                                 required="">
 
-                            <input type="email" class="form-control" placeholder="Enter email address" name="email"
-                                required="">
+                            <input type="email" class="form-control" placeholder="Enter email address"
+                                name="email" required="">
 
                             <textarea class="form-control" rows="6" placeholder="Tell us about your message" name="message"
                                 required=""></textarea>
+
                         </div>
+
 
                         <div class="col-md-4 col-sm-12">
                             <input type="submit" class="form-control" name="send message" value="Send Message">

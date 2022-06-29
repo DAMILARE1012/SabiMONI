@@ -187,10 +187,10 @@
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
     <!----------Whatsapp chat handle------------->
-    <a href="#">
+    {{-- <a href="#">
         <img src="{{ asset('assets/images/whatsapp.png') }}" class="img-responsive"
             style="position: fixed; bottom: 50%; right: 20px; z-index: 2000; width: 30px; height: 30px; " alt="profile">
-    </a>
+    </a> --}}
 
     <a href="{{ asset('assets/users_guide.pdf') }}" download="user_guide" target="_blank" hidden>
 
