@@ -45,7 +45,7 @@
 
                     </div>
                 </div>
-                <div class="accordion-item">
+                {{-- <div class="accordion-item">
                     <div class="accordion-head">
                         <h5>What mobile devices are recommended for accessing the mobile application?</h5>
                     </div>
@@ -60,7 +60,7 @@
                         </div>
 
                     </div>
-                </div>
+                </div> --}}
                 <div class="accordion-item">
                     <div class="accordion-head">
                         <h5>Why am I unable to view the videos in the modules?</h5>
@@ -115,11 +115,15 @@
                     </div>
                 </div>
             </div>
-            {{-- <div class="back">
-                <a href="{{ route('home') }}"> <i class="fa fa-long-arrow-left" aria-hidden="true"></i> back to
-                    home</a>
-            </div> --}}
 
+
+
+        </div>
+        <div class="container">
+            <div class="back">
+                <a href="{{ route('home') }}"> <i class="fa fa-home" aria-hidden="true"></i>
+                    Home</a>
+            </div>
         </div>
     </div>
     </div>
