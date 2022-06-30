@@ -13,7 +13,8 @@
                         <div class="container">
                             <div class="col-md-6 col-sm-12">
                                 <h1>SabiMONI: Your Path to Financial Literacy</h1>
-                                <h3>Learn how to manage your money. Start your journey here: Anywhere, anytime at your own pace.</h3>
+                                <h3>Learn how to manage your money. Start your journey here: Anywhere, anytime at your own
+                                    pace.</h3>
                                 <a href="#about" class="section-btn btn btn-default smoothScroll">Discover more</a>
                             </div>
                         </div>
@@ -107,7 +108,8 @@
                             <span><i class="fa fa-users"></i></span>
                             <figcaption>
                                 <h3>The Team</h3>
-                                <p>The SabiMONI has been put together by a team of experts to help increase your financial Skills, Knowledge, and Attitude.</p>
+                                <p>The SabiMONI has been put together by a team of experts to help increase your financial
+                                    Skills, Knowledge, and Attitude.</p>
                             </figcaption>
                         </figure>
 
@@ -205,8 +207,10 @@
                                     <div class="courses-detail">
                                         <h3><a href="javascript:void(0)" class="disabled">CFLT</a></h3>
                                         <p class="text-justify">An individual who has taken all the Financial Literacy
-                                            Modules, Learning Methodology on the SabiMONI platform and obtained a pass mark of
-                                            60% and undergone an assessment session (physical/virtual) to demonstrate that he or she
+                                            Modules, Learning Methodology on the SabiMONI platform and obtained a pass mark
+                                            of
+                                            60% and undergone an assessment session (physical/virtual) to demonstrate that
+                                            he or she
                                             can teach and transfer the knowledge to others.</p>
 
                                     </div>
@@ -404,7 +408,8 @@
                                         <h3><a href="javascript:void(0)">NAPGEP</a></h3>
                                         <p class="text-justify">This programme leverages on the platform of the National
                                             Youth Services Corps (NYSC) to train selected Volunteer Corps Members (VCMs) on
-                                            Financial Literacy in order to deliver financial education in rural communities and environs
+                                            Financial Literacy in order to deliver financial education in rural communities
+                                            and environs
                                             during their Community Development Service (CDS).</p>
                                     </div>
 
@@ -770,8 +775,8 @@
                                 @enderror
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control textarea @error('message') is-invalid @enderror" rows="6"
-                                    placeholder="Message" name="message" required>{{ old('message') }}</textarea>
+                                <textarea class="form-control textarea @error('message') is-invalid @enderror" rows="6" placeholder="Message"
+                                    name="message" required>{{ old('message') }}</textarea>
                                 @error('message')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -800,7 +805,7 @@
                                             {{-- <p style="color: white; margin-top: 10px">Quick Line</p> --}}
                                             <img src="{{ asset('assets/images/whatsapp.png') }}" class="img-responsive"
                                                 style="width: 30px; height: 30px; margin-left: 25px" alt="profile"
-                                                data-toggle="tooltip" data-placement="bottom" title="Quick Line">
+                                                data-toggle="tooltip" data-placement="bottom" title="Live Chat">
                                         </a>
                                     </div>
 
