@@ -442,13 +442,13 @@
             <div class="row">
 
                 <div class="col-md-6 col-sm-6 col-6">
-                    <div class="section-title">
+                    <div class="section-title latest-news-title">
                         <h2>Latest News<small>Read through our blog for recent updates</small></h2>
                     </div>
                     {{-- testing lates news start --}}
 
 
-                    <div class="owl-carousel owl-theme owl-courses ">
+                    <div class="owl-carousel owl-theme owl-courses">
                         <div class="item" style="margin: 0px 10px; background: white;">
                             <div class="courses-thumb" style="background: white">
                                 <div class="courses-top">
