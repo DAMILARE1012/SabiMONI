@@ -443,7 +443,7 @@
 
                 <div class="col-md-6 col-sm-6 col-6">
                     <div class="section-title latest-news-title">
-                        <h2>Latest News<small>Read through our blog for recent updates</small></h2>
+                        <h2>Related Information<small>Read through our blog for recent updates</small></h2>
                     </div>
                     {{-- testing lates news start --}}
 
@@ -460,10 +460,8 @@
                                 </div>
 
                                 <div class="courses-detail">
-                                    <h3><a href="javascript:void(0)" class="disabled">Certified
-                                            Financial Literacy
-                                            Trainer (CFLT)</a></h3>
-                                    <p class="text-justify">An individual who has taken all the
+                                    <h3><a href="javascript:void(0)" class="disabled">e-Naira</a></h3>
+                                    {{-- <p class="text-justify">An individual who has taken all the
                                         Financial Literacy
                                         Modules, Learning Methodology on the SabiMONI platform and
                                         obtained a pass mark
@@ -471,25 +469,12 @@
                                         60% and undergone an assessment session (physical/virtual) to
                                         demonstrate that
                                         he or she
-                                        can teach and transfer the knowledge to others.</p>
+                                        can teach and transfer the knowledge to others.</p> --}}
 
-                                </div>
-
-                                <div class="courses-info"
-                                    style="display: flex; flex-direction: column; width: 100%; align-items: center;">
-                                    <div class="courses-author">
-                                        <img src="{{ asset('assets/images/author-image1.jpg') }}" class="img-responsive"
-                                            alt="cflt cohort">
-                                        <span>CFLT Course</span>
-                                    </div>
-                                    <div class="courses-price free">
-                                        <a href="https://sabimoni.org.ng/start/login/signup.php"
-                                            target="_blank"><span>Enroll</span></a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="item" style="margin: 0px 10px; background: white;">
+                        {{-- <div class="item" style="margin: 0px 10px; background: white;">
                             <div class="courses-thumb" style="background: white">
                                 <div class="courses-top">
                                     <div class="courses-image">
@@ -528,8 +513,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="item" style="margin: 0px 10px; background: white;">
+                        </div> --}}
+                        {{-- <div class="item" style="margin: 0px 10px; background: white;">
                             <div class="courses-thumb" style="background: white">
                                 <div class="courses-top">
                                     <div class="courses-image">
@@ -568,7 +553,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
 
                     {{-- testing lates news end --}}
