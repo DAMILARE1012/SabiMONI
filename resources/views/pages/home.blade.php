@@ -218,8 +218,8 @@
 
                                     <div class="courses-info">
                                         <div class="courses-author">
-                                            <img src="{{ asset('assets/images/author-image1.jpg') }}"
-                                                class="img-responsive" alt="cflt cohort">
+                                            <img src="{{ asset('assets/images/author-image1.jpg') }}" class="img-responsive"
+                                                alt="cflt cohort">
                                             <span>CFLT Course</span>
                                         </div>
                                         <div class="courses-price free">
@@ -378,8 +378,8 @@
 
                                     <div class="courses-info">
                                         <div class="courses-author">
-                                            <img src="{{ asset('assets/images/author-image2.jpg') }}"
-                                                class="img-responsive" alt="sanef">
+                                            <img src="{{ asset('assets/images/author-image2.jpg') }}" class="img-responsive"
+                                                alt="sanef">
                                             <span>SANEF Course</span>
                                         </div>
                                         <div class="courses-price free">
@@ -441,16 +441,149 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-12 col-sm-12">
+                <div class="col-md-6 col-sm-6 col-6">
                     <div class="section-title">
                         <h2>Latest News<small>Read through our blog for recent updates</small></h2>
                     </div>
+                    {{-- testing lates news start --}}
+
+
+                    <div class="owl-carousel owl-theme owl-courses ">
+                        <div class="item" style="margin: 0px 10px; background: white;">
+                            <div class="courses-thumb" style="background: white">
+                                <div class="courses-top">
+                                    <div class="courses-image">
+                                        <img src="{{ asset('assets/images/modules/courses-image1.jpg') }}"
+                                            class="img-responsive" alt="certified financial literacy trainer">
+                                    </div>
+
+                                </div>
+
+                                <div class="courses-detail">
+                                    <h3><a href="javascript:void(0)" class="disabled">Certified
+                                            Financial Literacy
+                                            Trainer (CFLT)</a></h3>
+                                    <p class="text-justify">An individual who has taken all the
+                                        Financial Literacy
+                                        Modules, Learning Methodology on the SabiMONI platform and
+                                        obtained a pass mark
+                                        of
+                                        60% and undergone an assessment session (physical/virtual) to
+                                        demonstrate that
+                                        he or she
+                                        can teach and transfer the knowledge to others.</p>
+
+                                </div>
+
+                                <div class="courses-info"
+                                    style="display: flex; flex-direction: column; width: 100%; align-items: center;">
+                                    <div class="courses-author">
+                                        <img src="{{ asset('assets/images/author-image1.jpg') }}" class="img-responsive"
+                                            alt="cflt cohort">
+                                        <span>CFLT Course</span>
+                                    </div>
+                                    <div class="courses-price free">
+                                        <a href="https://sabimoni.org.ng/start/login/signup.php"
+                                            target="_blank"><span>Enroll</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" style="margin: 0px 10px; background: white;">
+                            <div class="courses-thumb" style="background: white">
+                                <div class="courses-top">
+                                    <div class="courses-image">
+                                        <img src="{{ asset('assets/images/modules/courses-image1.jpg') }}"
+                                            class="img-responsive" alt="certified financial literacy trainer">
+                                    </div>
+
+                                </div>
+
+                                <div class="courses-detail">
+                                    <h3><a href="javascript:void(0)" class="disabled">Certified
+                                            Financial Literacy
+                                            Trainer (CFLT)</a></h3>
+                                    <p class="text-justify">An individual who has taken all the
+                                        Financial Literacy
+                                        Modules, Learning Methodology on the SabiMONI platform and
+                                        obtained a pass mark
+                                        of
+                                        60% and undergone an assessment session (physical/virtual) to
+                                        demonstrate that
+                                        he or she
+                                        can teach and transfer the knowledge to others.</p>
+
+                                </div>
+
+                                <div class="courses-info"
+                                    style="display: flex; flex-direction: column; width: 100%; align-items: center;">
+                                    <div class="courses-author">
+                                        <img src="{{ asset('assets/images/author-image1.jpg') }}" class="img-responsive"
+                                            alt="cflt cohort">
+                                        <span>CFLT Course</span>
+                                    </div>
+                                    <div class="courses-price free">
+                                        <a href="https://sabimoni.org.ng/start/login/signup.php"
+                                            target="_blank"><span>Enroll</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" style="margin: 0px 10px; background: white;">
+                            <div class="courses-thumb" style="background: white">
+                                <div class="courses-top">
+                                    <div class="courses-image">
+                                        <img src="{{ asset('assets/images/modules/courses-image1.jpg') }}"
+                                            class="img-responsive" alt="certified financial literacy trainer">
+                                    </div>
+
+                                </div>
+
+                                <div class="courses-detail">
+                                    <h3><a href="javascript:void(0)" class="disabled">Certified
+                                            Financial Literacy
+                                            Trainer (CFLT)</a></h3>
+                                    <p class="text-justify">An individual who has taken all the
+                                        Financial Literacy
+                                        Modules, Learning Methodology on the SabiMONI platform and
+                                        obtained a pass mark
+                                        of
+                                        60% and undergone an assessment session (physical/virtual) to
+                                        demonstrate that
+                                        he or she
+                                        can teach and transfer the knowledge to others.</p>
+
+                                </div>
+
+                                <div class="courses-info"
+                                    style="display: flex; flex-direction: column; width: 100%; align-items: center;">
+                                    <div class="courses-author">
+                                        <img src="{{ asset('assets/images/author-image1.jpg') }}" class="img-responsive"
+                                            alt="cflt cohort">
+                                        <span>CFLT Course</span>
+                                    </div>
+                                    <div class="courses-price free">
+                                        <a href="https://sabimoni.org.ng/start/login/signup.php"
+                                            target="_blank"><span>Enroll</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {{-- testing lates news end --}}
+                </div>
+                <div class="col-md-6 col-sm-6 col-6">
+                    <div class="section-title">
+                        <h2>News<small>Read through our blog for recent updates</small></h2>
+                    </div>
                     <h4 style="color:red;">
                         <marquee width="60%" direction="left" height="100px">
-                            The News section to be populated soon...
+                            News section to be populated soon...
                         </marquee>
                     </h4>
                 </div>
+
 
                 {{-- <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
@@ -871,8 +1004,8 @@
                                 alt="ndic">
                             <img src="{{ asset('assets/images/clients/pencom.png') }}" width="120" height="90"
                                 alt="pencom">
-                            <img src="{{ asset('assets/images/clients/securities.png') }}" width="120"
-                                height="90" alt="securities">
+                            <img src="{{ asset('assets/images/clients/securities.png') }}" width="120" height="90"
+                                alt="securities">
                             <img src="{{ asset('assets/images/clients/naicom.png') }}" width="120" height="90"
                                 alt="naicom">
                             <img src="{{ asset('assets/images/clients/fmys.png') }}" width="120" height="90"
@@ -881,8 +1014,8 @@
                                 alt="ncc">
                             <img src="{{ asset('assets/images/clients/smedan.png') }}" width="120" height="90"
                                 alt="smedan">
-                            <img src="{{ asset('assets/images/clients/education.png') }}" width="120"
-                                height="90" alt="education">
+                            <img src="{{ asset('assets/images/clients/education.png') }}" width="120" height="90"
+                                alt="education">
                             <img src="{{ asset('assets/images/clients/nsitf.png') }}" width="120" height="90"
                                 alt="nsitf">
                             <img src="{{ asset('assets/images/clients/nia.png') }}" width="120" height="90"
@@ -906,8 +1039,8 @@
                                 alt="ndic">
                             <img src="{{ asset('assets/images/clients/pencom.png') }}" width="120" height="90"
                                 alt="pencom">
-                            <img src="{{ asset('assets/images/clients/securities.png') }}" width="120"
-                                height="90" alt="securities">
+                            <img src="{{ asset('assets/images/clients/securities.png') }}" width="120" height="90"
+                                alt="securities">
                             <img src="{{ asset('assets/images/clients/naicom.png') }}" width="120" height="90"
                                 alt="naicom">
                             <img src="{{ asset('assets/images/clients/fmys.png') }}" width="120" height="90"
@@ -916,8 +1049,8 @@
                                 alt="ncc">
                             <img src="{{ asset('assets/images/clients/smedan.png') }}" width="120" height="90"
                                 alt="smedan">
-                            <img src="{{ asset('assets/images/clients/education.png') }}" width="120"
-                                height="90" alt="education">
+                            <img src="{{ asset('assets/images/clients/education.png') }}" width="120" height="90"
+                                alt="education">
                             <img src="{{ asset('assets/images/clients/nsitf.png') }}" width="120" height="90"
                                 alt="nsitf">
                             <img src="{{ asset('assets/images/clients/nia.png') }}" width="120" height="90"

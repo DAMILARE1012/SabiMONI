@@ -153,7 +153,8 @@
 
 .owl-carousel .owl-video-playing .owl-video-tn,
 .owl-carousel .owl-video-playing .owl-video-play-icon {
-  display: none; }
+  display: none; 
+}
 
 .owl-carousel .owl-video-tn {
   opacity: 0;
