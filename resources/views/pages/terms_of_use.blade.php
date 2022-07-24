@@ -1,4 +1,4 @@
-<h1>Privacy Policy for SabiMONI Financial Literacy Portal - Central Bank of Nigeria</h1>
+<h1>Privacy Policy for SabiMONI Financial Literacy Platform - Central Bank of Nigeria</h1>
 
 <p>On the SabiMONI Financial Literacy portal, accessible from sabimoni.org.ng, one of our main priorities is the privacy
     of our visitors. This Privacy Policy document contains types of information that is collected and recorded on the

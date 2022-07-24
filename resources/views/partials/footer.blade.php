@@ -119,7 +119,9 @@
         <div class="copyright-text text-center ">
             <p>Copyright &copy; 2022 SabiMONI Learning Portal</p>
 
-            <p id="terms_and_conditions" class="terms_and_conditions"><a href="{{ route('terms_of_use') }}">Terms of Use/Privacy</a></p>
+            <p id="terms_and_conditions" class="terms_and_conditions"><a href="/index.php/terms_of_use"
+                    target="_blank">Terms of
+                    Use/Privacy</a></p>
         </div>
 
 
@@ -135,7 +137,7 @@
                     stated expressly as the source. It is however, not permitted to amend or distort the contents of the
                     materials. Please note, however, the special rules concerning reproduction of banknotes and
                     prohibition
-                    of counterfeiting.
+                    of counterfeiting.... <a href="/index.php/terms_of_use" target="_blank">Read More</a>
                 </p>
 
 

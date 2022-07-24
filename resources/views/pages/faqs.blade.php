@@ -114,6 +114,7 @@
 
                     </div>
                 </div>
+                <h5>For further information, kindly click <a href="/#contact" style="color: #29CA8E;">here</a></h5>
             </div>
 
 

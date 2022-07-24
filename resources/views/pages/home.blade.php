@@ -199,13 +199,14 @@
                                                 class="img-responsive" alt="certified financial literacy trainer">
                                         </div>
                                         <div class="courses-date">
-                                            <span><i class="fa fa-calendar"></i> 12 / 7 / 2018</span>
-                                            <span><i class="fa fa-clock-o"></i> 7 Hours</span>
+                                            {{-- <span><i class="fa fa-calendar"></i> 12 / 7 / 2018</span>
+                                            <span><i class="fa fa-clock-o"></i> 7 Hours</span> --}}
                                         </div>
                                     </div>
 
                                     <div class="courses-detail">
-                                        <h3><a href="javascript:void(0)" class="disabled">CFLT</a></h3>
+                                        <h3><a href="javascript:void(0)" class="disabled">Certified Financial Literacy
+                                                Trainer (CFLT)</a></h3>
                                         <p class="text-justify">An individual who has taken all the Financial Literacy
                                             Modules, Learning Methodology on the SabiMONI platform and obtained a pass mark
                                             of
@@ -219,11 +220,11 @@
                                         <div class="courses-author">
                                             <img src="{{ asset('assets/images/author-image1.jpg') }}"
                                                 class="img-responsive" alt="cflt cohort">
-                                            <span>CFLT Cohort</span>
+                                            <span>CFLT Course</span>
                                         </div>
                                         <div class="courses-price free">
                                             <a href="https://sabimoni.org.ng/start/login/signup.php"
-                                                target="_blank"><span>Register</span></a>
+                                                target="_blank"><span>Enroll</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -362,13 +363,13 @@
                                                 class="img-responsive" alt="sanef">
                                         </div>
                                         <div class="courses-date">
-                                            <span><i class="fa fa-calendar"></i> 5 / 10 / 2018</span>
-                                            <span><i class="fa fa-clock-o"></i> 10 Hours</span>
+                                            {{-- <span><i class="fa fa-calendar"></i> 5 / 10 / 2018</span>
+                                            <span><i class="fa fa-clock-o"></i> 10 Hours</span> --}}
                                         </div>
                                     </div>
 
                                     <div class="courses-detail">
-                                        <h3><a href="javascript:void(0)">SANEF</a></h3>
+                                        <h3><a href="javascript:void(0)">Financial Services Shared Agent (SANEF)</a></h3>
                                         <p class="text-justify">The SANEF training aims to equip it's Agent with basic
                                             financial literacy knowledge to better serve their clients, improve their
                                             businesses and their level of financial literacy with the goal of promoting the
@@ -379,12 +380,12 @@
                                         <div class="courses-author">
                                             <img src="{{ asset('assets/images/author-image2.jpg') }}"
                                                 class="img-responsive" alt="sanef">
-                                            <span>SANEF Cohort</span>
+                                            <span>SANEF Course</span>
                                         </div>
                                         <div class="courses-price free">
 
                                             <a href="https://sabimoni.org.ng/start/login/signup.php"
-                                                target="_blank"><span>Register</span></a>
+                                                target="_blank"><span>Enroll</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -399,13 +400,14 @@
                                                 class="img-responsive" alt="napgep">
                                         </div>
                                         <div class="courses-date">
-                                            <span><i class="fa fa-calendar"></i> 5 / 10 / 2018</span>
-                                            <span><i class="fa fa-clock-o"></i> 10 Hours</span>
+                                            {{-- <span><i class="fa fa-calendar"></i> 5 / 10 / 2018</span>
+                                            <span><i class="fa fa-clock-o"></i> 10 Hours</span> --}}
                                         </div>
                                     </div>
 
                                     <div class="courses-detail">
-                                        <h3><a href="javascript:void(0)">NAPGEP</a></h3>
+                                        <h3><a href="javascript:void(0)">National Peer Group Educator Programme
+                                                (NAPGEP)</a></h3>
                                         <p class="text-justify">This programme leverages on the platform of the National
                                             Youth Services Corps (NYSC) to train selected Volunteer Corps Members (VCMs) on
                                             Financial Literacy in order to deliver financial education in rural communities
@@ -417,11 +419,11 @@
                                         <div class="courses-author">
                                             <img src="{{ asset('assets/images/author-image2.jpg') }}"
                                                 class="img-responsive" alt="napgep">
-                                            <span>NAPGEP Cohort</span>
+                                            <span>NAPGEP Course</span>
                                         </div>
                                         <div class="courses-price free">
                                             <a href="https://sabimoni.org.ng/start/login/signup.php"
-                                                target="_blank"><span>Register</span></a>
+                                                target="_blank"><span>Enroll</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -556,7 +558,7 @@
 
                 <div class="col-md-12 col-sm-12">
                     <div class="section-title">
-                        <h2>Testimonials<small>from around the world</small></h2>
+                        <h2>Testimonials<small>What users say about SabiMONI</small></h2>
                     </div>
                     {{-- <h4 style="color:red;">
                         <marquee width="60%" direction="right" height="100px">
