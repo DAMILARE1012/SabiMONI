@@ -281,6 +281,11 @@ section {
         padding-right: 5px !important;
     }
 }
+@media only screen and (max-width: 767px) {
+    .second-news-res {
+        margin-top: 50px !important;
+    }
+}
 
 .custom-navbar {
     background: #ffffff;
@@ -1040,15 +1045,15 @@ footer .social-icon {
         padding-left: 30px !important;
         padding-right: 30px !important;
     }
-    #term_visibility>#close{
+    #term_visibility > #close {
         top: 10px !important;
         left: 20px;
     }
 }
 @media only screen and (max-width: 1432px) {
-   #margin_remove{
-       margin-bottom: 270px !important;
-   }
+    #margin_remove {
+        margin-bottom: 270px !important;
+    }
 }
 
 /*---------------------------------------

@@ -616,7 +616,7 @@
 
                     {{-- testing lates news end --}}
                 </div>
-                <div class="col-md-6 col-sm-6 col-6">
+                <div class="col-md-6 col-sm-6 col-6 second-news-res">
                     <div class="section-title">
                         <h2>News<small>Read through our blog for recent updates</small></h2>
                     </div>
