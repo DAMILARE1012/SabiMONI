@@ -63,8 +63,8 @@
         dots: false,
         nav: true,
         navText: [
-            '<i class="fa fa-angle-left"></i>',
-            '<i class="fa fa-angle-right"></i>',
+            '<i class="fa fa-angle-left" style="font-size:25px;"></i>',
+            '<i class="fa fa-angle-right" style="font-size:25px;"></i>',
         ],
         responsiveClass: true,
         responsive: {
