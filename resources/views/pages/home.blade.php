@@ -448,7 +448,128 @@
                     {{-- testing lates news start --}}
 
 
-                    <div class="owl-carousel owl-theme owl-courses">
+                    <div class="owl-carousel owl-theme owl-news">
+
+                        <div class="item" style=" background: white;">
+                            <div class="courses-thumb" style="background: white">
+                                <div class="courses-top">
+                                    <div class="courses-image">
+                                        <img src="{{ asset('assets/images/modules/courses-image1.jpg') }}"
+                                            class="img-responsive" alt="certified financial literacy trainer">
+                                    </div>
+
+                                </div>
+
+                                <div class="courses-detail">
+                                    <h3><a href="javascript:void(0)" class="disabled">Certified
+                                            Financial Literacy
+                                            Trainer (CFLT)</a></h3>
+                                    <p class="text-justify">An individual who has taken all the
+                                        Financial Literacy
+                                        Modules, Learning Methodology on the SabiMONI platform and
+                                        obtained a pass mark
+                                        of
+                                        60% and undergone an assessment session (physical/virtual) to
+                                        demonstrate that
+                                        he or she
+                                        can teach and transfer the knowledge to others.</p>
+
+                                </div>
+
+                                <div class="courses-info"
+                                    style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+                                    <div class="courses-author">
+                                        <img src="{{ asset('assets/images/author-image1.jpg') }}" class="img-responsive"
+                                            alt="cflt cohort">
+                                        <span>CFLT Course</span>
+                                    </div>
+                                    <div class="courses-price free">
+                                        <a href="https://sabimoni.org.ng/start/login/signup.php"
+                                            target="_blank"><span>Enroll</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" style=" background: white;">
+                            <div class="courses-thumb" style="background: white">
+                                <div class="courses-top">
+                                    <div class="courses-image">
+                                        <img src="{{ asset('assets/images/modules/courses-image1.jpg') }}"
+                                            class="img-responsive" alt="certified financial literacy trainer">
+                                    </div>
+
+                                </div>
+
+                                <div class="courses-detail">
+                                    <h3><a href="javascript:void(0)" class="disabled">Certified
+                                            Financial Literacy
+                                            Trainer (CFLT)</a></h3>
+                                    <p class="text-justify">An individual who has taken all the
+                                        Financial Literacy
+                                        Modules, Learning Methodology on the SabiMONI platform and
+                                        obtained a pass mark
+                                        of
+                                        60% and undergone an assessment session (physical/virtual) to
+                                        demonstrate that
+                                        he or she
+                                        can teach and transfer the knowledge to others.</p>
+
+                                </div>
+
+                                <div class="courses-info"
+                                    style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+                                    <div class="courses-author">
+                                        <img src="{{ asset('assets/images/author-image1.jpg') }}" class="img-responsive"
+                                            alt="cflt cohort">
+                                        <span>CFLT Course</span>
+                                    </div>
+                                    <div class="courses-price free">
+                                        <a href="https://sabimoni.org.ng/start/login/signup.php"
+                                            target="_blank"><span>Enroll</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" style=" background: white;">
+                            <div class="courses-thumb" style="background: white">
+                                <div class="courses-top">
+                                    <div class="courses-image">
+                                        <img src="{{ asset('assets/images/modules/courses-image1.jpg') }}"
+                                            class="img-responsive" alt="certified financial literacy trainer">
+                                    </div>
+
+                                </div>
+
+                                <div class="courses-detail">
+                                    <h3><a href="javascript:void(0)" class="disabled">Certified
+                                            Financial Literacy
+                                            Trainer (CFLT)</a></h3>
+                                    <p class="text-justify">An individual who has taken all the
+                                        Financial Literacy
+                                        Modules, Learning Methodology on the SabiMONI platform and
+                                        obtained a pass mark
+                                        of
+                                        60% and undergone an assessment session (physical/virtual) to
+                                        demonstrate that
+                                        he or she
+                                        can teach and transfer the knowledge to others.</p>
+
+                                </div>
+
+                                <div class="courses-info"
+                                    style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+                                    <div class="courses-author">
+                                        <img src="{{ asset('assets/images/author-image1.jpg') }}" class="img-responsive"
+                                            alt="cflt cohort">
+                                        <span>CFLT Course</span>
+                                    </div>
+                                    <div class="courses-price free">
+                                        <a href="https://sabimoni.org.ng/start/login/signup.php"
+                                            target="_blank"><span>Enroll</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="item" style="margin: 0px 10px; background: white;">
                             <div class="courses-thumb" style="background: white">
                                 <div class="courses-top">
@@ -460,8 +581,10 @@
                                 </div>
 
                                 <div class="courses-detail">
-                                    <h3><a href="javascript:void(0)" class="disabled">e-Naira Trial</a></h3> 
-                                    {{-- <p class="text-justify">An individual who has taken all the
+                                    <h3><a href="javascript:void(0)" class="disabled">Certified
+                                            Financial Literacy
+                                            Trainer (CFLT)</a></h3>
+                                    <p class="text-justify">An individual who has taken all the
                                         Financial Literacy
                                         Modules, Learning Methodology on the SabiMONI platform and
                                         obtained a pass mark
@@ -469,91 +592,26 @@
                                         60% and undergone an assessment session (physical/virtual) to
                                         demonstrate that
                                         he or she
-                                        can teach and transfer the knowledge to others.</p> --}}
+                                        can teach and transfer the knowledge to others.</p>
 
+                                </div>
+
+                                <div class="courses-info"
+                                    style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+                                    <div class="courses-author">
+                                        <img src="{{ asset('assets/images/author-image1.jpg') }}" class="img-responsive"
+                                            alt="cflt cohort">
+                                        <span>CFLT Course</span>
+                                    </div>
+                                    <div class="courses-price free">
+                                        <a href="https://sabimoni.org.ng/start/login/signup.php"
+                                            target="_blank"><span>Enroll</span></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        {{-- <div class="item" style="margin: 0px 10px; background: white;">
-                            <div class="courses-thumb" style="background: white">
-                                <div class="courses-top">
-                                    <div class="courses-image">
-                                        <img src="{{ asset('assets/images/modules/courses-image1.jpg') }}"
-                                            class="img-responsive" alt="certified financial literacy trainer">
-                                    </div>
 
-                                </div>
 
-                                <div class="courses-detail">
-                                    <h3><a href="javascript:void(0)" class="disabled">Certified
-                                            Financial Literacy
-                                            Trainer (CFLT)</a></h3>
-                                    <p class="text-justify">An individual who has taken all the
-                                        Financial Literacy
-                                        Modules, Learning Methodology on the SabiMONI platform and
-                                        obtained a pass mark
-                                        of
-                                        60% and undergone an assessment session (physical/virtual) to
-                                        demonstrate that
-                                        he or she
-                                        can teach and transfer the knowledge to others.</p>
-
-                                </div>
-
-                                <div class="courses-info"
-                                    style="display: flex; flex-direction: column; width: 100%; align-items: center;">
-                                    <div class="courses-author">
-                                        <img src="{{ asset('assets/images/author-image1.jpg') }}" class="img-responsive"
-                                            alt="cflt cohort">
-                                        <span>CFLT Course</span>
-                                    </div>
-                                    <div class="courses-price free">
-                                        <a href="https://sabimoni.org.ng/start/login/signup.php"
-                                            target="_blank"><span>Enroll</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> --}}
-                        {{-- <div class="item" style="margin: 0px 10px; background: white;">
-                            <div class="courses-thumb" style="background: white">
-                                <div class="courses-top">
-                                    <div class="courses-image">
-                                        <img src="{{ asset('assets/images/modules/courses-image1.jpg') }}"
-                                            class="img-responsive" alt="certified financial literacy trainer">
-                                    </div>
-
-                                </div>
-
-                                <div class="courses-detail">
-                                    <h3><a href="javascript:void(0)" class="disabled">Certified
-                                            Financial Literacy
-                                            Trainer (CFLT)</a></h3>
-                                    <p class="text-justify">An individual who has taken all the
-                                        Financial Literacy
-                                        Modules, Learning Methodology on the SabiMONI platform and
-                                        obtained a pass mark
-                                        of
-                                        60% and undergone an assessment session (physical/virtual) to
-                                        demonstrate that
-                                        he or she
-                                        can teach and transfer the knowledge to others.</p>
-
-                                </div>
-
-                                <div class="courses-info"
-                                    style="display: flex; flex-direction: column; width: 100%; align-items: center;">
-                                    <div class="courses-author">
-                                        <img src="{{ asset('assets/images/author-image1.jpg') }}" class="img-responsive"
-                                            alt="cflt cohort">
-                                        <span>CFLT Course</span>
-                                    </div>
-                                    <div class="courses-price free">
-                                        <a href="https://sabimoni.org.ng/start/login/signup.php"
-                                            target="_blank"><span>Enroll</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> --}}
                     </div>
 
                     {{-- testing lates news end --}}
