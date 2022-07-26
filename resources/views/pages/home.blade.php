@@ -460,7 +460,7 @@
                                 </div>
 
                                 <div class="courses-detail">
-                                    <h3><a href="javascript:void(0)" class="disabled">e-Naira</a></h3>
+                                    <h3><a href="javascript:void(0)" class="disabled">e-Naira Trial</a></h3> 
                                     {{-- <p class="text-justify">An individual who has taken all the
                                         Financial Literacy
                                         Modules, Learning Methodology on the SabiMONI platform and
