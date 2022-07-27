@@ -6,6 +6,9 @@
 /*
  *  Owl Carousel - Core
  */
+.owl-news {
+    width: 80% !important;
+}
 .owl-carousel {
     display: none;
     width: 100%;
@@ -65,7 +68,7 @@
 } */
 .latest-news-title ~ .owl-carousel .owl-nav {
     position: absolute;
-    top: 40%;
+    top: 50%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -85,7 +88,8 @@
     cursor: pointer;
     width: 50px;
     height: 50px;
-    opacity: 0.3;
+    opacity: 0.1;
+    margin-left: 10px;
 }
 .latest-news-title ~ .owl-carousel .owl-nav .owl-next {
     background-color: red;
@@ -100,7 +104,8 @@
     cursor: pointer;
     width: 50px;
     height: 50px;
-    opacity: 0.3;
+    opacity: 0.1;
+    margin-right: 10px;
 }
 .latest-news-title ~ .owl-carousel .owl-nav .owl-prev:hover {
     background-color: #29ca8e;
