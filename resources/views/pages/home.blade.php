@@ -452,167 +452,65 @@
 
                         <div class="item" style=" background: white;">
                             <div class="courses-thumb" style="background: white">
-                                <div class="courses-top">
-                                    <div class="courses-image">
-                                        <img src="{{ asset('assets/images/modules/courses-image1.jpg') }}"
-                                            class="img-responsive" alt="certified financial literacy trainer">
-                                    </div>
-
-                                </div>
 
                                 <div class="courses-detail">
-                                    <h3><a href="javascript:void(0)" class="disabled">Certified
-                                            Financial Literacy
-                                            Trainer (CFLT)</a></h3>
-                                    <p class="text-justify">An individual who has taken all the
-                                        Financial Literacy
-                                        Modules, Learning Methodology on the SabiMONI platform and
-                                        obtained a pass mark
-                                        of
-                                        60% and undergone an assessment session (physical/virtual) to
-                                        demonstrate that
-                                        he or she
-                                        can teach and transfer the knowledge to others.</p>
+                                    <h3 style="text-align: left"><a href="javascript:void(0)" class="disabled">Fraud and
+                                            Scam in Digital Financial Services</a></h3>
+                                    <p class="text-justify">Today, more and more purchases are done through digital
+                                        channels, especially via online payments. The internet offers the convenience and
+                                        ease of buying goods or paying for services via your computer, tablet or mobile
+                                        phones. However, the use of online payments  ... <a href="/index.php/fraud_scam"><span>Read
+                                                More</span></a>
 
                                 </div>
 
-                                <div class="courses-info"
-                                    style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
-                                    <div class="courses-author">
-                                        <img src="{{ asset('assets/images/author-image1.jpg') }}" class="img-responsive"
-                                            alt="cflt cohort">
-                                        <span>CFLT Course</span>
-                                    </div>
-                                    <div class="courses-price free">
-                                        <a href="https://sabimoni.org.ng/start/login/signup.php"
-                                            target="_blank"><span>Enroll</span></a>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                         <div class="item" style=" background: white;">
                             <div class="courses-thumb" style="background: white">
-                                <div class="courses-top">
-                                    <div class="courses-image">
-                                        <img src="{{ asset('assets/images/modules/courses-image1.jpg') }}"
-                                            class="img-responsive" alt="certified financial literacy trainer">
-                                    </div>
 
-                                </div>
 
                                 <div class="courses-detail">
-                                    <h3><a href="javascript:void(0)" class="disabled">Certified
-                                            Financial Literacy
-                                            Trainer (CFLT)</a></h3>
-                                    <p class="text-justify">An individual who has taken all the
-                                        Financial Literacy
-                                        Modules, Learning Methodology on the SabiMONI platform and
-                                        obtained a pass mark
-                                        of
-                                        60% and undergone an assessment session (physical/virtual) to
-                                        demonstrate that
-                                        he or she
-                                        can teach and transfer the knowledge to others.</p>
+                                    <h3 style="text-align: left"><a href="javascript:void(0)" class="disabled">Your
+                                            Rights and Responsibilites as a Financial Consumer </a></h3>
+                                    <p class="text-justify">One of the core mandates of the Central bank of Nigeria (CBN)
+                                        is to ensure Financial System Stability. The role of the Consumer Protection
+                                        department therefore is to engender confidence in Financial consumers by
+                                        ensuring: Consumers are equipped with adequate Financial Education ... <a
+                                            href="/index.php/rights_responsiblities"><span>Read
+                                                More</span></a>
 
                                 </div>
 
-                                <div class="courses-info"
-                                    style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
-                                    <div class="courses-author">
-                                        <img src="{{ asset('assets/images/author-image1.jpg') }}" class="img-responsive"
-                                            alt="cflt cohort">
-                                        <span>CFLT Course</span>
-                                    </div>
-                                    <div class="courses-price free">
-                                        <a href="https://sabimoni.org.ng/start/login/signup.php"
-                                            target="_blank"><span>Enroll</span></a>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
+
                         <div class="item" style=" background: white;">
                             <div class="courses-thumb" style="background: white">
-                                <div class="courses-top">
-                                    <div class="courses-image">
-                                        <img src="{{ asset('assets/images/modules/courses-image1.jpg') }}"
-                                            class="img-responsive" alt="certified financial literacy trainer">
-                                    </div>
 
-                                </div>
 
                                 <div class="courses-detail">
-                                    <h3><a href="javascript:void(0)" class="disabled">Certified
-                                            Financial Literacy
-                                            Trainer (CFLT)</a></h3>
-                                    <p class="text-justify">An individual who has taken all the
-                                        Financial Literacy
-                                        Modules, Learning Methodology on the SabiMONI platform and
-                                        obtained a pass mark
-                                        of
-                                        60% and undergone an assessment session (physical/virtual) to
-                                        demonstrate that
-                                        he or she
-                                        can teach and transfer the knowledge to others.</p>
+                                    <h3 style="text-align: left"><a href="javascript:void(0)"
+                                            class="disabled">e_naira</a></h3>
+                                    <p class="text-justify">The eNaira is the Central Bank of Nigeria-issued digital
+                                        currency.
+                                        It is the digital representation of the Nigerian Naira and constitutes a direct
+                                        liability of the Central Bank of Nigeria (CBN). The eNaira was launched by the
+                                        President
+                                        of the Federal Republic of Nigeria on October 25, 2021 ... <a
+                                            href="/index.php/e_naira"><span>Read
+                                                More</span></a>
 
                                 </div>
 
-                                <div class="courses-info"
-                                    style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
-                                    <div class="courses-author">
-                                        <img src="{{ asset('assets/images/author-image1.jpg') }}" class="img-responsive"
-                                            alt="cflt cohort">
-                                        <span>CFLT Course</span>
-                                    </div>
-                                    <div class="courses-price free">
-                                        <a href="https://sabimoni.org.ng/start/login/signup.php"
-                                            target="_blank"><span>Enroll</span></a>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
-                        <div class="item" style="margin: 0px 10px; background: white;">
-                            <div class="courses-thumb" style="background: white">
-                                <div class="courses-top">
-                                    <div class="courses-image">
-                                        <img src="{{ asset('assets/images/modules/courses-image1.jpg') }}"
-                                            class="img-responsive" alt="certified financial literacy trainer">
-                                    </div>
-
-                                </div>
-
-                                <div class="courses-detail">
-                                    <h3><a href="javascript:void(0)" class="disabled">Certified
-                                            Financial Literacy
-                                            Trainer (CFLT)</a></h3>
-                                    <p class="text-justify">An individual who has taken all the
-                                        Financial Literacy
-                                        Modules, Learning Methodology on the SabiMONI platform and
-                                        obtained a pass mark
-                                        of
-                                        60% and undergone an assessment session (physical/virtual) to
-                                        demonstrate that
-                                        he or she
-                                        can teach and transfer the knowledge to others.</p>
-
-                                </div>
-
-                                <div class="courses-info"
-                                    style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
-                                    <div class="courses-author">
-                                        <img src="{{ asset('assets/images/author-image1.jpg') }}" class="img-responsive"
-                                            alt="cflt cohort">
-                                        <span>CFLT Course</span>
-                                    </div>
-                                    <div class="courses-price free">
-                                        <a href="https://sabimoni.org.ng/start/login/signup.php"
-                                            target="_blank"><span>Enroll</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
 
                     </div>
+
 
                     {{-- testing lates news end --}}
                 </div>

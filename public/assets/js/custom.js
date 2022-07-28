@@ -58,7 +58,7 @@
         // animateOut: "fadeOut",
         loop: true,
         autoplayHoverPause: false,
-        autoplay: true,
+        autoplay: false,
         smartSpeed: 1000,
         dots: false,
         nav: true,
