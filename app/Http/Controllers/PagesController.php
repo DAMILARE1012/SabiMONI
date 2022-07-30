@@ -32,4 +32,14 @@ class PagesController extends Controller
     public function terms_of_use(){
         return view('pages.terms_of_use');
     }
+
+    public function e_naira(){
+        return view('pages.e_naira');
+    }
+    public function fraud_scam(){
+        return view('pages.fraud_scam');
+    }
+    public function rights_responsiblities(){
+        return view('pages.rights');
+    }
 }

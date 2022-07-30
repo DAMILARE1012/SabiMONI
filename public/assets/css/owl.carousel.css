@@ -68,7 +68,7 @@
 } */
 .latest-news-title ~ .owl-carousel .owl-nav {
     position: absolute;
-    top: 50%;
+    top: 40%;
     display: flex;
     align-items: center;
     justify-content: space-between;
