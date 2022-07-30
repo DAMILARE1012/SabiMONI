@@ -461,9 +461,8 @@
                                 </div>
 
                                 <div class="courses-detail">
-                                    <h3><a href="javascript:void(0)" class="disabled">Certified
-                                            Financial Literacy
-                                            Trainer (CFLT)</a></h3>
+                                    <h3 style="text-align: left;"><a href="javascript:void(0)" class="disabled">The
+                                            e-<b>Naira</b> CED </a></h3>
                                     <p class="text-justify">An individual who has taken all the
                                         Financial Literacy
                                         Modules, Learning Methodology on the SabiMONI platform and
@@ -472,11 +471,12 @@
                                         60% and undergone an assessment session (physical/virtual) to
                                         demonstrate that
                                         he or she
-                                        can teach and transfer the knowledge to others.</p>
-
+                                        can teach and transfer the knowledge to others... <a href="#"><span>Read
+                                                More</span></a></p>
+                                    <hr>
                                 </div>
 
-                                <div class="courses-info"
+                                {{-- <div class="courses-info"
                                     style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
                                     <div class="courses-author">
                                         <img src="{{ asset('assets/images/author-image1.jpg') }}" class="img-responsive"
@@ -487,7 +487,7 @@
                                         <a href="https://sabimoni.org.ng/start/login/signup.php"
                                             target="_blank"><span>Enroll</span></a>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <div class="item" style=" background: white;">
@@ -501,9 +501,7 @@
                                 </div>
 
                                 <div class="courses-detail">
-                                    <h3><a href="javascript:void(0)" class="disabled">Certified
-                                            Financial Literacy
-                                            Trainer (CFLT)</a></h3>
+                                    <h3 style="text-align: left;"><a href="javascript:void(0)" class="disabled">Fraud and Scam</a></h3>
                                     <p class="text-justify">An individual who has taken all the
                                         Financial Literacy
                                         Modules, Learning Methodology on the SabiMONI platform and
@@ -512,11 +510,14 @@
                                         60% and undergone an assessment session (physical/virtual) to
                                         demonstrate that
                                         he or she
-                                        can teach and transfer the knowledge to others.</p>
+                                        can teach and transfer the knowledge to others...<a
+                                            href="https://sabimoni.org.ng/start/login/signup.php"
+                                            target="_blank"><span>Enroll</span></a></p>
+                                    <hr>
 
                                 </div>
 
-                                <div class="courses-info"
+                                {{-- <div class="courses-info"
                                     style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
                                     <div class="courses-author">
                                         <img src="{{ asset('assets/images/author-image1.jpg') }}" class="img-responsive"
@@ -527,7 +528,7 @@
                                         <a href="https://sabimoni.org.ng/start/login/signup.php"
                                             target="_blank"><span>Enroll</span></a>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <div class="item" style=" background: white;">
@@ -541,9 +542,7 @@
                                 </div>
 
                                 <div class="courses-detail">
-                                    <h3><a href="javascript:void(0)" class="disabled">Certified
-                                            Financial Literacy
-                                            Trainer (CFLT)</a></h3>
+                                    <h3 style="text-align: left;"><a href="javascript:void(0)" class="disabled">Customers' Rights and Responsibilities</a></h3>
                                     <p class="text-justify">An individual who has taken all the
                                         Financial Literacy
                                         Modules, Learning Methodology on the SabiMONI platform and
@@ -552,11 +551,13 @@
                                         60% and undergone an assessment session (physical/virtual) to
                                         demonstrate that
                                         he or she
-                                        can teach and transfer the knowledge to others.</p>
-
+                                        can teach and transfer the knowledge to others...<a
+                                            href="https://sabimoni.org.ng/start/login/signup.php"
+                                            target="_blank"><span>Enroll</span></a></p>
+                                    <hr>
                                 </div>
 
-                                <div class="courses-info"
+                                {{-- <div class="courses-info"
                                     style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
                                     <div class="courses-author">
                                         <img src="{{ asset('assets/images/author-image1.jpg') }}" class="img-responsive"
@@ -567,10 +568,10 @@
                                         <a href="https://sabimoni.org.ng/start/login/signup.php"
                                             target="_blank"><span>Enroll</span></a>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
-                        <div class="item" style="margin: 0px 10px; background: white;">
+                        {{-- <div class="item" style="margin: 0px 10px; background: white;">
                             <div class="courses-thumb" style="background: white">
                                 <div class="courses-top">
                                     <div class="courses-image">
@@ -609,7 +610,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
 
 
                     </div>
