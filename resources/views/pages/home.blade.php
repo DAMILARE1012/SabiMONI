@@ -212,7 +212,7 @@
                                             of
                                             60% and undergone an assessment session (physical/virtual) to demonstrate that
                                             he or she
-                                            can teach and transfer the knowledge to others.</p>
+                                            can teach and transfer the...<a href="/index.php/about_cflt">Read More</a></p>
 
                                     </div>
 
@@ -369,11 +369,11 @@
                                     </div>
 
                                     <div class="courses-detail">
-                                        <h3><a href="javascript:void(0)">Financial Services Shared Agent (SANEF)</a></h3>
+                                        <h3><a href="javascript:void(0)">Shared Agent Network Expansion Facility (SANEF)</a></h3>
                                         <p class="text-justify">The SANEF training aims to equip it's Agent with basic
                                             financial literacy knowledge to better serve their clients, improve their
                                             businesses and their level of financial literacy with the goal of promoting the
-                                            uptake of financial services especially at the grassroots.</p>
+                                            uptake of financial services especially at...<a href="/index.php/about_sanef">Read More</a></p>
                                     </div>
 
                                     <div class="courses-info">
@@ -412,7 +412,7 @@
                                             Youth Services Corps (NYSC) to train selected Volunteer Corps Members (VCMs) on
                                             Financial Literacy in order to deliver financial education in rural communities
                                             and environs
-                                            during their Community Development Service (CDS).</p>
+                                            during their Community...<a href="/index.php/about_napgep">Read More</a></p>
                                     </div>
 
                                     <div class="courses-info">
@@ -493,7 +493,7 @@
 
                                 <div class="courses-detail">
                                     <h3 style="text-align: left"><a href="javascript:void(0)"
-                                            class="disabled">e_naira</a></h3>
+                                            class="disabled">e -Naira</a></h3>
                                     <p class="text-justify">The eNaira is the Central Bank of Nigeria-issued digital
                                         currency.
                                         It is the digital representation of the Nigerian Naira and constitutes a direct
@@ -507,7 +507,7 @@
 
 
                             </div>
-                        </div> --}}
+                        </div>
 
                     </div>
 

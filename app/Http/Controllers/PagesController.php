@@ -42,4 +42,14 @@ class PagesController extends Controller
     public function rights_responsiblities(){
         return view('pages.rights');
     }
+    public function about_cflt(){
+        return view('pages.about_cflt');
+    }
+    public function about_sanef(){
+        return view('pages.about_sanef');
+    }
+    public function about_napgep(){
+        return view('pages.about_napgep');
+    }
+
 }

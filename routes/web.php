@@ -40,6 +40,10 @@ Route::get('/e_naira', 'PagesController@e_naira')->name('e_naira');
 Route::get('/fraud_scam', 'PagesController@fraud_scam')->name('fraud_scam');
 Route::get('/rights_responsiblities', 'PagesController@rights_responsiblities')->name('rights_responsiblities');
 
+// About courses...
+Route::get('/about_cflt', 'PagesController@about_cflt')->name('about_cflt');
+Route::get('/about_sanef', 'PagesController@about_sanef')->name('about_sanef');
+Route::get('/about_napgep', 'PagesController@about_napgep')->name('about_napgep');
 
 Route::group(['prefix' => 'news'], function () {
     Route::get('/', 'NewsController@index')->name('news.index');
