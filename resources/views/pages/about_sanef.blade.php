@@ -11,9 +11,10 @@
                     <div class="row" style="display: flex">
                         <div class="col-md-6" style="display: flex; align-items: center;">
                             <figure>
-                                <img src="{{ asset('assets/images/modules/courses-image3.jpg') }}"
-                                                class="img-responsive" alt="sanef" >
-                                <figcaption style="text-align: center; padding-top:15px;">Shared Agent Network Expansion Facility (SANEF)</figcaption>
+                                <img src="{{ asset('assets/images/modules/courses-image3.jpg') }}" class="img-responsive"
+                                    alt="sanef">
+                                <figcaption style="text-align: center; padding-top:15px;">Shared Agent Network Expansion
+                                    Facility (SANEF)</figcaption>
                             </figure>
                         </div>
                         <div class="col-md-6">
@@ -46,6 +47,7 @@
                                 <li style="text-align: justify;">
                                     Minimum of Secondary School education with basic computer navigation knowledge.</li>
                             </ul>
+                            <p>Kindly click <a href="https://sabimoni.org.ng/start/login/signup.php" class="nav-res-2" target="_blank">here</a> to enroll for this course.</p>
                         </div>
                     </div>
                 </div>

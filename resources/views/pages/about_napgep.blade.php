@@ -43,6 +43,7 @@
                                     Basic English knowledge
                                 </li>
                             </ul>
+                            <p>Kindly click <a href="https://sabimoni.org.ng/start/login/signup.php" class="nav-res-2" target="_blank">here</a> to enroll for this course.</p>
                         </div>
                     </div>
                 </div>

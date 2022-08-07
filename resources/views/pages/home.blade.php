@@ -153,7 +153,7 @@
 
 
                         <div style="display:inline-block; vertical-align: middle;">
-                            <div style="font-weight:bold;">Mrs Aisha Ahmad </div>
+                            <div style="font-weight:bold;">Mrs. Aishah N. Ahmad (CFA)</div>
                             <div> Deputy Governor, Financial System Stability, Central Bank Of Nigeria</div>
                         </div>
 
