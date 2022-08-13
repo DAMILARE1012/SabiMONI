@@ -117,7 +117,7 @@
         </div>
         <hr>
         <div class="copyright-text text-center ">
-            <p>Copyright &copy; 2022 SabiMONI Learning Portal</p>
+            <p>Copyright &copy; 2022 SabiMONI Learning Platform</p>
 
             <p id="terms_and_conditions" class="terms_and_conditions"><a href="/index.php/terms_of_use"
                     target="_blank">Terms of

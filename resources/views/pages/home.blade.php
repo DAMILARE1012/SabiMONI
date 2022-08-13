@@ -39,7 +39,7 @@
                         <div class="container">
                             <div class="col-md-6 col-sm-12">
                                 <h1>SabiMONI: Free for All</h1>
-                                <h3>The SabiMoni e-learning platform is designed to train as many people as possible with
+                                <h3>The SabiMONI e-learning platform is designed to train as many people as possible with
                                     up-to-date financial tools and resources at no-cost. It is free for all! </h3>
                                 <a href="#contact" class="section-btn btn btn-default smoothScroll">Let's chat</a>
                             </div>
