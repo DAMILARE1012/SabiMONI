@@ -441,7 +441,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-6 col-sm-6 col-6" style="display: flex; flex-direction: column; align-items: center">
+                <div class="col-md-6 col-sm-6" style="display: flex; flex-direction: column; align-items: center">
                     <div class="section-title latest-news-title">
                         <h2>Related Information<small>Read through our blog for recent updates</small></h2>
                     </div>
