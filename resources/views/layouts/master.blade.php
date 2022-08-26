@@ -233,24 +233,11 @@
             const forTest = document.querySelectorAll('.forTest')
             const forContact = document.querySelectorAll('.forContact')
 
-            if (window.location.pathname === "/index.php/faqs") {
+            if (window.location.pathname === '/index.php/faqs') {
                 forFaq.forEach(home => home.setAttribute('href', "#top"))
-                forHome.forEach(home => home.setAttribute('href', "{{ route('home') }}"))
-                forAbout.forEach(home => home.setAttribute('href', "{{ route('home') }}#about"))
-                forCourse.forEach(home => home.setAttribute('href', "{{ route('home') }}#courses"))
-                forContact.forEach(home => home.setAttribute('href', "{{ route('home') }}#contact"))
-                forTeam.forEach(home => home.setAttribute('href', "{{ route('home') }}#team"))
-                forTest.forEach(home => home.setAttribute('href', "{{ route('home') }}#testimonial"))
+
             }
-            if (window.location.pathname === "/index.php/grassroot_leveraging") {
-                forHome.forEach(home => home.setAttribute('href', "{{ route('home') }}"))
-                forAbout.forEach(home => home.setAttribute('href', "{{ route('home') }}#about"))
-                forCourse.forEach(home => home.setAttribute('href', "{{ route('home') }}#courses"))
-                forContact.forEach(home => home.setAttribute('href', "{{ route('home') }}#contact"))
-                forTeam.forEach(home => home.setAttribute('href', "{{ route('home') }}#team"))
-                forTest.forEach(home => home.setAttribute('href', "{{ route('home') }}#testimonial"))
-            }
-            if (window.location.pathname === "/index.php/global_week") {
+            if (window.location.pathname != "/index.php") {
                 forHome.forEach(home => home.setAttribute('href', "{{ route('home') }}"))
                 forAbout.forEach(home => home.setAttribute('href', "{{ route('home') }}#about"))
                 forCourse.forEach(home => home.setAttribute('href', "{{ route('home') }}#courses"))

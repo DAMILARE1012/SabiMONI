@@ -80,6 +80,11 @@
 
 
 
-
+    <div class="container">
+        <div class="back">
+            <a href="{{ route('home') }}"> <i class="fa fa-home" aria-hidden="true"></i>
+                Home</a>
+        </div>
+    </div>
 
 @endsection

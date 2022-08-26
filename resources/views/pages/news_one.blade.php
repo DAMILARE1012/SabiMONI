@@ -10,7 +10,7 @@
                 <div style="padding: 40px 40px">
                     <div class="row" style="display: flex">
                         <div class="col-md-6">
-                            
+
                             <h3>Celebration of 2022 Global Money Week</h3>
                             <p style="text-align: justify;">
                                 The Global Money Week (GMW) is a global money awareness celebration that takes place in
@@ -99,10 +99,10 @@
                                 Government Secondary School Zone 3, Wuse Abuja
                             </p>
                             <p style="text-align: justify;">
-                            Mrs. Ahmad stated that the 2022 GMW was a special one, as it was the 10th anniversary of
+                                Mrs. Ahmad stated that the 2022 GMW was a special one, as it was the 10th anniversary of
                                 the GMW, and an avenue to create an awareness amongst children and youth about the
                                 importance of learning to make sound financial decisions.
-                            While noting that having an income and making lots of money alone did not guarantee
+                                While noting that having an income and making lots of money alone did not guarantee
                                 financial well-being, she stressed the need to develop financial skills and the right
                                 attitude required to be able to manage financial resources effectively.
                                 She highlighted the importance of learning from an early age and how to plan, be
@@ -151,6 +151,12 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="back">
+            <a href="{{ route('home') }}"> <i class="fa fa-home" aria-hidden="true"></i>
+                Home</a>
         </div>
     </div>
 @endsection

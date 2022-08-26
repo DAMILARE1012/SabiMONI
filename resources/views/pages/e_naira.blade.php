@@ -43,7 +43,8 @@
                 </div>
 
                 <h3 style="text-align: center; padding-bottom: 20px;">Benefits of the e-Naira</h3>
-                <div class="row" style="display: flex; background-color: #033B4D; color:white!important; padding: 10px 40px;">
+                <div class="row"
+                    style="display: flex; background-color: #033B4D; color:white!important; padding: 10px 40px;">
                     <div class="first">
                         <h4 style="color: white;">Benefits to Consumers:</h4>
                         <ul>
@@ -66,7 +67,8 @@
                 </div>
 
 
-                <div class="row" style="display: flex; background-color: #033B4D; color:white!important; padding:5px 40px;">
+                <div class="row"
+                    style="display: flex; background-color: #033B4D; color:white!important; padding:5px 40px;">
                     <div class="first">
                         <h4 style="color: white;">Benefits to the CBN:</h4>
                         <ul>
@@ -96,11 +98,18 @@
 
 
 
-                <p style="text-align: center; padding-top:10px;">*****Kindly visit <a href="https://www.enaira.gov.ng">www.enaira.gov.ng</a>
+                <p style="text-align: center; padding-top:10px;">*****Kindly visit <a
+                        href="https://www.enaira.gov.ng">www.enaira.gov.ng</a>
                     for more information and
                     resources on the eNaira.
                 </p>
             </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="back">
+            <a href="{{ route('home') }}"> <i class="fa fa-home" aria-hidden="true"></i>
+                Home</a>
         </div>
     </div>
 @endsection
