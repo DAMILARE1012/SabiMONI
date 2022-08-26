@@ -153,7 +153,7 @@
 
 
                         <div style="display:inline-block; vertical-align: middle;">
-                            <div style="font-weight:bold;">Mrs. Aishah N. Ahmad (CFA)</div>
+                            <div style="font-weight:bold;">Mrs. Aishah Ahmad, CFA</div>
                             <div> Deputy Governor, Financial System Stability, Central Bank Of Nigeria</div>
                         </div>
 
@@ -370,7 +370,7 @@
 
                                     <div class="courses-detail">
                                         <h3><a href="javascript:void(0)">Shared Agent Network Expansion Facility (SANEF)</a></h3>
-                                        <p class="text-justify">The SANEF training aims to equip it's Agent with basic
+                                        <p class="text-justify">The training aims to equip SANEF Agents and Super Agents with basic
                                             financial literacy knowledge to better serve their clients, improve their
                                             businesses and their level of financial literacy with the goal of promoting the
                                             uptake of financial services especially at...<a href="/index.php/about_sanef">Read More</a></p>

@@ -45,6 +45,9 @@ Route::get('/about_cflt', 'PagesController@about_cflt')->name('about_cflt');
 Route::get('/about_sanef', 'PagesController@about_sanef')->name('about_sanef');
 Route::get('/about_napgep', 'PagesController@about_napgep')->name('about_napgep');
 
+// About News
+Route::get('news/news_one', 'PagesController@news_one')->name('news_one');
+
 Route::group(['prefix' => 'news'], function () {
     Route::get('/', 'NewsController@index')->name('news.index');
     Route::get('create', 'NewsController@create')->name('news.create');
