@@ -68,4 +68,12 @@ class PagesController extends Controller
     {
         return view('pages.news_one');
     }
+    public function grassroot_leveraging()
+    {
+        return view('pages.grassroot_leveraging');
+    }
+    public function global_week()
+    {
+        return view('pages.global_week');
+    }
 }

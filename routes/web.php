@@ -39,6 +39,8 @@ Route::get('/terms_of_use', 'PagesController@terms_of_use')->name('terms_of_use'
 Route::get('/e_naira', 'PagesController@e_naira')->name('e_naira');
 Route::get('/fraud_scam', 'PagesController@fraud_scam')->name('fraud_scam');
 Route::get('/rights_responsiblities', 'PagesController@rights_responsiblities')->name('rights_responsiblities');
+Route::get('/global_week', 'PagesController@global_week')->name('global_week');
+Route::get('/grassroot_leveraging', 'PagesController@grassroot_leveraging')->name('grassroot_leveraging');
 
 // About courses...
 Route::get('/about_cflt', 'PagesController@about_cflt')->name('about_cflt');

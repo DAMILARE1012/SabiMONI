@@ -212,7 +212,8 @@
                                             of
                                             60% and undergone an assessment session (physical/virtual) to demonstrate that
                                             he or she
-                                            can teach and transfer the...<a href="/index.php/about_cflt">Read More</a></p>
+                                            can teach and transfer the...<a href="/index.php/about_cflt"
+                                                class='read-more'><b>Read More</b></a></p>
 
                                     </div>
 
@@ -369,11 +370,14 @@
                                     </div>
 
                                     <div class="courses-detail">
-                                        <h3><a href="javascript:void(0)">Shared Agent Network Expansion Facility (SANEF)</a></h3>
-                                        <p class="text-justify">The training aims to equip SANEF Agents and Super Agents with basic
+                                        <h3><a href="javascript:void(0)">Financial Literacy for SANEF Agents and Super
+                                                Agents</a></h3>
+                                        <p class="text-justify">The training aims to equip SANEF Agents and Super Agents
+                                            with basic
                                             financial literacy knowledge to better serve their clients, improve their
                                             businesses and their level of financial literacy with the goal of promoting the
-                                            uptake of financial services especially at...<a href="/index.php/about_sanef">Read More</a></p>
+                                            uptake of financial services especially at...<a href="/index.php/about_sanef"
+                                                class='read-more'><b>Read More</b></a></p>
                                     </div>
 
                                     <div class="courses-info">
@@ -412,7 +416,8 @@
                                             Youth Services Corps (NYSC) to train selected Volunteer Corps Members (VCMs) on
                                             Financial Literacy in order to deliver financial education in rural communities
                                             and environs
-                                            during their Community...<a href="/index.php/about_napgep">Read More</a></p>
+                                            during their Community...<a href="/index.php/about_napgep"
+                                                class='read-more'><b>Read More</b></a></p>
                                     </div>
 
                                     <div class="courses-info">
@@ -459,8 +464,9 @@
                                     <p class="text-justify">Today, more and more purchases are done through digital
                                         channels, especially via online payments. The internet offers the convenience and
                                         ease of buying goods or paying for services via your computer, tablet or mobile
-                                        phones. However, the use of online payments  ... <a href="/index.php/fraud_scam"><span>Read
-                                                More</span></a>
+                                        phones. However, the use of online payments ... <a
+                                            href="/index.php/fraud_scam"><span><b>Read
+                                                    More</b></span></a>
 
                                 </div>
 
@@ -478,8 +484,8 @@
                                         is to ensure Financial System Stability. The role of the Consumer Protection
                                         department therefore is to engender confidence in Financial consumers by
                                         ensuring: Consumers are equipped with adequate Financial Education ... <a
-                                            href="/index.php/rights_responsiblities"><span>Read
-                                                More</span></a>
+                                            href="/index.php/rights_responsiblities"><span><b>Read
+                                                    More</b></span></a>
 
                                 </div>
 
@@ -489,19 +495,17 @@
 
                         <div class="item" style=" background: white;">
                             <div class="courses-thumb" style="background: white">
-
-
                                 <div class="courses-detail">
-                                    <h3 style="text-align: left"><a href="javascript:void(0)"
-                                            class="disabled">e -Naira</a></h3>
+                                    <h3 style="text-align: left"><a href="javascript:void(0)" class="disabled">e
+                                            -Naira</a></h3>
                                     <p class="text-justify">The eNaira is the Central Bank of Nigeria-issued digital
                                         currency.
                                         It is the digital representation of the Nigerian Naira and constitutes a direct
                                         liability of the Central Bank of Nigeria (CBN). The eNaira was launched by the
                                         President
                                         of the Federal Republic of Nigeria on October 25, 2021 ... <a
-                                            href="/index.php/e_naira"><span>Read
-                                                More</span></a>
+                                            href="/index.php/e_naira" class="read-more"><span><b>Read
+                                                    More</b></span></a>
 
                                 </div>
 
@@ -515,18 +519,49 @@
                     {{-- testing lates news end --}}
                 </div>
                 <div class="col-md-6 col-sm-6 col-6 second-news-res">
-                    <div class="section-title">
+                    <div class="section-title latest-news-title">
                         <h2>News<small>Read through our blog for recent updates</small></h2>
                     </div>
-                    <h4 style="color:red;">
-                        <marquee width="60%" direction="left" height="100px">
-                            News section to be populated soon...
-                        </marquee>
-                    </h4>
-                </div>
+                    <div class="owl-carousel owl-theme owl-news">
+                        <div class="item" style=" background: white;">
+                            <div class="courses-thumb" style="background: white">
+                                <div class="courses-detail">
+                                    <h3 style="text-align: left"><a href="javascript:void(0)" class="disabled">2022
+                                            Global Money Week Celebration</a></h3>
+                                    <p class="text-justify">The Global Money Week (GMW) is a global money awareness
+                                        celebration that takes place in March every year. The celebration of GMW consists of
+                                        a series of activities aimed at inspiring children and youth to learn about money,
+                                        saving, creating livelihoods, gaining employment, and becoming an entrepreneur. <a
+                                            href="/index.php/global_week"><span><b>Read
+                                                    More</b></span></a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" style=" background: white;">
+                            <div class="courses-thumb" style="background: white">
 
 
-                {{-- <div class="col-md-3 col-sm-6">
+                                <div class="courses-detail">
+                                    <h3 style="text-align: justify"><a href="javascript:void(0)"
+                                            class="disabled">Financial
+                                            Literacy Awareness Session</a></h3>
+                                    <p class="text-justify">The Consumer Protection Department (CPD) in collaboration
+                                        with Shared Agent Network Expansion Facility (SANEF), Consumer Protection
+                                        Ambassadors (CPAs) at the Branches and Community Leaders, conducted Financial
+                                        Literacy Awareness Workshops in Rural Communities across (five) 5 States of the
+                                        Federation. <a href="/index.php/grassroot_leveraging"><span><b>Read
+                                                    More</b></span></a>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    {{-- <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                         <div class="team-image">
                             <img src="{{ asset('assets/images/news/bank.png') }}" class="img-responsive" alt="image not found">
@@ -544,7 +579,7 @@
                     </div>
                 </div> --}}
 
-                {{-- <div class="col-md-3 col-sm-6">
+                    {{-- <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                         <div class="team-image">
                             <img src="{{ asset('assets/images/news/finance-books-.png') }}" class="img-responsive"
@@ -563,7 +598,7 @@
                     </div>
                 </div> --}}
 
-                {{-- <div class="col-md-3 col-sm-6">
+                    {{-- <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                         <div class="team-image">
                             <img src="{{ asset('assets/images/news/time-is-money.png') }}" class="img-responsive"
@@ -582,7 +617,7 @@
                     </div>
                 </div> --}}
 
-                {{-- <div class="col-md-3 col-sm-6">
+                    {{-- <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                         <div class="team-image">
                             <img src="{{ asset('assets/images/news/money-tree.png') }}" class="img-responsive" alt="image not found">
@@ -603,7 +638,7 @@
 
 
 
-                {{-- <div class="col-md-3 col-sm-6">
+                    {{-- <div class="col-md-3 col-sm-6">
                     <div class="team-thumb">
                          <div class="team-image">
                               <img src="{{ asset('assets/images/author-image4.jpg') }}" class="img-responsive" alt="image not found">
@@ -620,8 +655,8 @@
                     </div>
                </div> --}}
 
+                </div>
             </div>
-        </div>
     </section>
 
 
